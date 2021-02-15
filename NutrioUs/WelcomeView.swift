@@ -9,18 +9,23 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        VStack(alignment: .center, spacing: 20) {
-        Text("NutriosUs")
-            .font(.largeTitle)
-            .fontWeight(.semibold)
-            .padding(.top, 15.0)
-        Button(action: {print("Button tapped")}) {
+
+        NavigationView() {
+            VStack(alignment: .center,spacing: 20) {
+                Text("NutriosUs")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                    .padding(.top, 15.0)
+            NavigationLink(destination: SignUpView()) {
                     LoginButtonContent()
-                           }
-        Button(action: {print("Button tapped")}) {
+                                       }
+            
+            NavigationLink(destination: SignUpView()) {
                     SignupButtonContent()
-                           }
+                                       }
+            }
         }
+        
     }
 }
 
