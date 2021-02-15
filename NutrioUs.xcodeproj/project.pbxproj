@@ -13,6 +13,9 @@
 		A08488AF25D3880E00847BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08488AE25D3880E00847BAD /* Preview Assets.xcassets */; };
 		A08488BA25D3880E00847BAD /* NutrioUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488B925D3880E00847BAD /* NutrioUsTests.swift */; };
 		A08488C525D3880E00847BAD /* NutrioUsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488C425D3880E00847BAD /* NutrioUsUITests.swift */; };
+		FEA5FBE325DA3255003D9047 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBE225DA3255003D9047 /* WelcomeView.swift */; };
+		FEA5FBE825DA3260003D9047 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBE725DA3260003D9047 /* SignUpView.swift */; };
+		FEA5FBED25DA3266003D9047 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBEC25DA3266003D9047 /* LogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		A08488C025D3880E00847BAD /* NutrioUsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrioUsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08488C425D3880E00847BAD /* NutrioUsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrioUsUITests.swift; sourceTree = "<group>"; };
 		A08488C625D3880E00847BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA5FBE225DA3255003D9047 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FEA5FBE725DA3260003D9047 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FEA5FBEC25DA3266003D9047 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				A08488A725D3880800847BAD /* NutrioUsApp.swift */,
 				A08488A925D3880800847BAD /* ContentView.swift */,
+				FEA5FBE225DA3255003D9047 /* WelcomeView.swift */,
+				FEA5FBE725DA3260003D9047 /* SignUpView.swift */,
+				FEA5FBEC25DA3266003D9047 /* LogInView.swift */,
 				A08488AB25D3880E00847BAD /* Assets.xcassets */,
 				A08488B025D3880E00847BAD /* Info.plist */,
 				A08488AD25D3880E00847BAD /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA5FBED25DA3266003D9047 /* LogInView.swift in Sources */,
+				FEA5FBE825DA3260003D9047 /* SignUpView.swift in Sources */,
 				A08488AA25D3880800847BAD /* ContentView.swift in Sources */,
+				FEA5FBE325DA3255003D9047 /* WelcomeView.swift in Sources */,
 				A08488A825D3880800847BAD /* NutrioUsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
