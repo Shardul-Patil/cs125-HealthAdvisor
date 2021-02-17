@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 let lightGrey = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
 struct LogInView: View {
     
-    @State var username: String = ""
+    @State var email: String = ""
     @State var password: String = ""
     @State var title: String =
     """
@@ -29,7 +31,7 @@ struct LogInView: View {
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
                 .padding(.top, 20)
-            TextField("Username", text: $username)
+            TextField("Email", text: $email)
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
@@ -38,7 +40,9 @@ struct LogInView: View {
                 .background(lightGrey)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            Button(action: {print("Button tapped")}) {
+            Button(action: {
+                    logIn(email: email, password: password)}
+            ) {
                 LoginButtonContent()
                        }
         }
@@ -49,4 +53,23 @@ struct LogInView_Previews: PreviewProvider {
     static var previews: some View {
         LogInView()
     }
+}
+
+
+func logIn(email: String, password: String)
+{
+    Auth.auth().signIn(withEmail: email, password: password)
+    //let user = Auth.auth().currentUser
+    
+    let user = Auth.auth().currentUser;
+    if (user != nil) {
+        //user is signed in
+        let uid = user?.uid
+        print("SUCCESS, uid is ")
+        print(uid)
+    } else {
+      // No user is signed in.
+    }
+    
+
 }

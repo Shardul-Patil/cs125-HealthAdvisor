@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import Firebase
+
+//private let database = Database.database().reference()
 
 let color = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
@@ -40,20 +43,26 @@ struct SignUpView: View {
                 .textContentType(.emailAddress)
                 .keyboardType(.emailAddress)
                 .autocapitalization(.none)
-            TextField("Username", text: $username)
+            /* TextField("Username", text: $username)
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
+            */
+            
             SecureField("Password", text: $password)
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
-            SecureField("Password Confirmation ", text: $passwordConf)
+            /* SecureField("Password Confirmation ", text: $passwordConf)
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            Button(action: {print("Button tapped")}) {
+            */
+            
+            Button(action: {
+                signUp(email: email, password: password)
+            }) {
                 SignupButtonContent()
                        }
             
@@ -66,3 +75,40 @@ struct SignUpView_Previews: PreviewProvider {
         SignUpView()
     }
 }
+
+func signUp(email: String, password: String){
+    Auth.auth().createUser(withEmail: email, password: password)
+    let user = Auth.auth().currentUser;
+    if (user != nil) {
+        //user is signed in
+        let uid = user?.uid
+        print("SUCESS, uid is ")
+        print(uid)
+    } else {
+      // No user is signed in.
+    }
+    //Auth.auth().createUser(withEmail: email, password: password) {authResult, error in }
+    
+}
+
+
+
+/* func addMeal(name: String, cal: Int, protein: Int){
+    
+    let object: [String: String] = [
+        "name": name,
+        "Youtube": "yes"]
+    
+    //database.child("something").setValue(object)
+    //set value to null to delete something key
+}
+*/
+
+/* func listen() {
+    _ = Auth.auth().addStateDidChangeListener { (auth, user) in
+        if let user = user {
+            self.session
+        }
+    }
+}
+*/

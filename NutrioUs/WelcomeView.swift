@@ -16,7 +16,7 @@ struct WelcomeView: View {
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                     .padding(.top, 15.0)
-            NavigationLink(destination: SignUpView()) {
+            NavigationLink(destination: LogInView()) {
                     LoginButtonContent()
                                        }
             
