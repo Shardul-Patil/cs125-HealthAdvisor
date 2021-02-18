@@ -12,6 +12,7 @@ import Firebase
 struct NutrioUsApp: App {
     
     init(){
+        print("Configuring Firebase")
         FirebaseApp.configure()
     }
     

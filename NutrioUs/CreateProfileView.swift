@@ -6,8 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct CreateProfileView: View {
+    // Databse Entry
+    @Binding var userId: String?
+    @Binding var email: String
+    var ref: DatabaseReference! = Database.database().reference()
+    
     // Personal Info
     @State var firstName: String = ""
     @State var lastName: String = ""
@@ -67,15 +73,45 @@ struct CreateProfileView: View {
                 if (dietaryRest == true){
                     TextField("Restrictions (comma separated)", text: $restrictions)
                 }
+                Button(action: {
+                    print("Adding User to Firebase")
+                    let data = [
+                        "Email" : email,
+                        "FirstName" : firstName,
+                        "LastName": lastName,
+                        "Gender": genderOptions[genderIndex],
+                        "Age": age,
+                        "Height": height,
+                        "Weight": weight,
+                        "ActivityLevel": activityOptions[activityIndex],
+                        "fitnessGoal": fitnessOptions[fitnessIndex],
+                        "dietPlan": dietOptions[dietIndex],
+                        "dietaryRestBool": dietaryRest,
+                        "restrictions": restrictions] as [String : Any]
+                    ref.child("Users").child(userId!).setValue(data)
+                }) {
+                    ProfileCreateButtonContent()
+                }
             }
             .navigationBarTitle("Create Your Profile")
         }
     }
 }
 
+struct ProfileCreateButtonContent : View {
+    var body: some View {
+        return Text("Done")
+            .font(.headline)
+            .foregroundColor(.white)
+            .frame(width: 220, height: 70)
+            .background(Color.black)
+            .cornerRadius(35.0)
+            .padding(.horizontal, 50)
+    }
+}
 
 struct CreateProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        CreateProfileView()
+    static var previews: some View{
+        CreateProfileView(userId: .constant("userId"), email: .constant("email"))
     }
 }

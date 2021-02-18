@@ -25,7 +25,6 @@ struct WelcomeView: View {
                                        }
             }
         }
-        
     }
 }
 
@@ -58,5 +57,3 @@ struct LoginButtonContent : View {
             .cornerRadius(35.0)
     }
 }
-
-

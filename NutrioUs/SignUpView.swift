@@ -19,53 +19,58 @@ struct SignUpView: View {
     NutrioUs
     Our Health in Our Hands
     """
+    @State var selection: Int? = nil
+    
     @State var email: String = ""
     @State var username: String = ""
     @State var password: String = ""
     @State var passwordConf: String = ""
-    
+    @State var userId: String? = ""
     
     var body: some View
     {
-        
-        VStack (alignment: .center, spacing: 10){
-            
-            Text(title)
-                // Change font size
-                .font(.title)
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.center)
-                .padding(.top, 20)
-            TextField("Email", text: $email)
-                .padding()
-                .background(lightGrey)
-                .cornerRadius(5.0)
-                .textContentType(.emailAddress)
-                .keyboardType(.emailAddress)
-                .autocapitalization(.none)
-            /* TextField("Username", text: $username)
-                .padding()
-                .background(lightGrey)
-                .cornerRadius(5.0)
-            */
-            
-            SecureField("Password", text: $password)
-                .padding()
-                .background(lightGrey)
-                .cornerRadius(5.0)
-            /* SecureField("Password Confirmation ", text: $passwordConf)
-                .padding()
-                .background(lightGrey)
-                .cornerRadius(5.0)
-                .padding(.bottom, 20)
-            */
-            
-            Button(action: {
-                signUp(email: email, password: password)
-            }) {
-                SignupButtonContent()
-                       }
-            
+        NavigationView(){
+            VStack (alignment: .center, spacing: 10){
+                
+                Text(title)
+                    // Change font size
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 20)
+                TextField("Email", text: $email)
+                    .padding()
+                    .background(lightGrey)
+                    .cornerRadius(5.0)
+                    .textContentType(.emailAddress)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                /* TextField("Username", text: $username)
+                    .padding()
+                    .background(lightGrey)
+                    .cornerRadius(5.0)
+                */
+                
+                SecureField("Password", text: $password)
+                    .padding()
+                    .background(lightGrey)
+                    .cornerRadius(5.0)
+                /* SecureField("Password Confirmation ", text: $passwordConf)
+                    .padding()
+                    .background(lightGrey)
+                    .cornerRadius(5.0)
+                    .padding(.bottom, 20)
+                */
+                
+                NavigationLink(destination: CreateProfileView(userId: self.$userId, email: self.$email), tag: 1, selection: $selection) {
+                    Button(action: {
+                        userId = signUp(email: email, password: password)
+                        self.selection = 1
+                    }) {
+                        SignupButtonContent()
+                        }
+                    }
+            }
         }
     }
 }
@@ -76,16 +81,17 @@ struct SignUpView_Previews: PreviewProvider {
     }
 }
 
-func signUp(email: String, password: String){
+func signUp(email: String, password: String) -> String?{
     Auth.auth().createUser(withEmail: email, password: password)
     let user = Auth.auth().currentUser;
     if (user != nil) {
         //user is signed in
         let uid = user?.uid
         print("SUCESS, uid is ")
-        print(uid as Any)
+        print(uid!)
+        return uid
     } else {
-      // No user is signed in.
+        return nil
     }
     //Auth.auth().createUser(withEmail: email, password: password) {authResult, error in }
     
