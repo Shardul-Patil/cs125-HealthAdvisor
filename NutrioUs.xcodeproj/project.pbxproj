@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B4562FD508A3AF1AD71992E /* Pods_NutrioUs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F2FCBBEB552FF2E293B994 /* Pods_NutrioUs.framework */; };
 		85C4A08125DCC97F00535BFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */; };
+		A06F53CD25DDAC91000C4317 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */; };
 		A08488A825D3880800847BAD /* NutrioUsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488A725D3880800847BAD /* NutrioUsApp.swift */; };
 		A08488AA25D3880800847BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488A925D3880800847BAD /* ContentView.swift */; };
 		A08488AC25D3880E00847BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08488AB25D3880E00847BAD /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		7D2E24E775BCFAB8D80B76D2 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84BC6BAEDF96426B74C31961 /* Pods-NutrioUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.debug.xcconfig"; sourceTree = "<group>"; };
 		85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
 		A08488A425D3880800847BAD /* NutrioUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutrioUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08488A725D3880800847BAD /* NutrioUsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrioUsApp.swift; sourceTree = "<group>"; };
 		A08488A925D3880800847BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				FEA5FBE225DA3255003D9047 /* WelcomeView.swift */,
 				FEA5FBE725DA3260003D9047 /* SignUpView.swift */,
 				FEA5FBEC25DA3266003D9047 /* LogInView.swift */,
+				A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */,
 				A08488AB25D3880E00847BAD /* Assets.xcassets */,
 				A08488B025D3880E00847BAD /* Info.plist */,
 				A08488AD25D3880E00847BAD /* Preview Content */,
@@ -420,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06F53CD25DDAC91000C4317 /* CreateProfileView.swift in Sources */,
 				FEA5FBED25DA3266003D9047 /* LogInView.swift in Sources */,
 				FEA5FBE825DA3260003D9047 /* SignUpView.swift in Sources */,
 				A08488AA25D3880800847BAD /* ContentView.swift in Sources */,

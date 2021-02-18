@@ -83,7 +83,7 @@ func signUp(email: String, password: String){
         //user is signed in
         let uid = user?.uid
         print("SUCESS, uid is ")
-        print(uid)
+        print(uid as Any)
     } else {
       // No user is signed in.
     }
