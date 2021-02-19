@@ -12,7 +12,8 @@ struct CreateProfileView: View {
     // Databse Entry
     @Binding var userId: String?
     @Binding var email: String
-    var ref: DatabaseReference! = Database.database().reference()
+
+    let db = Firestore.firestore()
     
     // Personal Info
     @State var firstName: String = ""
@@ -88,7 +89,7 @@ struct CreateProfileView: View {
                         "dietPlan": dietOptions[dietIndex],
                         "dietaryRestBool": dietaryRest,
                         "restrictions": restrictions] as [String : Any]
-                    ref.child("Users").child(userId!).setValue(data)
+                    db.collection("Users").document(userId!).setData(data)
                 }) {
                     ProfileCreateButtonContent()
                 }

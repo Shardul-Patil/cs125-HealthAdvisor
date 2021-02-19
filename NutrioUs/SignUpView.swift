@@ -12,6 +12,10 @@ import Firebase
 
 let color = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
+// Had to use these global variables. Implementation works for now but can be improved in the future.
+typealias completion = (_ userCreated:Bool) -> Void
+var userIdGlobal: String? = ""
+
 struct SignUpView: View {
     
     @State var title: String =
@@ -51,7 +55,7 @@ struct SignUpView: View {
                     .cornerRadius(5.0)
                 */
                 
-                SecureField("Password", text: $password)
+                SecureField("Password (6+ chars)", text: $password)
                     .padding()
                     .background(lightGrey)
                     .cornerRadius(5.0)
@@ -64,8 +68,15 @@ struct SignUpView: View {
                 
                 NavigationLink(destination: CreateProfileView(userId: self.$userId, email: self.$email), tag: 1, selection: $selection) {
                     Button(action: {
-                        userId = signUp(email: email, password: password)
-                        self.selection = 1
+                        print("Before Signup, uid is", userId as Any)
+                        // use Closure technique to wait for Firebase
+                        signUp(email: email, password: password, completionHandler: { (userCreated) in
+                            if userCreated {
+                                userId = userIdGlobal
+                                print("Out of Signup, uid is", userId as Any)
+                                self.selection = 1
+                            }
+                        })
                     }) {
                         SignupButtonContent()
                         }
@@ -81,20 +92,21 @@ struct SignUpView_Previews: PreviewProvider {
     }
 }
 
-func signUp(email: String, password: String) -> String?{
-    Auth.auth().createUser(withEmail: email, password: password)
-    let user = Auth.auth().currentUser;
-    if (user != nil) {
-        //user is signed in
-        let uid = user?.uid
-        print("SUCESS, uid is ")
-        print(uid!)
-        return uid
-    } else {
-        return nil
+func signUp(email: String, password: String, completionHandler: @escaping completion) {
+    var uid: String? = nil
+    Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
+        if err != nil {
+            print("Error creating user, uid is nil")
+            print(err!.localizedDescription)
+        } else {
+            uid = result!.user.uid
+            print("SUCESS, uid is", uid!)
+            // using global variable here so
+            userIdGlobal = uid
+            completionHandler(true)
+        }
     }
     //Auth.auth().createUser(withEmail: email, password: password) {authResult, error in }
-    
 }
 
 
