@@ -33,58 +33,58 @@ struct SignUpView: View {
     
     var body: some View
     {
-        NavigationView(){
-            VStack (alignment: .center, spacing: 10){
-                
-                Text(title)
-                    // Change font size
-                    .font(.title)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 20)
-                TextField("Email", text: $email)
-                    .padding()
-                    .background(lightGrey)
-                    .cornerRadius(5.0)
-                    .textContentType(.emailAddress)
-                    .keyboardType(.emailAddress)
-                    .autocapitalization(.none)
-                /* TextField("Username", text: $username)
-                    .padding()
-                    .background(lightGrey)
-                    .cornerRadius(5.0)
-                */
-                
-                SecureField("Password (6+ chars)", text: $password)
-                    .padding()
-                    .background(lightGrey)
-                    .cornerRadius(5.0)
-                /* SecureField("Password Confirmation ", text: $passwordConf)
-                    .padding()
-                    .background(lightGrey)
-                    .cornerRadius(5.0)
-                    .padding(.bottom, 20)
-                */
-                
-                NavigationLink(destination: CreateProfileView(userId: self.$userId, email: self.$email), tag: 1, selection: $selection) {
-                    Button(action: {
-                        print("Before Signup, uid is", userId as Any)
-                        // use Closure technique to wait for Firebase
-                        signUp(email: email, password: password, completionHandler: { (userCreated) in
-                            if userCreated {
-                                userId = userIdGlobal
-                                print("Out of Signup, uid is", userId as Any)
-                                self.selection = 1
-                            }
-                        })
-                    }) {
-                        SignupButtonContent()
+        //NavigationView(){
+        VStack (alignment: .center, spacing: 10){
+            
+            Text(title)
+                // Change font size
+                .font(.title)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
+                .padding(.top, 20)
+            TextField("Email", text: $email)
+                .padding()
+                .background(lightGrey)
+                .cornerRadius(5.0)
+                .textContentType(.emailAddress)
+                .keyboardType(.emailAddress)
+                .autocapitalization(.none)
+            /* TextField("Username", text: $username)
+                .padding()
+                .background(lightGrey)
+                .cornerRadius(5.0)
+            */
+            
+            SecureField("Password (6+ chars)", text: $password)
+                .padding()
+                .background(lightGrey)
+                .cornerRadius(5.0)
+            /* SecureField("Password Confirmation ", text: $passwordConf)
+                .padding()
+                .background(lightGrey)
+                .cornerRadius(5.0)
+                .padding(.bottom, 20)
+            */
+            
+            NavigationLink(destination: CreateProfileView(userId: self.$userId, email: self.$email), tag: 1, selection: $selection) {
+                Button(action: {
+                    print("Before Signup, uid is", userId as Any)
+                    // use Closure technique to wait for Firebase
+                    signUp(email: email, password: password, completionHandler: { (userCreated) in
+                        if userCreated {
+                            userId = userIdGlobal
+                            print("Out of Signup, uid is", userId as Any)
+                            self.selection = 1
                         }
+                    })
+                }) {
+                    SignupButtonContent()
                     }
-            }
+                }
         }
     }
 }
+//}
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
