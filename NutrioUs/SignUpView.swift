@@ -13,7 +13,7 @@ import Firebase
 let color = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
 // Had to use these global variables. Implementation works for now but can be improved in the future.
-typealias completion = (_ userCreated:Bool) -> Void
+typealias userCreated = (_ userCreated:Bool) -> Void
 var userIdGlobal: String? = ""
 
 struct SignUpView: View {
@@ -92,7 +92,7 @@ struct SignUpView_Previews: PreviewProvider {
     }
 }
 
-func signUp(email: String, password: String, completionHandler: @escaping completion) {
+func signUp(email: String, password: String, completionHandler: @escaping userCreated) {
     var uid: String? = nil
     Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
         if err != nil {

@@ -10,6 +10,8 @@ import Firebase
 
 
 let lightGrey = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
+typealias userLogin = (_ userLogin:Bool) -> Void
+var logInIdGlobal: String? = ""
 
 struct LogInView: View {
     
@@ -20,6 +22,8 @@ struct LogInView: View {
     NutrioUs
     Our Health in Our Hands
     """
+    @State var userId: String? = ""
+    @State var selection: Int? = nil
     
     var body: some View
     {
@@ -40,11 +44,22 @@ struct LogInView: View {
                 .background(lightGrey)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            Button(action: {
-                    logIn(email: email, password: password)}
-            ) {
-                LoginButtonContent()
-                       }
+            
+            NavigationLink(destination: HomeView(userId: self.$userId), tag: 1, selection: $selection) {
+                Button(action: {
+                    print("Before login, uid is", userId as Any)
+                    // use Closure technique to wait for Firebase
+                    logIn(email: email, password: password, completionHandler: { (userLogin) in
+                        if userLogin {
+                            userId = logInIdGlobal
+                            print("Out of Login, uid is", userId as Any)
+                            self.selection = 1
+                        }
+                    })
+                }) {
+                    LoginButtonContent()
+                    }
+                }
         }
     }
 }
@@ -56,20 +71,19 @@ struct LogInView_Previews: PreviewProvider {
 }
 
 
-func logIn(email: String, password: String)
+func logIn(email: String, password: String, completionHandler: @escaping userLogin)
 {
-    Auth.auth().signIn(withEmail: email, password: password)
-    //let user = Auth.auth().currentUser
-    
-    let user = Auth.auth().currentUser;
-    if (user != nil) {
-        //user is signed in
-        let uid = user?.uid
-        print("SUCCESS, uid is ")
-        print(uid)
-    } else {
-      // No user is signed in.
+    var uid: String? = nil
+    Auth.auth().signIn(withEmail: email, password: password) { (result, err)
+        in
+        if err != nil {
+            print("Error creating user, uid is nil")
+            print(err!.localizedDescription)
+        } else {
+            uid = result!.user.uid
+            print("LOGIN SUCCESS, uid is ", uid!)
+            logInIdGlobal = uid
+            completionHandler(true)
+        }
     }
-    
-
 }

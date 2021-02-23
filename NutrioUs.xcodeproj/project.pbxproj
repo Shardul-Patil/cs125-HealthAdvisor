@@ -10,6 +10,7 @@
 		5070DE42AD30E9A7CEF79874 /* Pods_NutrioUs_NutrioUsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CEF71187BD879014DD933A /* Pods_NutrioUs_NutrioUsUITests.framework */; };
 		814766FEA6DFF6FDFDE9EB70 /* Pods_NutrioUsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381C5DB8D5C8CF5DA2502E25 /* Pods_NutrioUsTests.framework */; };
 		85C4A08125DCC97F00535BFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */; };
+		A03A1CDF25E59DCE00856733 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03A1CDE25E59DCE00856733 /* HomeView.swift */; };
 		A06F53CD25DDAC91000C4317 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */; };
 		A08488A825D3880800847BAD /* NutrioUsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488A725D3880800847BAD /* NutrioUsApp.swift */; };
 		A08488AA25D3880800847BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488A925D3880800847BAD /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 		2FAD9E66046D91277E42F612 /* Pods-NutrioUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.release.xcconfig"; sourceTree = "<group>"; };
 		381C5DB8D5C8CF5DA2502E25 /* Pods_NutrioUsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A03A1CDE25E59DCE00856733 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
 		A08488A425D3880800847BAD /* NutrioUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutrioUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08488A725D3880800847BAD /* NutrioUsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrioUsApp.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				A08488A925D3880800847BAD /* ContentView.swift */,
 				FEA5FBE225DA3255003D9047 /* WelcomeView.swift */,
 				FEA5FBE725DA3260003D9047 /* SignUpView.swift */,
+				A03A1CDE25E59DCE00856733 /* HomeView.swift */,
 				FEA5FBEC25DA3266003D9047 /* LogInView.swift */,
 				A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */,
 				A08488AB25D3880E00847BAD /* Assets.xcassets */,
@@ -424,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06F53CD25DDAC91000C4317 /* CreateProfileView.swift in Sources */,
+				A03A1CDF25E59DCE00856733 /* HomeView.swift in Sources */,
 				FEA5FBED25DA3266003D9047 /* LogInView.swift in Sources */,
 				FEA5FBE825DA3260003D9047 /* SignUpView.swift in Sources */,
 				A08488AA25D3880800847BAD /* ContentView.swift in Sources */,
