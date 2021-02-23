@@ -12,6 +12,7 @@ struct CreateProfileView: View {
     // Databse Entry
     @Binding var userId: String?
     @Binding var email: String
+    @State var selection: Int? = nil
 
     let db = Firestore.firestore()
     
@@ -74,6 +75,8 @@ struct CreateProfileView: View {
                 if (dietaryRest == true){
                     TextField("Restrictions (comma separated)", text: $restrictions)
                 }
+            }
+            NavigationLink(destination: LogInView(), tag: 1, selection: $selection) {
                 Button(action: {
                     print("Adding User to Firebase")
                     let data = [
@@ -99,15 +102,17 @@ struct CreateProfileView: View {
     }
 }
 
+
+
 struct ProfileCreateButtonContent : View {
     var body: some View {
         return Text("Done")
             .font(.headline)
             .foregroundColor(.white)
-            .frame(width: 220, height: 70)
+            .frame(width: 175.0, height: 50.0)
             .background(Color.black)
             .cornerRadius(35.0)
-            .padding(.horizontal, 50)
+            .padding(.horizontal, 75)
     }
 }
 
