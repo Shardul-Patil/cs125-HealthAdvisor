@@ -8,6 +8,8 @@
 import SwiftUI
 import Firebase
 
+typealias profileSet = (_ profileSet:Bool) -> Void
+
 struct CreateProfileView: View {
     // Databse Entry
     @Binding var userId: String?
@@ -78,27 +80,48 @@ struct CreateProfileView: View {
             }
             // TODO: camelCase all data entries. Also update in HomeView.swift
             NavigationLink(destination: LogInView(), tag: 1, selection: $selection) {
+                let _ = print("In Navigation, pressing button")
                 Button(action: {
                     print("Adding User to Firebase")
+                    
                     let data = [
-                        "Email" : email,
-                        "FirstName" : firstName,
-                        "LastName": lastName,
-                        "Gender": genderOptions[genderIndex],
-                        "Age": age,
-                        "Height": height,
-                        "Weight": weight,
-                        "ActivityLevel": activityOptions[activityIndex],
+                        "email" : email,
+                        "firstName" : firstName,
+                        "lastName": lastName,
+                        "gender": genderOptions[genderIndex],
+                        "age": age,
+                        "height": height,
+                        "weight": weight,
+                        "activityLevel": activityOptions[activityIndex],
                         "fitnessGoal": fitnessOptions[fitnessIndex],
                         "dietPlan": dietOptions[dietIndex],
                         "dietaryRestBool": dietaryRest,
                         "restrictions": restrictions] as [String : Any]
-                    db.collection("Users").document(userId!).setData(data)
+                    
+                    addProfile(db: db, userId: userId!, data: data, completionHandler: { (profileSet) in
+                        if profileSet {
+                            db.collection("Users").document(userId!).setData(data)
+                            print("Set user Data into Firebase")
+                            self.selection = 1
+                        }
+                    })
                 }) {
                     ProfileCreateButtonContent()
-                }
+                }.buttonStyle(PlainButtonStyle())
             }
             .navigationBarTitle("Create Your Profile")
+        }
+    }
+}
+
+func addProfile(db: Firestore, userId: String, data: Dictionary<String, Any>, completionHandler: @escaping profileSet) {
+    print("Adding user profile!")
+    db.collection("Users").document(userId).setData(data) { (err) in
+        if (err != nil){
+            print("Error adding user profile")
+            print(err!.localizedDescription)
+        } else {
+            completionHandler(true)
         }
     }
 }

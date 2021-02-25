@@ -28,7 +28,7 @@ struct WelcomeView: View {
                     SignupButtonContent()
                                        }
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
