@@ -14,8 +14,12 @@ struct WelcomeView: View {
             VStack(alignment: .center,spacing: 20) {
                 Text("NutriosUs")
                     .font(.largeTitle)
-                    .fontWeight(.semibold)
+                    .fontWeight(.bold)
                     .padding(.top, 15.0)
+                Text("Our Health in Our Hands")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .padding(.bottom, 100.0)
             NavigationLink(destination: LogInView()) {
                     LoginButtonContent()
                                        }
@@ -39,9 +43,9 @@ struct SignupButtonContent : View {
         return Text("SIGN UP")
             .font(.headline)
             .foregroundColor(.white)
-            .frame(width: 220, height: 70)
-            .background(Color.black)
-            .cornerRadius(35.0)
+            .frame(width: 220, height: 40)
+            .background(Color.blue)
+            .cornerRadius(5.0)
             .padding(.horizontal, 50)
     }
 }
@@ -52,8 +56,8 @@ struct LoginButtonContent : View {
         return Text("LOG IN")
             .font(.headline)
             .foregroundColor(.white)
-            .frame(width: 220, height: 70)
-            .background(Color.black)
-            .cornerRadius(35.0)
+            .frame(width: 220, height: 40)
+            .background(Color.blue)
+            .cornerRadius(5.0)
     }
 }

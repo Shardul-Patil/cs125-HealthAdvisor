@@ -59,6 +59,7 @@ struct SignUpView: View {
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
+                .padding(.bottom, 20)
             /* SecureField("Password Confirmation ", text: $passwordConf)
                 .padding()
                 .background(lightGrey)

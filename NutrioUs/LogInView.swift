@@ -39,13 +39,14 @@ struct LogInView: View {
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
+                .autocapitalization(.none)
             SecureField("Password", text: $password)
                 .padding()
                 .background(lightGrey)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
             
-            NavigationLink(destination: HomeView(userId: self.$userId), tag: 1, selection: $selection) {
+            NavigationLink(destination: HomeView(userId: $userId), tag: 1, selection: $selection) {
                 Button(action: {
                     print("Before login, uid is", userId as Any)
                     // use Closure technique to wait for Firebase

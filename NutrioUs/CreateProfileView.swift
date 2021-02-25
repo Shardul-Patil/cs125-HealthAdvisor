@@ -76,6 +76,7 @@ struct CreateProfileView: View {
                     TextField("Restrictions (comma separated)", text: $restrictions)
                 }
             }
+            // TODO: camelCase all data entries. Also update in HomeView.swift
             NavigationLink(destination: LogInView(), tag: 1, selection: $selection) {
                 Button(action: {
                     print("Adding User to Firebase")
@@ -101,8 +102,6 @@ struct CreateProfileView: View {
         }
     }
 }
-
-
 
 struct ProfileCreateButtonContent : View {
     var body: some View {
