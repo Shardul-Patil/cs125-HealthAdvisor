@@ -46,14 +46,19 @@ struct HomeView: View {
     var body: some View {
         VStack (alignment: .center, spacing: 10){
             
+            // Only modify non-changing things here such as the title.
+            
             Text("TITLE")
                 // Change font size
                 .font(.title)
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
                 .padding(.top, 20)
+            
+            // Debugging only, we will not display userId to the user.
             Text("Login UID:")
             Text(userId!)
+            
             let _ = readUserData { (dataRead) in
                 if dataRead {
                     print("Finished reading user data")
@@ -66,11 +71,21 @@ struct HomeView: View {
             
             // Put the rest of the home body under this if statement
             if (readCont == true){
+                
+                // TODO: Update UI. In this if statement is where we want to display everything to the user.
+                
                 Text("Hello, \(firstName)!")
+                // TDEE = Total Daily Energy Expenditure. This is essentially how many calories the user should eat in the day.
+                
                 let tdee = calculateTDEE()
                 Text("Your TDEE is: \(tdee) calories")
                 
+                // calculateMacros function takes in tdee and outputs a Dictionary<String, Int>. The key's of the dictionary are: "carbs", "protein", "fats". We want to also display these values to the user.
+                
+                // All 4 values (calories & 3 macronutrients) will be being updated throughout usage. So any visual indication of that to the user would be nice. Whether its some slider that shows the user how far along they are, pie chart, bar graph, etc. (I'm not creative but I'm sure you will come up with some creative way to display this
+                
                 let macroDict = calculateMacros(tdee: tdee)
+                
                 Text("Based on your diet plan \"\(dietPlan)\", your Macronutrient Breakdown is:")
                 Text("\(macroDict["carbs"]!) grams of carbohydrates")
                 Text("\(macroDict["protein"]!) grams of protein")
