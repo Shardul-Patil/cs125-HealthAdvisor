@@ -69,6 +69,12 @@ struct HomeView: View {
                 Text("Hello, \(firstName)!")
                 let tdee = calculateTDEE()
                 Text("Your TDEE is: \(tdee) calories")
+                
+                let macroDict = calculateMacros(tdee: tdee)
+                Text("Based on your diet plan \"\(dietPlan)\", your Macronutrient Breakdown is:")
+                Text("\(macroDict["carbs"]!) grams of carbohydrates")
+                Text("\(macroDict["protein"]!) grams of protein")
+                Text("\(macroDict["fats"]!) grams of fat")
             }
             
         }
@@ -83,8 +89,9 @@ struct HomeView: View {
         weight = data?.get("weight") as! String
         activityLevel = data?.get("activityLevel") as! String
         fitnessGoal = data?.get("fitnessGoal") as! String
-        let temp = data?.get("dietPlan") as! String
-        if (temp == "true"){
+        dietPlan = data?.get("dietPlan") as! String
+        let temp = data?.get("dietaryRestBool") as! Bool
+        if (temp == true){
             dietaryRest = true
             restrictionsTemp = data?.get("restrictions") as! String
             restrictions = restrictionsTemp.components(separatedBy: ",")
@@ -125,6 +132,31 @@ struct HomeView: View {
         tdee += (tdee * fitnessDict[fitnessGoal]!)
         
         return Int(round(tdee))
+    }
+    
+    func calculateMacros(tdee: Int) -> Dictionary<String, Int> {
+        var ret: Dictionary<String, Int> = [:]
+        if (dietPlan == "Ketogenic"){
+            ret["carbs"] = Int(round((Double(tdee)*0.1)/4))
+            ret["protein"] = Int(round((Double(tdee)*0.3)/4))
+            ret["fats"] = Int(round((Double(tdee)*0.6)/9))
+        }
+        else if (dietPlan == "High Protein"){
+            ret["carbs"] = Int(round((Double(tdee)*0.35)/4))
+            ret["protein"] = Int(round((Double(tdee)*0.45)/4))
+            ret["fats"] = Int(round((Double(tdee)*0.2)/9))
+        }
+        else if (dietPlan == "Carbohydrate Heavy") {
+            ret["carbs"] = Int(round((Double(tdee)*0.65)/4))
+            ret["protein"] = Int(round((Double(tdee)*0.20)/4))
+            ret["fats"] = Int(round((Double(tdee)*0.15)/9))
+        }
+        else {
+            ret["carbs"] = Int(round((Double(tdee)*0.5)/4))
+            ret["protein"] = Int(round((Double(tdee)*0.3)/4))
+            ret["fats"] = Int(round((Double(tdee)*0.2)/9))
+        }
+        return ret
     }
 }
 
