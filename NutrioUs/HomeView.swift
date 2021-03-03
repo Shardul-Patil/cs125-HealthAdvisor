@@ -9,7 +9,9 @@ import SwiftUI
 import Firebase
 
 typealias dataRead = (_ dataRead:Bool) -> Void
+typealias fdcIdFound = (_ fdcIdFound:Bool) -> Void
 var dataGlobal: DocumentSnapshot?
+var foodIdGlobal: Int?
 
 struct HomeView: View {
     @Binding var userId: String?
@@ -42,7 +44,12 @@ struct HomeView: View {
     
     // concurrency
     @State private var readCont: Bool = false
+    @State private var foodIdFound: Bool = false
     
+    // User food input
+    @State private var fdcUrl: String = "https://api.nal.usda.gov/fdc/v1/foods/search?"
+    @State private var fdcKey: String = "niNJoSpVWtcJ6fJ0nZJ7LVgUfUXJPZWNzkPNzCpG"
+    @State var queryFood: String = ""
     var body: some View {
         VStack (alignment: .center, spacing: 10){
             
@@ -58,14 +65,15 @@ struct HomeView: View {
             // Debugging only, we will not display userId to the user.
             Text("Login UID:")
             Text(userId!)
-            
-            let _ = readUserData { (dataRead) in
-                if dataRead {
-                    print("Finished reading user data")
-                    readCont = true
-                    let _ = populateDataFields(data: dataGlobal)
-                    print("Finished populating user data")
-                    readCont = true
+            if readCont == false {
+                let _ = readUserData { (dataRead) in
+                    if dataRead {
+                        print("Finished reading user data")
+                        readCont = true
+                        let _ = populateDataFields(data: dataGlobal)
+                        print("Finished populating user data")
+                        readCont = true
+                    }
                 }
             }
             
@@ -90,9 +98,63 @@ struct HomeView: View {
                 Text("\(macroDict["carbs"]!) grams of carbohydrates")
                 Text("\(macroDict["protein"]!) grams of protein")
                 Text("\(macroDict["fats"]!) grams of fat")
+                TextField("Add Food", text: $queryFood)
+                    .padding()
+                    .background(lightGrey)
+                    .cornerRadius(5.0)
+                    .textContentType(.emailAddress)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                
+                Button(action: {
+                    print("Food Added!")
+                    let _ = getFoodId(query: queryFood) { (fdcIdFound) in
+                        if fdcIdFound {
+                            print("food id done!")
+                            foodIdFound = true
+                        }
+                    }
+                }) {
+                    AddFoodButtonContent()
+                }
             }
             
+            if (readCont == true && foodIdFound == true){
+                Text("Displaying Food ID for: \(queryFood)")
+                Text(String(foodIdGlobal!))
+                // set foodIdFound to false
+            }
         }
+    }
+    
+    
+    
+    func getFoodId (query: String, completionHandler: @escaping fdcIdFound) {
+        var fdcId:Int = 0
+        var myUrl = URLComponents(string: fdcUrl)
+        var items = [URLQueryItem]()
+        let param = [
+            "api_key":fdcKey,
+            "query":query]
+        for (key,value) in param {
+            items.append(URLQueryItem(name: key, value: value))
+        }
+        myUrl?.queryItems = items
+        var urlReq = URLRequest(url: (myUrl?.url)!)
+        urlReq.httpMethod = "GET"
+        URLSession.shared.dataTask(with: urlReq) { (data, response, error) -> Void in
+            // Index into json response
+            let json =  try? JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any]
+            let topEntry = json!["foods"] as! NSArray
+            let secondEntry = topEntry[0] as! NSDictionary
+            fdcId = secondEntry["fdcId"] as! Int
+            foodIdGlobal = fdcId
+            completionHandler(true)
+        }.resume()
+    }
+    
+    func getFoodData (foodID: Int) {
+        // will follow foodId format to get nutrional info for any given food id
     }
     
     func populateDataFields(data: DocumentSnapshot?) {
@@ -111,7 +173,6 @@ struct HomeView: View {
             restrictionsTemp = data?.get("restrictions") as! String
             restrictions = restrictionsTemp.components(separatedBy: ",")
         }
-        //print("Populated Data Fields", firstName, height, age, activityLevel)
     }
     
     func readUserData(completionHandler: @escaping dataRead) {
@@ -172,6 +233,22 @@ struct HomeView: View {
             ret["fats"] = Int(round((Double(tdee)*0.2)/9))
         }
         return ret
+    }
+}
+
+struct AddFoodButtonContent : View {
+    var body: some View {
+        HStack {
+            Image(systemName: "plus.circle")
+                .font(.title)
+            Text("Add Food")
+                .fontWeight(.semibold)
+                .font(.title3)
+        }
+        .padding()
+        .foregroundColor(.white)
+        .background(Color.green)
+        .cornerRadius(40)
     }
 }
 
