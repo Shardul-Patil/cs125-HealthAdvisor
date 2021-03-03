@@ -10,8 +10,18 @@ import Firebase
 
 typealias dataRead = (_ dataRead:Bool) -> Void
 typealias fdcIdFound = (_ fdcIdFound:Bool) -> Void
+typealias fdcNutritionFound = (_ fdcNutritionFound:Bool) -> Void
+
 var dataGlobal: DocumentSnapshot?
 var foodIdGlobal: Int?
+var fatGlobal: Double?
+var proteinGlobal: Double?
+var carbGlobal: Double?
+var calorieGlobal: Double?
+var currentFoodGlobal: String = ""
+
+// 0 - No Display, 1 - "Retre
+var loadingFoodNutrition: Int = 0
 
 struct HomeView: View {
     @Binding var userId: String?
@@ -45,11 +55,14 @@ struct HomeView: View {
     // concurrency
     @State private var readCont: Bool = false
     @State private var foodIdFound: Bool = false
+    @State private var foodNutritionFound: Bool = false
     
     // User food input
     @State private var fdcUrl: String = "https://api.nal.usda.gov/fdc/v1/foods/search?"
+    @State private var fdcNutritionUrl: String = "https://api.nal.usda.gov/fdc/v1/food/"
     @State private var fdcKey: String = "niNJoSpVWtcJ6fJ0nZJ7LVgUfUXJPZWNzkPNzCpG"
     @State var queryFood: String = ""
+    
     var body: some View {
         VStack (alignment: .center, spacing: 10){
             
@@ -108,7 +121,8 @@ struct HomeView: View {
                 
                 Button(action: {
                     print("Food Added!")
-                    let _ = getFoodId(query: queryFood) { (fdcIdFound) in
+                    currentFoodGlobal = queryFood
+                    let _ = getFoodId(query: currentFoodGlobal) { (fdcIdFound) in
                         if fdcIdFound {
                             print("food id done!")
                             foodIdFound = true
@@ -120,9 +134,23 @@ struct HomeView: View {
             }
             
             if (readCont == true && foodIdFound == true){
-                Text("Displaying Food ID for: \(queryFood)")
-                Text(String(foodIdGlobal!))
+                let _ = getFoodNutrition(foodID: foodIdGlobal!) { (fdcNutritionFound) in
+                    if fdcNutritionFound {
+                        print("Food nutrition found")
+                        foodNutritionFound = true
+                        foodIdFound = false
+                    }
+                }
+                
                 // set foodIdFound to false
+            }
+            
+            if (foodNutritionFound == true){
+                Text("Displaying Food Nutrition for: \(currentFoodGlobal)")
+                Text("Calories: "+String(round(calorieGlobal!)))
+                Text("Carbs: "+String(round(carbGlobal!)))
+                Text("Fats: "+String(round(fatGlobal!)))
+                Text("Protein: "+String(round(proteinGlobal!)))
             }
         }
     }
@@ -130,18 +158,21 @@ struct HomeView: View {
     
     
     func getFoodId (query: String, completionHandler: @escaping fdcIdFound) {
+        print("Getting fdcID for \(query)")
         var fdcId:Int = 0
         var myUrl = URLComponents(string: fdcUrl)
         var items = [URLQueryItem]()
+        let encodedquery = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         let param = [
             "api_key":fdcKey,
-            "query":query]
+            "query":encodedquery]
         for (key,value) in param {
             items.append(URLQueryItem(name: key, value: value))
         }
         myUrl?.queryItems = items
         var urlReq = URLRequest(url: (myUrl?.url)!)
         urlReq.httpMethod = "GET"
+        
         URLSession.shared.dataTask(with: urlReq) { (data, response, error) -> Void in
             // Index into json response
             let json =  try? JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any]
@@ -149,12 +180,54 @@ struct HomeView: View {
             let secondEntry = topEntry[0] as! NSDictionary
             fdcId = secondEntry["fdcId"] as! Int
             foodIdGlobal = fdcId
+            print("Food ID Found: \(String(describing: foodIdGlobal))")
             completionHandler(true)
         }.resume()
     }
     
-    func getFoodData (foodID: Int) {
-        // will follow foodId format to get nutrional info for any given food id
+    func getFoodNutrition (foodID: Int, completionHandler: @escaping fdcNutritionFound) {
+        //print("Getting nutrition for \(foodID)")
+        let strUrl = fdcNutritionUrl + String(foodID) + "?api_key=" + fdcKey
+        let myUrl = URL(string: strUrl)
+        var urlReq = URLRequest(url: myUrl!)
+        urlReq.httpMethod = "GET"
+        //print("request is \(urlReq)")
+
+        URLSession.shared.dataTask(with: urlReq) { (data, response, error) -> Void in
+            let json = try? JSONSerialization.jsonObject(with: data!, options: []) as? NSDictionary
+            let topEntry = json!["labelNutrients"] as! NSDictionary?
+            if (topEntry != nil){
+                print("topEntry Dict: \(String(describing: topEntry))")
+                let fDict = topEntry!["fat"] as! NSDictionary
+                //print("fDict: \(fDict)")
+                let pDict = topEntry!["protein"] as! NSDictionary
+                let carbDict = topEntry!["carbohydrates"] as! NSDictionary
+                let calDict = topEntry!["calories"] as! NSDictionary
+                fatGlobal = fDict["value"] as? Double
+                proteinGlobal = pDict["value"] as? Double
+                carbGlobal = carbDict["value"] as? Double
+                calorieGlobal = calDict["value"] as? Double
+            } else {
+                let topEntry = json!["foodNutrients"] as! NSArray
+                for nutrient in topEntry {
+                    let nutri = nutrient as! NSDictionary
+                    let ndata = nutri["nutrient"] as! NSDictionary
+                    if (ndata["id"] as! Int == 1003) {
+                        proteinGlobal = nutri["amount"] as? Double
+                    }
+                    if (ndata["id"] as! Int == 1004) {
+                        fatGlobal = nutri["amount"] as? Double
+                    }
+                    if (ndata["id"] as! Int == 1008) {
+                        calorieGlobal = nutri["amount"] as? Double
+                    }
+                    if (ndata["id"] as! Int == 1005) {
+                        carbGlobal = nutri["amount"] as? Double
+                    }
+                }
+            }
+            completionHandler(true)
+        }.resume()
     }
     
     func populateDataFields(data: DocumentSnapshot?) {
