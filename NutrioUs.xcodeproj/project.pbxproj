@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5070DE42AD30E9A7CEF79874 /* Pods_NutrioUs_NutrioUsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CEF71187BD879014DD933A /* Pods_NutrioUs_NutrioUsUITests.framework */; };
-		814766FEA6DFF6FDFDE9EB70 /* Pods_NutrioUsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381C5DB8D5C8CF5DA2502E25 /* Pods_NutrioUsTests.framework */; };
+		73D2D525E04A5FFEF036AE20 /* Pods_NutrioUs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326767752D9E2BAFD91D5509 /* Pods_NutrioUs.framework */; };
 		85C4A08125DCC97F00535BFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */; };
 		A03A1CDF25E59DCE00856733 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03A1CDE25E59DCE00856733 /* HomeView.swift */; };
 		A06F53CD25DDAC91000C4317 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */; };
@@ -18,7 +17,9 @@
 		A08488AF25D3880E00847BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08488AE25D3880E00847BAD /* Preview Assets.xcassets */; };
 		A08488BA25D3880E00847BAD /* NutrioUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488B925D3880E00847BAD /* NutrioUsTests.swift */; };
 		A08488C525D3880E00847BAD /* NutrioUsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08488C425D3880E00847BAD /* NutrioUsUITests.swift */; };
-		DDA4E6EEF67C728438622B4B /* Pods_NutrioUs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F99C6D7446A1CEE4CD84B5 /* Pods_NutrioUs.framework */; };
+		C0F76B6D447D99A5209ED847 /* Pods_NutrioUsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB7C94D5CD13065A7938924 /* Pods_NutrioUsTests.framework */; };
+		CCE32CE403C904E16A2366E1 /* Pods_NutrioUs_NutrioUsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEAE5829B66338F85A2FD48 /* Pods_NutrioUs_NutrioUsUITests.framework */; };
+		FE4CEEE625F603D3007D8297 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FE4CEEE525F603D3007D8297 /* SwiftUICharts */; };
 		FEA5FBE325DA3255003D9047 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBE225DA3255003D9047 /* WelcomeView.swift */; };
 		FEA5FBE825DA3260003D9047 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBE725DA3260003D9047 /* SignUpView.swift */; };
 		FEA5FBED25DA3266003D9047 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5FBEC25DA3266003D9047 /* LogInView.swift */; };
@@ -42,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		185F5329AAC03AE485773227 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs-NutrioUsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2FAD9E66046D91277E42F612 /* Pods-NutrioUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.release.xcconfig"; sourceTree = "<group>"; };
-		381C5DB8D5C8CF5DA2502E25 /* Pods_NutrioUsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB74F9168AC559EBAC72E31 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0EEAE5829B66338F85A2FD48 /* Pods_NutrioUs_NutrioUsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUs_NutrioUsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		326767752D9E2BAFD91D5509 /* Pods_NutrioUs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F62C6312DB8294F68917079 /* Pods-NutrioUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.debug.xcconfig"; sourceTree = "<group>"; };
 		85C4A08025DCC97F00535BFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A03A1CDE25E59DCE00856733 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
@@ -60,15 +62,14 @@
 		A08488C025D3880E00847BAD /* NutrioUsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrioUsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08488C425D3880E00847BAD /* NutrioUsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrioUsUITests.swift; sourceTree = "<group>"; };
 		A08488C625D3880E00847BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3F5393431715F38122483FF /* Pods-NutrioUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.debug.xcconfig"; sourceTree = "<group>"; };
-		BE776E729164F1ADD509A868 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C3CEF71187BD879014DD933A /* Pods_NutrioUs_NutrioUsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUs_NutrioUsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D741D36589799A7237A070 /* Pods-NutrioUsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUsTests.release.xcconfig"; path = "Target Support Files/Pods-NutrioUsTests/Pods-NutrioUsTests.release.xcconfig"; sourceTree = "<group>"; };
-		E1F99C6D7446A1CEE4CD84B5 /* Pods_NutrioUs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8A7235C098C703BD43F4E7 /* Pods-NutrioUsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUsTests.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUsTests/Pods-NutrioUsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB7C94D5CD13065A7938924 /* Pods_NutrioUsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NutrioUsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6852F54222999BD7B1645 /* Pods-NutrioUsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUsTests.release.xcconfig"; path = "Target Support Files/Pods-NutrioUsTests/Pods-NutrioUsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B432264633C9ACF342D03513 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs-NutrioUsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F866D2C90F9FB1BF17293D78 /* Pods-NutrioUsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUsTests.debug.xcconfig"; path = "Target Support Files/Pods-NutrioUsTests/Pods-NutrioUsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEA5FBE225DA3255003D9047 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		FEA5FBE725DA3260003D9047 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		FEA5FBEC25DA3266003D9047 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		FEF4D45B9B4B561DB7BD2E05 /* Pods-NutrioUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutrioUs.release.xcconfig"; path = "Target Support Files/Pods-NutrioUs/Pods-NutrioUs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA4E6EEF67C728438622B4B /* Pods_NutrioUs.framework in Frameworks */,
+				73D2D525E04A5FFEF036AE20 /* Pods_NutrioUs.framework in Frameworks */,
+				FE4CEEE625F603D3007D8297 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814766FEA6DFF6FDFDE9EB70 /* Pods_NutrioUsTests.framework in Frameworks */,
+				C0F76B6D447D99A5209ED847 /* Pods_NutrioUsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,19 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5070DE42AD30E9A7CEF79874 /* Pods_NutrioUs_NutrioUsUITests.framework in Frameworks */,
+				CCE32CE403C904E16A2366E1 /* Pods_NutrioUs_NutrioUsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C7495CE1509D83D0A539CA5 /* Frameworks */ = {
+		379CE8BF61EBD98D16D35085 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1F99C6D7446A1CEE4CD84B5 /* Pods_NutrioUs.framework */,
-				C3CEF71187BD879014DD933A /* Pods_NutrioUs_NutrioUsUITests.framework */,
-				381C5DB8D5C8CF5DA2502E25 /* Pods_NutrioUsTests.framework */,
+				326767752D9E2BAFD91D5509 /* Pods_NutrioUs.framework */,
+				0EEAE5829B66338F85A2FD48 /* Pods_NutrioUs_NutrioUsUITests.framework */,
+				ACB7C94D5CD13065A7938924 /* Pods_NutrioUsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +119,7 @@
 				A08488C325D3880E00847BAD /* NutrioUsUITests */,
 				A08488A525D3880800847BAD /* Products */,
 				C1DDBA7DC0894134B56E8173 /* Pods */,
-				4C7495CE1509D83D0A539CA5 /* Frameworks */,
+				379CE8BF61EBD98D16D35085 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,12 +180,12 @@
 		C1DDBA7DC0894134B56E8173 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3F5393431715F38122483FF /* Pods-NutrioUs.debug.xcconfig */,
-				2FAD9E66046D91277E42F612 /* Pods-NutrioUs.release.xcconfig */,
-				185F5329AAC03AE485773227 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */,
-				BE776E729164F1ADD509A868 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */,
-				FD8A7235C098C703BD43F4E7 /* Pods-NutrioUsTests.debug.xcconfig */,
-				D8D741D36589799A7237A070 /* Pods-NutrioUsTests.release.xcconfig */,
+				4F62C6312DB8294F68917079 /* Pods-NutrioUs.debug.xcconfig */,
+				FEF4D45B9B4B561DB7BD2E05 /* Pods-NutrioUs.release.xcconfig */,
+				B432264633C9ACF342D03513 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */,
+				0EB74F9168AC559EBAC72E31 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */,
+				F866D2C90F9FB1BF17293D78 /* Pods-NutrioUsTests.debug.xcconfig */,
+				ADD6852F54222999BD7B1645 /* Pods-NutrioUsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -195,17 +197,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A08488C925D3880E00847BAD /* Build configuration list for PBXNativeTarget "NutrioUs" */;
 			buildPhases = (
-				2BC5BB7ED9B0782794E9F2CA /* [CP] Check Pods Manifest.lock */,
+				1FB32CAB4D8355353BF5B1AB /* [CP] Check Pods Manifest.lock */,
 				A08488A025D3880800847BAD /* Sources */,
 				A08488A125D3880800847BAD /* Frameworks */,
 				A08488A225D3880800847BAD /* Resources */,
-				9B7CF9CF9DFFDA6187050820 /* [CP] Embed Pods Frameworks */,
+				CB69527D03CB3E0517279642 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NutrioUs;
+			packageProductDependencies = (
+				FE4CEEE525F603D3007D8297 /* SwiftUICharts */,
+			);
 			productName = NutrioUs;
 			productReference = A08488A425D3880800847BAD /* NutrioUs.app */;
 			productType = "com.apple.product-type.application";
@@ -214,7 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A08488CC25D3880E00847BAD /* Build configuration list for PBXNativeTarget "NutrioUsTests" */;
 			buildPhases = (
-				662317FFD0E9191AD498BF52 /* [CP] Check Pods Manifest.lock */,
+				8682BF1612345B0848BEFDFD /* [CP] Check Pods Manifest.lock */,
 				A08488B125D3880E00847BAD /* Sources */,
 				A08488B225D3880E00847BAD /* Frameworks */,
 				A08488B325D3880E00847BAD /* Resources */,
@@ -233,11 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A08488CF25D3880E00847BAD /* Build configuration list for PBXNativeTarget "NutrioUsUITests" */;
 			buildPhases = (
-				71BD644FC8C293713DF50906 /* [CP] Check Pods Manifest.lock */,
+				3FBD096A154041594E2D049B /* [CP] Check Pods Manifest.lock */,
 				A08488BC25D3880E00847BAD /* Sources */,
 				A08488BD25D3880E00847BAD /* Frameworks */,
 				A08488BE25D3880E00847BAD /* Resources */,
-				2BCD18A23FE10D19290AD379 /* [CP] Embed Pods Frameworks */,
+				72C1B19B12939D0BA188CCD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +285,9 @@
 				Base,
 			);
 			mainGroup = A084889B25D3880800847BAD;
+			packageReferences = (
+				FE4CEEE425F603D3007D8297 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = A08488A525D3880800847BAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,7 +327,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BC5BB7ED9B0782794E9F2CA /* [CP] Check Pods Manifest.lock */ = {
+		1FB32CAB4D8355353BF5B1AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,46 +349,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2BCD18A23FE10D19290AD379 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		662317FFD0E9191AD498BF52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NutrioUsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		71BD644FC8C293713DF50906 /* [CP] Check Pods Manifest.lock */ = {
+		3FBD096A154041594E2D049B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,7 +371,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B7CF9CF9DFFDA6187050820 /* [CP] Embed Pods Frameworks */ = {
+		72C1B19B12939D0BA188CCD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NutrioUs-NutrioUsUITests/Pods-NutrioUs-NutrioUsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8682BF1612345B0848BEFDFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutrioUsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB69527D03CB3E0517279642 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -586,7 +594,7 @@
 		};
 		A08488CA25D3880E00847BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F5393431715F38122483FF /* Pods-NutrioUs.debug.xcconfig */;
+			baseConfigurationReference = 4F62C6312DB8294F68917079 /* Pods-NutrioUs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -608,7 +616,7 @@
 		};
 		A08488CB25D3880E00847BAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAD9E66046D91277E42F612 /* Pods-NutrioUs.release.xcconfig */;
+			baseConfigurationReference = FEF4D45B9B4B561DB7BD2E05 /* Pods-NutrioUs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -630,7 +638,7 @@
 		};
 		A08488CD25D3880E00847BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8A7235C098C703BD43F4E7 /* Pods-NutrioUsTests.debug.xcconfig */;
+			baseConfigurationReference = F866D2C90F9FB1BF17293D78 /* Pods-NutrioUsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,7 +660,7 @@
 		};
 		A08488CE25D3880E00847BAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8D741D36589799A7237A070 /* Pods-NutrioUsTests.release.xcconfig */;
+			baseConfigurationReference = ADD6852F54222999BD7B1645 /* Pods-NutrioUsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -674,7 +682,7 @@
 		};
 		A08488D025D3880E00847BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 185F5329AAC03AE485773227 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */;
+			baseConfigurationReference = B432264633C9ACF342D03513 /* Pods-NutrioUs-NutrioUsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,7 +702,7 @@
 		};
 		A08488D125D3880E00847BAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE776E729164F1ADD509A868 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */;
+			baseConfigurationReference = 0EB74F9168AC559EBAC72E31 /* Pods-NutrioUs-NutrioUsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -752,6 +760,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE4CEEE425F603D3007D8297 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE4CEEE525F603D3007D8297 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE4CEEE425F603D3007D8297 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A084889C25D3880800847BAD /* Project object */;
 }

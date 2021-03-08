@@ -1,0 +1,6 @@
+framework module Pods_NutrioUs {
+  umbrella header "Pods-NutrioUs-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NutrioUsTests {
+  umbrella header "Pods-NutrioUsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,8 +3,7 @@
 //  NutrioUs
 //
 //  Created by Shardul Patil on 2/23/21.
-//
-
+import SwiftUICharts
 import SwiftUI
 import Firebase
 
@@ -19,6 +18,7 @@ var proteinGlobal: Double?
 var carbGlobal: Double?
 var calorieGlobal: Double?
 var currentFoodGlobal: String = ""
+
 
 // 0 - No Display, 1 - "Retre
 var loadingFoodNutrition: Int = 0
@@ -63,17 +63,17 @@ struct HomeView: View {
     @State private var fdcKey: String = "niNJoSpVWtcJ6fJ0nZJ7LVgUfUXJPZWNzkPNzCpG"
     @State var queryFood: String = ""
     
+    
+    
     var body: some View {
         VStack (alignment: .center, spacing: 10){
             
             // Only modify non-changing things here such as the title.
             
-            Text("TITLE")
-                // Change font size
-                .font(.title)
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.center)
-                .padding(.top, 20)
+            Text("NutriosUs")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.top, 15.0)
             
             // Debugging only, we will not display userId to the user.
             Text("Login UID:")
@@ -89,6 +89,14 @@ struct HomeView: View {
                     }
                 }
             }
+            Spacer()
+            BarChartView(data: ChartData(values: [
+                        ("fat", 60),
+                        ("protein", 50),
+                        ("carbs", 80)
+                        ]),
+            title: "Nutrion Breakdown",form: ChartForm.medium)
+            
             
             // Put the rest of the home body under this if statement
             if (readCont == true){
@@ -99,7 +107,7 @@ struct HomeView: View {
                 // TDEE = Total Daily Energy Expenditure. This is essentially how many calories the user should eat in the day.
                 
                 let tdee = calculateTDEE()
-                Text("Your TDEE is: \(tdee) calories")
+                Text("Calories Remaining: \(tdee) calories")
                 
                 // calculateMacros function takes in tdee and outputs a Dictionary<String, Int>. The key's of the dictionary are: "carbs", "protein", "fats". We want to also display these values to the user.
                 
