@@ -19,6 +19,16 @@ var carbGlobal: Double?
 var calorieGlobal: Double?
 var currentFoodGlobal: String = ""
 
+var trackCal: Double = 0
+var trackCarbs: Double = 0
+var trackFat: Double = 0
+var trackProtein: Double = 0
+
+// tracking nutrients
+//var trackCal: Double = 0
+//var trackCarbs: Double = 0
+//var trackFat: Double = 0
+//var trackProtein: Double = 0
 
 // 0 - No Display, 1 - "Retre
 var loadingFoodNutrition: Int = 0
@@ -63,41 +73,32 @@ struct HomeView: View {
     @State private var fdcKey: String = "niNJoSpVWtcJ6fJ0nZJ7LVgUfUXJPZWNzkPNzCpG"
     @State var queryFood: String = ""
     
-    
+    @State var updater: Bool = false
+    @State var selection: Int? = nil
     
     var body: some View {
-        VStack (alignment: .center, spacing: 10){
+        VStack (alignment: .center, spacing: 8){
             
             // Only modify non-changing things here such as the title.
             
             Text("NutriosUs")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .padding(.top, 15.0)
+                .offset(y: -75)
             
             // Debugging only, we will not display userId to the user.
-            Text("Login UID:")
-            Text(userId!)
+            //Text("Login UID:")
+            //Text(userId!)
             if readCont == false {
                 let _ = readUserData { (dataRead) in
                     if dataRead {
                         print("Finished reading user data")
-                        readCont = true
                         let _ = populateDataFields(data: dataGlobal)
                         print("Finished populating user data")
                         readCont = true
                     }
                 }
             }
-            Spacer()
-            BarChartView(data: ChartData(values: [
-                        ("fat", 60),
-                        ("protein", 50),
-                        ("carbs", 80)
-                        ]),
-            title: "Nutrion Breakdown",form: ChartForm.medium)
-            
-            
             // Put the rest of the home body under this if statement
             if (readCont == true){
                 
@@ -107,7 +108,9 @@ struct HomeView: View {
                 // TDEE = Total Daily Energy Expenditure. This is essentially how many calories the user should eat in the day.
                 
                 let tdee = calculateTDEE()
-                Text("Calories Remaining: \(tdee) calories")
+                // trackCal = Double(tdee)
+                Text("Your Calorie Goal for today is: \(tdee) calories")
+                    .offset(y: -75)
                 
                 // calculateMacros function takes in tdee and outputs a Dictionary<String, Int>. The key's of the dictionary are: "carbs", "protein", "fats". We want to also display these values to the user.
                 
@@ -115,10 +118,18 @@ struct HomeView: View {
                 
                 let macroDict = calculateMacros(tdee: tdee)
                 
-                Text("Based on your diet plan \"\(dietPlan)\", your Macronutrient Breakdown is:")
-                Text("\(macroDict["carbs"]!) grams of carbohydrates")
-                Text("\(macroDict["protein"]!) grams of protein")
-                Text("\(macroDict["fats"]!) grams of fat")
+                let _ = updateNutrition(cals: Double(tdee),
+                                        carbs: Double(macroDict["carbs"]!),
+                                        fat: Double(macroDict["fats"]!),
+                                        protein: Double(macroDict["protein"]!))
+                
+                BarChartView(data: ChartData(values: [
+                            ("carbs", trackCarbs),
+                            ("protein", trackProtein),
+                            ("fats", trackFat)
+                            ]),
+                title: "Today's Nutrition Goal",form: ChartForm.medium).offset(y: -75)
+                
                 TextField("Add Food", text: $queryFood)
                     .padding()
                     .background(lightGrey)
@@ -126,8 +137,10 @@ struct HomeView: View {
                     .textContentType(.emailAddress)
                     .keyboardType(.emailAddress)
                     .autocapitalization(.none)
+                    .offset(y: -75)
                 
                 Button(action: {
+                    foodNutritionFound = false
                     print("Food Added!")
                     currentFoodGlobal = queryFood
                     let _ = getFoodId(query: currentFoodGlobal) { (fdcIdFound) in
@@ -138,7 +151,7 @@ struct HomeView: View {
                     }
                 }) {
                     AddFoodButtonContent()
-                }
+                }.offset(y: -75)
             }
             
             if (readCont == true && foodIdFound == true){
@@ -154,16 +167,42 @@ struct HomeView: View {
             }
             
             if (foodNutritionFound == true){
-                Text("Displaying Food Nutrition for: \(currentFoodGlobal)")
-                Text("Calories: "+String(round(calorieGlobal!)))
-                Text("Carbs: "+String(round(carbGlobal!)))
-                Text("Fats: "+String(round(fatGlobal!)))
-                Text("Protein: "+String(round(proteinGlobal!)))
+                Text("Displaying Food Nutrition for: \(currentFoodGlobal)").offset(y: -75)
+                Text("Calories: "+String(round(calorieGlobal!))).offset(y: -75)
+                Text("Carbs: "+String(round(carbGlobal!))).offset(y: -75)
+                Text("Fats: "+String(round(fatGlobal!))).offset(y: -75)
+                Text("Protein: "+String(round(proteinGlobal!))).offset(y: -75)
+                
+                let _ = subtractNutrition(cals: calorieGlobal!, carbs: carbGlobal!, fat: fatGlobal!, protein: proteinGlobal!)
+                // Begin here check subtraction to see if it works or not
+                let _ = print("cals after subtract: \(trackCal)")
             }
         }
+        
+        NavigationLink(destination: RecView(passCal: trackCal, passCarbs: trackCarbs, passFat: trackFat, passProtein: trackProtein), tag: 1, selection: $selection) {
+            Button(action: {
+                print("Goin to Rec")
+                self.selection = 1
+                // use Closure technique to wait for Firebase
+            }) {
+                GetRecsButtonContent()
+                }
+            }.offset(y: -75)
     }
     
+    func updateNutrition(cals:Double, carbs:Double, fat:Double, protein:Double){
+        trackCal = cals
+        trackCarbs = carbs
+        trackFat = fat
+        trackProtein = protein
+    }
     
+    func subtractNutrition(cals:Double, carbs:Double, fat:Double, protein:Double) {
+        trackCal -= cals
+        trackCarbs -= carbs
+        trackFat -= fat
+        trackProtein -= protein
+    }
     
     func getFoodId (query: String, completionHandler: @escaping fdcIdFound) {
         print("Getting fdcID for \(query)")
@@ -215,6 +254,7 @@ struct HomeView: View {
                 proteinGlobal = pDict["value"] as? Double
                 carbGlobal = carbDict["value"] as? Double
                 calorieGlobal = calDict["value"] as? Double
+                completionHandler(true)
             } else {
                 let topEntry = json!["foodNutrients"] as! NSArray
                 for nutrient in topEntry {
@@ -233,8 +273,8 @@ struct HomeView: View {
                         carbGlobal = nutri["amount"] as? Double
                     }
                 }
+                completionHandler(true)
             }
-            completionHandler(true)
         }.resume()
     }
     
@@ -287,7 +327,7 @@ struct HomeView: View {
         
         tdee *= activityDict[activityLevel]!
         tdee += (tdee * fitnessDict[fitnessGoal]!)
-        
+        trackCal = Double(Int(round(tdee)))
         return Int(round(tdee))
     }
     
@@ -329,6 +369,21 @@ struct AddFoodButtonContent : View {
         .padding()
         .foregroundColor(.white)
         .background(Color.green)
+        .cornerRadius(40)
+    }
+}
+struct GetRecsButtonContent : View {
+    var body: some View {
+        HStack {
+            Image(systemName: "plus.message.fill")
+                .font(.title)
+            Text("Get Recs")
+                .fontWeight(.semibold)
+                .font(.title3)
+        }
+        .padding()
+        .foregroundColor(.white)
+        .background(Color.blue)
         .cornerRadius(40)
     }
 }
