@@ -151,6 +151,7 @@
 				A08488A925D3880800847BAD /* ContentView.swift */,
 				FEA5FBE225DA3255003D9047 /* WelcomeView.swift */,
 				FEA5FBE725DA3260003D9047 /* SignUpView.swift */,
+				85C4F56D25F88A150025B184 /* HealthStore.swift */,
 				A03A1CDE25E59DCE00856733 /* HomeView.swift */,
 				FEA5FBEC25DA3266003D9047 /* LogInView.swift */,
 				A06F53CC25DDAC91000C4317 /* CreateProfileView.swift */,
@@ -158,7 +159,6 @@
 				A08488AB25D3880E00847BAD /* Assets.xcassets */,
 				A08488B025D3880E00847BAD /* Info.plist */,
 				A08488AD25D3880E00847BAD /* Preview Content */,
-				85C4F56D25F88A150025B184 /* HealthStore.swift */,
 			);
 			path = NutrioUs;
 			sourceTree = "<group>";

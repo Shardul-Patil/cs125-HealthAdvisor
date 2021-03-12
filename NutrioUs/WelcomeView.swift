@@ -14,6 +14,7 @@ struct WelcomeView: View {
     //start of Health App Access
     private var healthStore: HealthStore? //wrapper
     
+    
     init(){
         healthStore = HealthStore()
     }

@@ -82,8 +82,6 @@ struct HomeView: View {
             // Only modify non-changing things here such as the title.
             
             Text("NutriosUs")
-                .font(.largeTitle)
-                .fontWeight(.bold)
                 .offset(y: -75)
             
             // Debugging only, we will not display userId to the user.
@@ -95,6 +93,13 @@ struct HomeView: View {
                         print("Finished reading user data")
                         let _ = populateDataFields(data: dataGlobal)
                         print("Finished populating user data")
+                        let tdee = calculateTDEE()
+                        let macroDict = calculateMacros(tdee: tdee)
+                        updateNutrition(cals: Double(tdee),
+                                                carbs: Double(macroDict["carbs"]!),
+                                                fat: Double(macroDict["fats"]!),
+                                                protein: Double(macroDict["protein"]!))
+                        
                         readCont = true
                     }
                 }
@@ -104,31 +109,31 @@ struct HomeView: View {
                 
                 // TODO: Update UI. In this if statement is where we want to display everything to the user.
                 
-                Text("Hello, \(firstName)!")
+                Text("Hello, \(firstName)!").font(.largeTitle).fontWeight(.bold).offset(y: -80)
                 // TDEE = Total Daily Energy Expenditure. This is essentially how many calories the user should eat in the day.
                 
-                let tdee = calculateTDEE()
+//                let tdee = calculateTDEE()
                 // trackCal = Double(tdee)
-                Text("Your Calorie Goal for today is: \(tdee) calories")
+                Text("Your Calorie Goal for today is: \(Int(trackCal)) calories")
                     .offset(y: -75)
                 
                 // calculateMacros function takes in tdee and outputs a Dictionary<String, Int>. The key's of the dictionary are: "carbs", "protein", "fats". We want to also display these values to the user.
                 
                 // All 4 values (calories & 3 macronutrients) will be being updated throughout usage. So any visual indication of that to the user would be nice. Whether its some slider that shows the user how far along they are, pie chart, bar graph, etc. (I'm not creative but I'm sure you will come up with some creative way to display this
                 
-                let macroDict = calculateMacros(tdee: tdee)
-                
-                let _ = updateNutrition(cals: Double(tdee),
-                                        carbs: Double(macroDict["carbs"]!),
-                                        fat: Double(macroDict["fats"]!),
-                                        protein: Double(macroDict["protein"]!))
+//                let macroDict = calculateMacros(tdee: tdee)
+//
+//                let _ = updateNutrition(cals: Double(tdee),
+//                                        carbs: Double(macroDict["carbs"]!),
+//                                        fat: Double(macroDict["fats"]!),
+//                                        protein: Double(macroDict["protein"]!))
                 
                 BarChartView(data: ChartData(values: [
                             ("carbs", trackCarbs),
                             ("protein", trackProtein),
                             ("fats", trackFat)
                             ]),
-                title: "Today's Nutrition Goal",form: ChartForm.medium).offset(y: -75)
+                title: "Today's Nutrition Goal",form: ChartForm.medium).offset(y: -75).padding(.bottom, 10).padding(.top, 10)
                 
                 TextField("Add Food", text: $queryFood)
                     .padding()
@@ -174,12 +179,12 @@ struct HomeView: View {
                 Text("Protein: "+String(round(proteinGlobal!))).offset(y: -75)
                 
                 let _ = subtractNutrition(cals: calorieGlobal!, carbs: carbGlobal!, fat: fatGlobal!, protein: proteinGlobal!)
-                // Begin here check subtraction to see if it works or not
                 let _ = print("cals after subtract: \(trackCal)")
+                let _ = foodNutritionFound.toggle()
             }
         }
         
-        NavigationLink(destination: RecView(passCal: trackCal, passCarbs: trackCarbs, passFat: trackFat, passProtein: trackProtein), tag: 1, selection: $selection) {
+        NavigationLink(destination: RecView(passCal: trackCal, passCarbs: trackCarbs, passFat: trackFat, passProtein: trackProtein, dietPlan: dietPlan), tag: 1, selection: $selection) {
             Button(action: {
                 print("Goin to Rec")
                 self.selection = 1
@@ -198,6 +203,7 @@ struct HomeView: View {
     }
     
     func subtractNutrition(cals:Double, carbs:Double, fat:Double, protein:Double) {
+        print ("current cals: \(trackCal), about to subtract: \(cals)")
         trackCal -= cals
         trackCarbs -= carbs
         trackFat -= fat
@@ -244,7 +250,7 @@ struct HomeView: View {
             let json = try? JSONSerialization.jsonObject(with: data!, options: []) as? NSDictionary
             let topEntry = json!["labelNutrients"] as! NSDictionary?
             if (topEntry != nil){
-                print("topEntry Dict: \(String(describing: topEntry))")
+                //print("topEntry Dict: \(String(describing: topEntry))")
                 let fDict = topEntry!["fat"] as! NSDictionary
                 //print("fDict: \(fDict)")
                 let pDict = topEntry!["protein"] as! NSDictionary
@@ -273,6 +279,7 @@ struct HomeView: View {
                         carbGlobal = nutri["amount"] as? Double
                     }
                 }
+                
                 completionHandler(true)
             }
         }.resume()
