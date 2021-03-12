@@ -24,13 +24,6 @@ var trackCarbs: Double = 0
 var trackFat: Double = 0
 var trackProtein: Double = 0
 
-// tracking nutrients
-//var trackCal: Double = 0
-//var trackCarbs: Double = 0
-//var trackFat: Double = 0
-//var trackProtein: Double = 0
-
-// 0 - No Display, 1 - "Retre
 var loadingFoodNutrition: Int = 0
 
 struct HomeView: View {
@@ -66,27 +59,19 @@ struct HomeView: View {
     @State private var readCont: Bool = false
     @State private var foodIdFound: Bool = false
     @State private var foodNutritionFound: Bool = false
+    @State var updater: Bool = false
+    @State var selection: Int? = nil
     
     // User food input
     @State private var fdcUrl: String = "https://api.nal.usda.gov/fdc/v1/foods/search?"
     @State private var fdcNutritionUrl: String = "https://api.nal.usda.gov/fdc/v1/food/"
     @State private var fdcKey: String = "niNJoSpVWtcJ6fJ0nZJ7LVgUfUXJPZWNzkPNzCpG"
     @State var queryFood: String = ""
-    
-    @State var updater: Bool = false
-    @State var selection: Int? = nil
-    
+
     var body: some View {
         VStack (alignment: .center, spacing: 8){
-            
-            // Only modify non-changing things here such as the title.
-            
             Text("NutriosUs")
                 .offset(y: -75)
-    
-            // Debugging only, we will not display userId to the user.
-            //Text("Login UID:")
-            //Text(userId!)
             if readCont == false {
                 let _ = readUserData { (dataRead) in
                     if dataRead {
@@ -103,29 +88,10 @@ struct HomeView: View {
                     }
                 }
             }
-            // Put the rest of the home body under this if statement
             if (readCont == true){
-                
-                // TODO: Update UI. In this if statement is where we want to display everything to the user.
-                
                 Text("Hello, \(firstName)!").font(.largeTitle).fontWeight(.bold).offset(y: -80)
-                // TDEE = Total Daily Energy Expenditure. This is essentially how many calories the user should eat in the day.
-                
-//                let tdee = calculateTDEE()
-                // trackCal = Double(tdee)
                 Text("Your Calorie Goal for today is: \(Int(trackCal)) calories")
                     .offset(y: -75)
-                
-                // calculateMacros function takes in tdee and outputs a Dictionary<String, Int>. The key's of the dictionary are: "carbs", "protein", "fats". We want to also display these values to the user.
-                
-                // All 4 values (calories & 3 macronutrients) will be being updated throughout usage. So any visual indication of that to the user would be nice. Whether its some slider that shows the user how far along they are, pie chart, bar graph, etc. (I'm not creative but I'm sure you will come up with some creative way to display this
-                
-//                let macroDict = calculateMacros(tdee: tdee)
-//
-//                let _ = updateNutrition(cals: Double(tdee),
-//                                        carbs: Double(macroDict["carbs"]!),
-//                                        fat: Double(macroDict["fats"]!),
-//                                        protein: Double(macroDict["protein"]!))
                 
                 BarChartView(data: ChartData(values: [
                             ("carbs", trackCarbs),
@@ -169,8 +135,6 @@ struct HomeView: View {
                         foodIdFound = false
                     }
                 }
-                
-                // set foodIdFound to false
             }
             
             if (foodNutritionFound == true){
@@ -182,7 +146,6 @@ struct HomeView: View {
                 
                 let _ = subtractNutrition(cals: calorieGlobal!, carbs: carbGlobal!, fat: fatGlobal!, protein: proteinGlobal!)
                 let _ = print("cals after subtract: \(trackCal)")
-                //let _ = foodNutritionFound.toggle()
             }
         }
         
@@ -190,7 +153,6 @@ struct HomeView: View {
             Button(action: {
                 print("Goin to Rec")
                 self.selection = 1
-                // use Closure technique to wait for Firebase
             }) {
                 GetRecsButtonContent()
                 }
@@ -213,6 +175,7 @@ struct HomeView: View {
         trackProtein -= protein
     }
     
+    // Makes query to USDA FDC search endpoint to retrieve FDC-ID
     func getFoodId (query: String, completionHandler: @escaping fdcIdFound) {
         print("Getting fdcID for \(query)")
         var fdcId:Int = 0
@@ -241,21 +204,19 @@ struct HomeView: View {
         }.resume()
     }
     
+    
+    // Makes query to UDA Fdc Nutrtion API endpoint by using an FDC-ID
     func getFoodNutrition (foodID: Int, completionHandler: @escaping fdcNutritionFound) {
-        //print("Getting nutrition for \(foodID)")
         let strUrl = fdcNutritionUrl + String(foodID) + "?api_key=" + fdcKey
         let myUrl = URL(string: strUrl)
         var urlReq = URLRequest(url: myUrl!)
         urlReq.httpMethod = "GET"
-        //print("request is \(urlReq)")
 
         URLSession.shared.dataTask(with: urlReq) { (data, response, error) -> Void in
             let json = try? JSONSerialization.jsonObject(with: data!, options: []) as? NSDictionary
             let topEntry = json!["labelNutrients"] as! NSDictionary?
             if (topEntry != nil){
-                //print("topEntry Dict: \(String(describing: topEntry))")
                 let fDict = topEntry!["fat"] as! NSDictionary
-                //print("fDict: \(fDict)")
                 let pDict = topEntry!["protein"] as! NSDictionary
                 let carbDict = topEntry!["carbohydrates"] as! NSDictionary
                 let calDict = topEntry!["calories"] as! NSDictionary
@@ -306,6 +267,7 @@ struct HomeView: View {
         }
     }
     
+    // Reads user data from Firebase and populates local fields
     func readUserData(completionHandler: @escaping dataRead) {
         var data: DocumentSnapshot? = nil
         print("Reading User Datas")
@@ -322,8 +284,8 @@ struct HomeView: View {
         }
     }
     
+    // Uses user profile data to calculate daily caloric intake
     func calculateTDEE() -> Int {
-        
         let weightKg = round(Double(weight)!*0.453592)
         let heightCm = round(Double(height)!*2.54)
         // Mifflin-St. Jeor TDEE equation
@@ -341,6 +303,7 @@ struct HomeView: View {
         return Int(round(tdee))
     }
     
+    // Takes daily caloric count and provides macronutrient breakdown
     func calculateMacros(tdee: Int) -> Dictionary<String, Int> {
         var ret: Dictionary<String, Int> = [:]
         if (dietPlan == "Ketogenic"){

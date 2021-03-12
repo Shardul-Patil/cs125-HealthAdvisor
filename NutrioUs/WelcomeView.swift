@@ -12,15 +12,12 @@ var passSteps: Int = 0
 
 struct WelcomeView: View {
     
-    
     //start of Health App Access
     private var healthStore: HealthStore? //wrapper
-    
     
     init(){
         healthStore = HealthStore()
     }
-    
     
     private func updateUIFromStatistics(statisticsCollection: HKStatisticsCollection){
         let endDate = Date()
@@ -38,11 +35,8 @@ struct WelcomeView: View {
         }
     }
     //end of health App Access
-    
-    
-    
-    var body: some View {
 
+    var body: some View {
         NavigationView() {
             VStack(alignment: .center,spacing: 20) {
                 Text("NutriosUs")
@@ -73,9 +67,6 @@ struct WelcomeView: View {
                     if success{
                         healthStore.calculateSteps{statisticsCollection in
                             if let statisticsCollection = statisticsCollection{
-                                //update UI with statisticsCollection
-                                //print(statisticsCollection)
-                                //if user authorizes access to the health app, it will fetch data inside uppdateUIFromStatistics when this view loads
                                 updateUIFromStatistics(statisticsCollection: statisticsCollection)
                             }
                         }
@@ -85,8 +76,6 @@ struct WelcomeView: View {
             }
         }
         //HealthKit Access Authorization Done
-        
-        
     }
 }
 

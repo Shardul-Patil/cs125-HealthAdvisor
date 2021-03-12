@@ -78,7 +78,7 @@ struct CreateProfileView: View {
                     TextField("Restrictions (comma separated)", text: $restrictions)
                 }
             }
-            // TODO: camelCase all data entries. Also update in HomeView.swift
+            
             NavigationLink(destination: LogInView(), tag: 1, selection: $selection) {
                 let _ = print("In Navigation, pressing button")
                 Button(action: {
@@ -114,6 +114,8 @@ struct CreateProfileView: View {
     }
 }
 
+
+// Adds user profile "Personicle" to Firebase
 func addProfile(db: Firestore, userId: String, data: Dictionary<String, Any>, completionHandler: @escaping profileSet) {
     print("Adding user profile!")
     db.collection("Users").document(userId).setData(data) { (err) in

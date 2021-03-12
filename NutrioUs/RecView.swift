@@ -19,11 +19,9 @@ struct RecView: View {
     var dietPlan: String
     
     @State private var queryDone:Bool = false
-    
-    let dietConv = ["None": "calories", "Ketogenic": "fats", "High Protein": "protein", "Carbohydrate Heavy": "carbs"]
-    
     @State var recList:[String] = []
     
+    let dietConv = ["None": "calories", "Ketogenic": "fats", "High Protein": "protein", "Carbohydrate Heavy": "carbs"]
     let db = Firestore.firestore()
     
     var body: some View {
@@ -38,9 +36,6 @@ struct RecView: View {
                     ]),
         title: "Remaining Nutrients",form: ChartForm.medium).padding(.bottom, 10).padding(.top, 10)
         
-//        Text("\(Int(passCarbs)) grams of carbs")
-//        Text("\(Int(passFat)) grams of fat")
-//        Text("\(Int(passProtein)) grams of protein")
         if (queryDone == false){
             let _ = queryFirebase { (queryRecs) in
                 if queryRecs {
@@ -59,6 +54,7 @@ struct RecView: View {
         }
     }
     
+    // Calculate nutrtion buffers & query Firebase
     func queryFirebase(completionHandler: @escaping queryRecs){
         let foodRef = db.collection("Food")
         
@@ -111,27 +107,6 @@ struct RecView: View {
             }
     }
 }
-//        let carbv = Int(passCarbs)/2
-//        let carbdiff = Double(carbv)*0.15
-//        let carbmin = Double(carbv) - carbdiff
-//        let carbmax = Double(carbv) + carbdiff
-//
-//        let fatv = Int(passFat)/2
-//        let fatdiff = Double(fatv)*0.15
-//        let fatmin = Double(fatv) - fatdiff
-//        let fatmax = Double(fatv) + fatdiff
-//
-//        let protv = Int(passProtein)/2
-//        let protdiff = Double(protv)*0.15
-//        let protmin = Double(protv) - protdiff
-//        let protmax = Double(protv) + protdiff
-        
-//            .whereField("carbs", isLessThan: carbmax)
-//            .whereField("carbs", isGreaterThan: carbmin)
-//            .whereField("fats", isLessThan: fatmax)
-//            .whereField("fats", isGreaterThan: fatmin)
-//            .whereField("protein", isLessThan: protmax)
-//            .whereField("protein", isGreaterThan: protmin)
 
 struct RecView_Previews: PreviewProvider {
     static var previews: some View {

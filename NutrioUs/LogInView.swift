@@ -71,7 +71,7 @@ struct LogInView_Previews: PreviewProvider {
     }
 }
 
-
+// Authenticates with Firebase
 func logIn(email: String, password: String, completionHandler: @escaping userLogin)
 {
     var uid: String? = nil
