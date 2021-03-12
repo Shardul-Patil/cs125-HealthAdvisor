@@ -50,6 +50,7 @@ struct RecView: View {
             }
         }
         if (queryDone == true){
+            Text("Recommendation priority: \(dietConv[dietPlan]!)")
             List {
                 ForEach(recList, id:\.self) { item in
                     Text(item)
@@ -61,15 +62,36 @@ struct RecView: View {
     func queryFirebase(completionHandler: @escaping queryRecs){
         let foodRef = db.collection("Food")
         
-        let calv = Int(passCal)/2
-        let caldiff = Double(calv)*0.1
+        let calv = Int(passCal)/3
+        let caldiff = Double(calv)*0.3
         let calmin = Double(calv) - caldiff
         let calmax = Double(calv) + caldiff
         
+        let carbv = Int(passCarbs)/3
+        let carbdiff = Double(carbv)*0.3
+        let carbmin = Double(carbv) - carbdiff
+        let carbmax = Double(carbv) + carbdiff
+
+        let fatv = Int(passFat)/3
+        let fatdiff = Double(fatv)*0.3
+        let fatmin = Double(fatv) - fatdiff
+        let fatmax = Double(fatv) + fatdiff
+
+        let protv = Int(passProtein)/3
+        let protdiff = Double(protv)*0.3
+        let protmin = Double(protv) - protdiff
+        let protmax = Double(protv) + protdiff
+        
+        
+        let maxDict = ["None": calmax, "Ketogenic": fatmax, "High Protein": protmax, "Carbohydrate Heavy": carbmax]
+        let minDict = ["None": calmin, "Ketogenic": fatmin, "High Protein": protmin, "Carbohydrate Heavy": carbmin]
+        
+        print("Prior: \(dietConv[dietPlan]!), -- \(maxDict[dietPlan]!)")
+        
         foodRef
-            .whereField("calories", isLessThan: calmax)
-            .whereField("calories", isGreaterThan: calmin)
-            .limit(to: 5)
+            .whereField(dietConv[dietPlan]!, isLessThan: maxDict[dietPlan]!)
+            .whereField(dietConv[dietPlan]!, isGreaterThan: minDict[dietPlan]!)
+            .limit(to: 10)
             .getDocuments() { (querySnapshot, err) in
                 if let err = err {
                     print("Error getting documents: \(err)")
