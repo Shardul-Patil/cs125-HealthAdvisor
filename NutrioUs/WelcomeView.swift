@@ -8,6 +8,8 @@
 import SwiftUI
 import HealthKit
 
+var passSteps: Int = 0
+
 struct WelcomeView: View {
     
     
@@ -31,6 +33,7 @@ struct WelcomeView: View {
             
             print("todays daily steps are: ")
             print(returnCount)
+            passSteps = returnCount
             
         }
     }

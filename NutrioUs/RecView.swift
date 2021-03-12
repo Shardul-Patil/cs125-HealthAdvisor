@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import SwiftUICharts
 
 typealias queryRecs = (_ queryRecs:Bool) -> Void
 
@@ -26,12 +27,20 @@ struct RecView: View {
     let db = Firestore.firestore()
     
     var body: some View {
-        Text("Diet Plan: \(dietPlan)")
-        Text("Looks like you still need:")
+        Text("Diet Plan: \(dietPlan)").offset(y: -20)
+        Text("You still need...").font(.largeTitle).offset(y: -10)
         Text("\(Int(passCal)) calories")
-        Text("\(Int(passCarbs)) grams of carbs")
-        Text("\(Int(passFat)) grams of fat")
-        Text("\(Int(passProtein)) grams of protein")
+        
+        BarChartView(data: ChartData(values: [
+                    ("carbs", Int(trackCarbs)),
+                    ("protein", Int(trackProtein)),
+                    ("fats", Int(trackFat))
+                    ]),
+        title: "Remaining Nutrients",form: ChartForm.medium).padding(.bottom, 10).padding(.top, 10)
+        
+//        Text("\(Int(passCarbs)) grams of carbs")
+//        Text("\(Int(passFat)) grams of fat")
+//        Text("\(Int(passProtein)) grams of protein")
         if (queryDone == false){
             let _ = queryFirebase { (queryRecs) in
                 if queryRecs {
@@ -46,7 +55,6 @@ struct RecView: View {
                     Text(item)
                 }
             }
-            //Text("0: \(recList[0])")
         }
     }
     
@@ -54,7 +62,7 @@ struct RecView: View {
         let foodRef = db.collection("Food")
         
         let calv = Int(passCal)/2
-        let caldiff = Double(calv)*0.15
+        let caldiff = Double(calv)*0.1
         let calmin = Double(calv) - caldiff
         let calmax = Double(calv) + caldiff
         
@@ -74,7 +82,7 @@ struct RecView: View {
                         let f = round(document.data()["fats"]! as! Double)
                         let p = round(document.data()["protein"]! as! Double)
                         recList.append(
-                            "\(docId), from \(rest), cal: \(c), carbs: \(car), protein: \(p), fat: \(f)")
+                            "\(docId)\nfrom \(rest)\n\(c) cal, \(car)g carbs, \(p)g protein, \(f)g fat")
                     }
                     completionHandler(true)
                 }

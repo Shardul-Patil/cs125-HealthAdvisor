@@ -83,7 +83,7 @@ struct HomeView: View {
             
             Text("NutriosUs")
                 .offset(y: -75)
-            
+    
             // Debugging only, we will not display userId to the user.
             //Text("Login UID:")
             //Text(userId!)
@@ -99,7 +99,6 @@ struct HomeView: View {
                                                 carbs: Double(macroDict["carbs"]!),
                                                 fat: Double(macroDict["fats"]!),
                                                 protein: Double(macroDict["protein"]!))
-                        
                         readCont = true
                     }
                 }
@@ -134,6 +133,9 @@ struct HomeView: View {
                             ("fats", trackFat)
                             ]),
                 title: "Today's Nutrition Goal",form: ChartForm.medium).offset(y: -75).padding(.bottom, 10).padding(.top, 10)
+                
+                Text("Steps walked: \(passSteps)")
+                    .offset(y: -75)
                 
                 TextField("Add Food", text: $queryFood)
                     .padding()
@@ -172,7 +174,7 @@ struct HomeView: View {
             }
             
             if (foodNutritionFound == true){
-                Text("Displaying Food Nutrition for: \(currentFoodGlobal)").offset(y: -75)
+                Text("Food Nutrition for: \(currentFoodGlobal)").offset(y: -75)
                 Text("Calories: "+String(round(calorieGlobal!))).offset(y: -75)
                 Text("Carbs: "+String(round(carbGlobal!))).offset(y: -75)
                 Text("Fats: "+String(round(fatGlobal!))).offset(y: -75)
@@ -180,7 +182,7 @@ struct HomeView: View {
                 
                 let _ = subtractNutrition(cals: calorieGlobal!, carbs: carbGlobal!, fat: fatGlobal!, protein: proteinGlobal!)
                 let _ = print("cals after subtract: \(trackCal)")
-                let _ = foodNutritionFound.toggle()
+                //let _ = foodNutritionFound.toggle()
             }
         }
         
@@ -197,6 +199,7 @@ struct HomeView: View {
     
     func updateNutrition(cals:Double, carbs:Double, fat:Double, protein:Double){
         trackCal = cals
+        trackCal += round(Double(passSteps) * 0.05)
         trackCarbs = carbs
         trackFat = fat
         trackProtein = protein
@@ -384,7 +387,7 @@ struct GetRecsButtonContent : View {
         HStack {
             Image(systemName: "plus.message.fill")
                 .font(.title)
-            Text("Get Recs")
+            Text("Get Recommendations")
                 .fontWeight(.semibold)
                 .font(.title3)
         }
