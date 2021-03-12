@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import HealthKit
 
 @main
 struct NutrioUsApp: App {

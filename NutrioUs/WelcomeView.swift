@@ -6,8 +6,37 @@
 //
 
 import SwiftUI
+import HealthKit
 
 struct WelcomeView: View {
+    
+    
+    //start of Health App Access
+    private var healthStore: HealthStore? //wrapper
+    
+    init(){
+        healthStore = HealthStore()
+    }
+    
+    
+    private func updateUIFromStatistics(statisticsCollection: HKStatisticsCollection){
+        let endDate = Date()
+        
+        
+        statisticsCollection.enumerateStatistics(from: endDate, to: endDate) { (statistics, stop) in
+            let count = statistics.sumQuantity()?.doubleValue(for: .count())
+            
+            let returnCount = Int(count ?? 0)
+            
+            print("todays daily steps are: ")
+            print(returnCount)
+            
+        }
+    }
+    //end of health App Access
+    
+    
+    
     var body: some View {
 
         NavigationView() {
@@ -28,7 +57,32 @@ struct WelcomeView: View {
                     SignupButtonContent()
                                        }
             }
+
         }.navigationViewStyle(StackNavigationViewStyle())
+        
+        
+        //HealthKit Access Authorization
+        //Source: YouTube  @azamsharp
+        .onAppear {
+            if let healthStore = healthStore {
+                healthStore.requestAuthorization {success in
+                    if success{
+                        healthStore.calculateSteps{statisticsCollection in
+                            if let statisticsCollection = statisticsCollection{
+                                //update UI with statisticsCollection
+                                //print(statisticsCollection)
+                                //if user authorizes access to the health app, it will fetch data inside uppdateUIFromStatistics when this view loads
+                                updateUIFromStatistics(statisticsCollection: statisticsCollection)
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        //HealthKit Access Authorization Done
+        
+        
     }
 }
 
