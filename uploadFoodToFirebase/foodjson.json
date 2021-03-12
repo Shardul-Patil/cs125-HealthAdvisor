@@ -1,0 +1,5749 @@
+{
+  "Arrowhead Water (16 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Sprite (12 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 140,
+    "fats": 0,
+    "carbs": 38,
+    "protein": 0
+  },
+  "Coke (12 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 140,
+    "fats": 0,
+    "carbs": 39,
+    "protein": 0
+  },
+  "Gatorade Lemon Lime (20 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 60,
+    "fats": 0,
+    "carbs": 14,
+    "protein": 0
+  },
+  "Gatorade Orange (20 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 80,
+    "fats": 0,
+    "carbs": 22,
+    "protein": 0
+  },
+  "Arizona Mucho Mango (24 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Rockstar (16 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 278.4,
+    "fats": 1.06,
+    "carbs": 60.96,
+    "protein": 1.63
+  },
+  "Rockstar Sugar Free (24 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 278.4,
+    "fats": 1.06,
+    "carbs": 60.96,
+    "protein": 1.63
+  },
+  "Red Bull (8.4 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 110.94,
+    "fats": 0,
+    "carbs": 26.39,
+    "protein": 1.19
+  },
+  "Red Bull Sugar Free (8.4 Oz)": {
+    "restaurant": "Ippo Sushi",
+    "calories": 12.5,
+    "fats": 0.2,
+    "carbs": 1.75,
+    "protein": 0.63
+  },
+  "Miso Soup": {
+    "restaurant": "Delsushi",
+    "calories": 58.95,
+    "fats": 2.97,
+    "carbs": 3.53,
+    "protein": 5.79
+  },
+  "Edamame": {
+    "restaurant": "Delsushi",
+    "calories": 93.78,
+    "fats": 4.03,
+    "carbs": 6.91,
+    "protein": 9.23
+  },
+  "Egg Rolls": {
+    "restaurant": "Ippo Sushi",
+    "calories": 222.5,
+    "fats": 10.63,
+    "carbs": 24.29,
+    "protein": 7.37
+  },
+  "California Roll": {
+    "restaurant": "Delsushi",
+    "calories": 348.54,
+    "fats": 18.75,
+    "carbs": 37.89,
+    "protein": 7.81
+  },
+  "Spicy California Roll": {
+    "restaurant": "Delsushi",
+    "calories": 356.45,
+    "fats": 19.2,
+    "carbs": 36.33,
+    "protein": 11.28
+  },
+  "Spicy Tuna Roll": {
+    "restaurant": "Delsushi",
+    "calories": 379.52,
+    "fats": 19.45,
+    "carbs": 25.83,
+    "protein": 23.11
+  },
+  "Tuna Roll": {
+    "restaurant": "Delsushi",
+    "calories": 193.9,
+    "fats": 0.77,
+    "carbs": 21.27,
+    "protein": 24.01
+  },
+  "Philly Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 390.88,
+    "fats": 13.53,
+    "carbs": 54.89,
+    "protein": 11
+  },
+  "Crunchy Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Irvine Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Salmon Roll": {
+    "restaurant": "Delsushi",
+    "calories": 278.05,
+    "fats": 11.76,
+    "carbs": 21.27,
+    "protein": 20.63
+  },
+  "Sunrise Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Ippo Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Oishii Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Tuna Lover": {
+    "restaurant": "Ippo Sushi",
+    "calories": 110.5,
+    "fats": 0.5,
+    "carbs": 0,
+    "protein": 24.78
+  },
+  "Island Roll": {
+    "restaurant": "Ippo Sushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Baked Salmon Roll": {
+    "restaurant": "Delsushi",
+    "calories": 590.78,
+    "fats": 36.44,
+    "carbs": 30.97,
+    "protein": 34.21
+  },
+  "Beef Bowl": {
+    "restaurant": "Ippo Sushi",
+    "calories": 1319.2,
+    "fats": 89.35,
+    "carbs": 0,
+    "protein": 119.77
+  },
+  "Chicken Bowl": {
+    "restaurant": "Ippo Sushi",
+    "calories": 594,
+    "fats": 35.29,
+    "carbs": 0.14,
+    "protein": 64.69
+  },
+  "Beef Bowl Combo": {
+    "restaurant": "Ippo Sushi",
+    "calories": 1319.2,
+    "fats": 89.35,
+    "carbs": 0,
+    "protein": 119.77
+  },
+  "Chicken Bowl Combo": {
+    "restaurant": "Ippo Sushi",
+    "calories": 594,
+    "fats": 35.29,
+    "carbs": 0.14,
+    "protein": 64.69
+  },
+  "M & M's": {
+    "restaurant": "Ippo Sushi",
+    "calories": 236.16,
+    "fats": 10.14,
+    "carbs": 34.17,
+    "protein": 2.08
+  },
+  "Milky Way": {
+    "restaurant": "Ippo Sushi",
+    "calories": 264.48,
+    "fats": 9.99,
+    "carbs": 41.28,
+    "protein": 2.33
+  },
+  "Skittles": {
+    "restaurant": "Ippo Sushi",
+    "calories": 251.1,
+    "fats": 2.71,
+    "carbs": 56.28,
+    "protein": 0.12
+  },
+  "Snickers": {
+    "restaurant": "Ippo Sushi",
+    "calories": 279.87,
+    "fats": 13.59,
+    "carbs": 35.06,
+    "protein": 4.29
+  },
+  "Starburst": {
+    "restaurant": "Ippo Sushi",
+    "calories": 160,
+    "fats": 3,
+    "carbs": 34,
+    "protein": 0
+  },
+  "Twix": {
+    "restaurant": "Ippo Sushi",
+    "calories": 291.16,
+    "fats": 14.41,
+    "carbs": 37.58,
+    "protein": 2.85
+  },
+  "3 Musketeers": {
+    "restaurant": "Ippo Sushi",
+    "calories": 261.6,
+    "fats": 7.65,
+    "carbs": 46.66,
+    "protein": 1.56
+  },
+  "Garden Burger": {
+    "restaurant": "Anthill Pub",
+    "calories": 364.75,
+    "fats": 16.69,
+    "carbs": 36.28,
+    "protein": 17.69
+  },
+  "Chicken Sandwich": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 467.5,
+    "fats": 20.93,
+    "carbs": 39.06,
+    "protein": 30.44
+  },
+  "Grilled Cheese": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 365.76,
+    "fats": 22.88,
+    "carbs": 28.41,
+    "protein": 11.74
+  },
+  "Grilled Ham and Cheese": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 516.9,
+    "fats": 32,
+    "carbs": 28.41,
+    "protein": 28.18
+  },
+  "Tuna Melt": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 551.45,
+    "fats": 25.45,
+    "carbs": 43.35,
+    "protein": 36.08
+  },
+  "Patty Melt": {
+    "restaurant": "Anthill Pub",
+    "calories": 899.4,
+    "fats": 56.63,
+    "carbs": 46.04,
+    "protein": 49.94
+  },
+  "Quesadilla": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 713.92,
+    "fats": 44.78,
+    "carbs": 46.77,
+    "protein": 30.9
+  },
+  "Veggie Quesdilla": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Chicken Quesadilla": {
+    "restaurant": "Anthill Pub",
+    "calories": 1069.07,
+    "fats": 50.2,
+    "carbs": 92.46,
+    "protein": 60.53
+  },
+  "French Fries": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 365.04,
+    "fats": 17.23,
+    "carbs": 48.48,
+    "protein": 4.01
+  },
+  "2 Fillings Omelet": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 646.94,
+    "fats": 50.64,
+    "carbs": 2.79,
+    "protein": 42.26
+  },
+  "Breakfast Burrito": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 656.82,
+    "fats": 28.07,
+    "carbs": 72.25,
+    "protein": 28.72
+  },
+  "Breakfast Quesadilla": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 713.92,
+    "fats": 44.78,
+    "carbs": 46.77,
+    "protein": 30.9
+  },
+  "P and A Muffin": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 423.75,
+    "fats": 18.16,
+    "carbs": 59.89,
+    "protein": 5.07
+  },
+  "French Toast Slice": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 188.5,
+    "fats": 9.2,
+    "carbs": 19.89,
+    "protein": 6.26
+  },
+  "Pancake": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 90.8,
+    "fats": 3.88,
+    "carbs": 11.32,
+    "protein": 2.56
+  },
+  "Egg": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 71.5,
+    "fats": 4.76,
+    "carbs": 0.36,
+    "protein": 6.28
+  },
+  "2 Bacon": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 107.64,
+    "fats": 8.07,
+    "carbs": 0.39,
+    "protein": 7.8
+  },
+  "Sausage": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 210.12,
+    "fats": 19.2,
+    "carbs": 0.64,
+    "protein": 8.15
+  },
+  "Home Fried Potatoes": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 365.04,
+    "fats": 17.23,
+    "carbs": 48.48,
+    "protein": 4.01
+  },
+  "Hot Cereal": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 150.04,
+    "fats": 0.97,
+    "carbs": 33.15,
+    "protein": 4.84
+  },
+  "Toast Slice": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 63.8,
+    "fats": 0.88,
+    "carbs": 11.99,
+    "protein": 1.98
+  },
+  "English Muffin": {
+    "restaurant": "Dunkin",
+    "calories": 133.95,
+    "fats": 1.03,
+    "carbs": 26.22,
+    "protein": 4.39
+  },
+  "Bagel": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 277.2,
+    "fats": 1.39,
+    "carbs": 55,
+    "protein": 11.09
+  },
+  "Fresh Fruit": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 96.62,
+    "fats": 0.47,
+    "carbs": 24.48,
+    "protein": 1.36
+  },
+  "Cold Cereal": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 105.28,
+    "fats": 1.88,
+    "carbs": 20.5,
+    "protein": 3.39
+  },
+  "Monday Special Chicken Noodles": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Monday Special 2 Pancakes": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 181.6,
+    "fats": 7.76,
+    "carbs": 22.64,
+    "protein": 5.12
+  },
+  "Monday Special Chicken and Mushrooms": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Monday Special Herbed Mustard Salmon Salad": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 3,
+    "fats": 0.17,
+    "carbs": 0.29,
+    "protein": 0.19
+  },
+  "Monday Special Guacamole Cheeseburger": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 45.26,
+    "fats": 4.09,
+    "carbs": 2.55,
+    "protein": 0.55
+  },
+  "Tuesday Special Cheese Potato and Bacon": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 261.33,
+    "fats": 16.57,
+    "carbs": 20.81,
+    "protein": 7.59
+  },
+  "Tuesday Special Biscuits and Gravy": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 376.29,
+    "fats": 20.56,
+    "carbs": 34.21,
+    "protein": 13.6
+  },
+  "Tuesday Special Corned Beef and Cabbage": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 336.07,
+    "fats": 15.2,
+    "carbs": 31.52,
+    "protein": 18.47
+  },
+  "Tuesday Special Rish Lamb Stew": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 520.93,
+    "fats": 35.33,
+    "carbs": 23.41,
+    "protein": 28.43
+  },
+  "Tuesday Special Grilled Greek Chicken Sandwich on Wheat Bun": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 467.5,
+    "fats": 20.93,
+    "carbs": 39.06,
+    "protein": 30.44
+  },
+  "Wednesday Special Letils with Ham": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Wednesday Special Chorizo and Egg Burrito": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 128.99,
+    "fats": 10.85,
+    "carbs": 0.53,
+    "protein": 6.83
+  },
+  "Wednesday Special Spaghetti and Meatballs": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 801.12,
+    "fats": 29.73,
+    "carbs": 99.18,
+    "protein": 33.24
+  },
+  "Wednesday Special Grilled Chicken with Muhrooms and Swiss over Greens": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 284.16,
+    "fats": 6.51,
+    "carbs": 0,
+    "protein": 56.64
+  },
+  "Wednesday Special Pastrami Reuben Sandwich": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 689.66,
+    "fats": 41.39,
+    "carbs": 38.13,
+    "protein": 39.99
+  },
+  "Thursday Special Chicken Tortilla": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Thursday Special Denver Omelet": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 380.25,
+    "fats": 33.07,
+    "carbs": 3.26,
+    "protein": 17.75
+  },
+  "Thursday Special Pork Carnitas Plate": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 341.76,
+    "fats": 24.87,
+    "carbs": 3.88,
+    "protein": 24.53
+  },
+  "Thursday Special Chicken Enchiladas": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 268.4,
+    "fats": 9.89,
+    "carbs": 30.26,
+    "protein": 13.73
+  },
+  "Thursday Special Honey Mustard Turkey and Cranberry Wrap": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 139.2,
+    "fats": 12.25,
+    "carbs": 7,
+    "protein": 0.26
+  },
+  "Friday Special Roasted Tomato Bisque": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 284.93,
+    "fats": 22.6,
+    "carbs": 18.16,
+    "protein": 6.74
+  },
+  "Friday Special French Toast": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 219.42,
+    "fats": 10.71,
+    "carbs": 23.15,
+    "protein": 7.28
+  },
+  "Friday Special Blackened Red Snapper": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 217.6,
+    "fats": 2.92,
+    "carbs": 0,
+    "protein": 44.71
+  },
+  "Friday Special Tuna and Dill Pickle Salad Sandwich": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 110.5,
+    "fats": 0.5,
+    "carbs": 0,
+    "protein": 24.78
+  },
+  "Friday Special Beef Taco Salad": {
+    "restaurant": "Crystal Cove Cafe",
+    "calories": 870.48,
+    "fats": 46.9,
+    "carbs": 78.1,
+    "protein": 38.77
+  },
+  "Classic Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 540.14,
+    "fats": 26.56,
+    "carbs": 40.27,
+    "protein": 34.28
+  },
+  "Jalapeno Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 543.53,
+    "fats": 28.76,
+    "carbs": 41.09,
+    "protein": 30.53
+  },
+  "Portobello Patty Melt": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 14.62,
+    "fats": 0.29,
+    "carbs": 2.24,
+    "protein": 1.65
+  },
+  "Cowboy Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 540.14,
+    "fats": 26.56,
+    "carbs": 40.27,
+    "protein": 34.28
+  },
+  "Jjang Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 540.14,
+    "fats": 26.56,
+    "carbs": 40.27,
+    "protein": 34.28
+  },
+  "Bacon": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "BBQ Sauce": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 58.48,
+    "fats": 0.21,
+    "carbs": 13.86,
+    "protein": 0.28
+  },
+  "Cheddar": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 114.53,
+    "fats": 9.44,
+    "carbs": 0.88,
+    "protein": 6.48
+  },
+  "Fried Egg": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 90.16,
+    "fats": 6.83,
+    "carbs": 0.38,
+    "protein": 6.26
+  },
+  "Grilled Zucchini": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 74.17,
+    "fats": 5.36,
+    "carbs": 6.1,
+    "protein": 2.59
+  },
+  "Pepper jack": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 104.44,
+    "fats": 8.48,
+    "carbs": 0.19,
+    "protein": 6.85
+  },
+  "Swiss": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 424.44,
+    "fats": 33.47,
+    "carbs": 1.56,
+    "protein": 29.12
+  },
+  "Roasted Red Peppers": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 61.76,
+    "fats": 3.6,
+    "carbs": 7.64,
+    "protein": 1.05
+  },
+  "Super Spicy Sauce": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 66,
+    "fats": 2.13,
+    "carbs": 9.81,
+    "protein": 1.83
+  },
+  "Portobelld Mushrooms": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 3.36,
+    "fats": 0.06,
+    "carbs": 0.63,
+    "protein": 0.26
+  },
+  "Fish N Chips": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 687.52,
+    "fats": 25.55,
+    "carbs": 70.54,
+    "protein": 42.83
+  },
+  "Acuna Chicken Sanswich": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "BBQ Glazed Chicken Breast": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 418.32,
+    "fats": 11.01,
+    "carbs": 46.66,
+    "protein": 32.84
+  },
+  "Loaded BLT": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 447.18,
+    "fats": 28.16,
+    "carbs": 26.74,
+    "protein": 20.42
+  },
+  "Chicken Tenders": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 111.74,
+    "fats": 6.15,
+    "carbs": 7.14,
+    "protein": 6.99
+  },
+  "Bratwurst": {
+    "restaurant": "Anthill Pub",
+    "calories": 283.05,
+    "fats": 24.8,
+    "carbs": 2.42,
+    "protein": 11.66
+  },
+  "Chicken Wings": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 87.74,
+    "fats": 6.51,
+    "carbs": 2.64,
+    "protein": 4.53
+  },
+  "Bulgogi Fries": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 333.75,
+    "fats": 20.67,
+    "carbs": 11.85,
+    "protein": 25.03
+  },
+  "Stoner Tots": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 161.28,
+    "fats": 7.6,
+    "carbs": 22.92,
+    "protein": 1.79
+  },
+  "Stoner Fries": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 365.04,
+    "fats": 17.23,
+    "carbs": 48.48,
+    "protein": 4.01
+  },
+  "Nachos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 1233.77,
+    "fats": 96.18,
+    "carbs": 26.46,
+    "protein": 67.11
+  },
+  "Chips N Salsa": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Sweet Potato Fries": {
+    "restaurant": "Anthill Pub",
+    "calories": 149.31,
+    "fats": 10.79,
+    "carbs": 12.4,
+    "protein": 0.83
+  },
+  "Fried Zucchini": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 18.86,
+    "fats": 0.98,
+    "carbs": 1.97,
+    "protein": 0.59
+  },
+  "Mozzarella Sticks": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 100.75,
+    "fats": 5.68,
+    "carbs": 7.79,
+    "protein": 4.57
+  },
+  "Onion Rings": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 1003.92,
+    "fats": 54.37,
+    "carbs": 114.83,
+    "protein": 13.79
+  },
+  "Hand-Cut Fries": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 365.04,
+    "fats": 17.23,
+    "carbs": 48.48,
+    "protein": 4.01
+  },
+  "Tater Tots": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 161.28,
+    "fats": 7.6,
+    "carbs": 22.92,
+    "protein": 1.79
+  },
+  "Garlic- Parmesan Fries": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 4.47,
+    "fats": 0.02,
+    "carbs": 0.99,
+    "protein": 0.19
+  },
+  "Kettle Chips with Chipotle Mayo": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Cali Burrito": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 433.8,
+    "fats": 16.39,
+    "carbs": 56.32,
+    "protein": 16.94
+  },
+  "Bulgogi Tacos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 333.75,
+    "fats": 20.67,
+    "carbs": 11.85,
+    "protein": 25.03
+  },
+  "Asada Tacos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 210.12,
+    "fats": 9.95,
+    "carbs": 20.63,
+    "protein": 9.44
+  },
+  "Crispy Fish Tacos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 243.52,
+    "fats": 11.96,
+    "carbs": 18.08,
+    "protein": 16.45
+  },
+  "Grilled Chicken Tacos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 185.22,
+    "fats": 6.22,
+    "carbs": 19.3,
+    "protein": 13.03
+  },
+  "Cheese Quesadilla": {
+    "restaurant": "Anthill Pub",
+    "calories": 713.92,
+    "fats": 44.78,
+    "carbs": 46.77,
+    "protein": 30.9
+  },
+  "Steak Quesadilla": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 1192.08,
+    "fats": 66.4,
+    "carbs": 92.46,
+    "protein": 55.24
+  },
+  "Grilled Chicken Quesadilla": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 1069.07,
+    "fats": 50.2,
+    "carbs": 92.46,
+    "protein": 60.53
+  },
+  "Bacon Swiss Chicken Wrap": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "4 Cheese Grilled Cheese": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 452.48,
+    "fats": 37.31,
+    "carbs": 3.46,
+    "protein": 25.61
+  },
+  "Portobello Quesadilla": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 14.62,
+    "fats": 0.29,
+    "carbs": 2.24,
+    "protein": 1.65
+  },
+  "Potato Tacos": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 211.13,
+    "fats": 13.83,
+    "carbs": 18.92,
+    "protein": 4.32
+  },
+  "Portobello Mushroom Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 362.24,
+    "fats": 16.98,
+    "carbs": 37.71,
+    "protein": 14.85
+  },
+  "Veggie Burrito": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 650.64,
+    "fats": 20.95,
+    "carbs": 95.45,
+    "protein": 23.82
+  },
+  "Roasted Garlic Quinoa Burger": {
+    "restaurant": "Anthill Pub & Grille",
+    "calories": 4.47,
+    "fats": 0.02,
+    "carbs": 0.99,
+    "protein": 0.19
+  },
+  "Pad Thai": {
+    "restaurant": "Thai Style",
+    "calories": 838.4,
+    "fats": 44.65,
+    "carbs": 45.59,
+    "protein": 64.07
+  },
+  "Pad Kee Mao": {
+    "restaurant": "Thai Style",
+    "calories": 748.32,
+    "fats": 22.78,
+    "carbs": 101.79,
+    "protein": 33.68
+  },
+  "Pad See-Ew": {
+    "restaurant": "Thai Style",
+    "calories": 733.14,
+    "fats": 29.62,
+    "carbs": 77.56,
+    "protein": 38.11
+  },
+  "Kua Noodle": {
+    "restaurant": "Thai Style",
+    "calories": 195.92,
+    "fats": 1.15,
+    "carbs": 38.27,
+    "protein": 7.19
+  },
+  "Spicy Basil Fried Rice": {
+    "restaurant": "Thai Style",
+    "calories": 273.09,
+    "fats": 5.65,
+    "carbs": 44.86,
+    "protein": 9.41
+  },
+  "Thai Fried Rice": {
+    "restaurant": "Thai Style",
+    "calories": 288.72,
+    "fats": 12.65,
+    "carbs": 34.87,
+    "protein": 8.55
+  },
+  "Yellow Curry Fried Rice": {
+    "restaurant": "Thai Style",
+    "calories": 238.38,
+    "fats": 4.06,
+    "carbs": 44.92,
+    "protein": 5.55
+  },
+  "Stir Fried Veggies": {
+    "restaurant": "Thai Style",
+    "calories": 170.55,
+    "fats": 10.89,
+    "carbs": 15.39,
+    "protein": 6.03
+  },
+  "Hummus & Pita": {
+    "restaurant": "Anthill Pub",
+    "calories": 267.09,
+    "fats": 6.62,
+    "carbs": 42.21,
+    "protein": 10.32
+  },
+  "Veggie Dip": {
+    "restaurant": "Anthill Pub",
+    "calories": 87.79,
+    "fats": 9.3,
+    "carbs": 0.74,
+    "protein": 0.54
+  },
+  "Deli Chips": {
+    "restaurant": "Anthill Pub",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Spicy Curly Fries": {
+    "restaurant": "Anthill Pub",
+    "calories": 530.4,
+    "fats": 25.04,
+    "carbs": 70.45,
+    "protein": 5.83
+  },
+  "Smothered Nachos": {
+    "restaurant": "Anthill Pub",
+    "calories": 1233.77,
+    "fats": 96.18,
+    "carbs": 26.46,
+    "protein": 67.11
+  },
+  "Chili Fries": {
+    "restaurant": "Anthill Pub",
+    "calories": 366.56,
+    "fats": 18.06,
+    "carbs": 43.99,
+    "protein": 7.09
+  },
+  "Garden Salad": {
+    "restaurant": "Anthill Pub",
+    "calories": 161.09,
+    "fats": 10.93,
+    "carbs": 14.82,
+    "protein": 2.31
+  },
+  "Caesar Salad": {
+    "restaurant": "Anthill Pub",
+    "calories": 481.43,
+    "fats": 39.7,
+    "carbs": 22.8,
+    "protein": 10.21
+  },
+  "Chicken Caesar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 508.32,
+    "fats": 28.41,
+    "carbs": 13.56,
+    "protein": 47.81
+  },
+  "Soup Of The Day": {
+    "restaurant": "Anthill Pub",
+    "calories": 62,
+    "fats": 2.36,
+    "carbs": 7.32,
+    "protein": 3.15
+  },
+  "Monday Chicken Noodle": {
+    "restaurant": "Anthill Pub",
+    "calories": 124,
+    "fats": 4.71,
+    "carbs": 14.63,
+    "protein": 6.3
+  },
+  "Tuesday Harvest Grain & Portabella Mushroom": {
+    "restaurant": "Anthill Pub",
+    "calories": 14.62,
+    "fats": 0.29,
+    "carbs": 2.24,
+    "protein": 1.65
+  },
+  "Wednesday Cream Of Asparagus": {
+    "restaurant": "Anthill Pub",
+    "calories": 101.32,
+    "fats": 10.75,
+    "carbs": 0.82,
+    "protein": 0.85
+  },
+  "Thursday Chicken Dumpling": {
+    "restaurant": "Anthill Pub",
+    "calories": 48.93,
+    "fats": 1.32,
+    "carbs": 5.73,
+    "protein": 3.49
+  },
+  "Friday New England Clam Chowder": {
+    "restaurant": "Anthill Pub",
+    "calories": 200.66,
+    "fats": 10.01,
+    "carbs": 21.03,
+    "protein": 6.63
+  },
+  "Saturday Shrimp And Corn Bisque": {
+    "restaurant": "Anthill Pub",
+    "calories": 5.95,
+    "fats": 0.09,
+    "carbs": 0.08,
+    "protein": 1.14
+  },
+  "Turkey Burger": {
+    "restaurant": "Anthill Pub",
+    "calories": 554.07,
+    "fats": 35.3,
+    "carbs": 25.5,
+    "protein": 33.5
+  },
+  "Angus Beef Burger": {
+    "restaurant": "Anthill Pub",
+    "calories": 540.14,
+    "fats": 26.56,
+    "carbs": 40.27,
+    "protein": 34.28
+  },
+  "Grilled Chicken Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 418.6,
+    "fats": 10.51,
+    "carbs": 38.59,
+    "protein": 39.88
+  },
+  "Hot Dog": {
+    "restaurant": "Anthill Pub",
+    "calories": 154.56,
+    "fats": 14.09,
+    "carbs": 1.28,
+    "protein": 5.61
+  },
+  "Beef Tacos": {
+    "restaurant": "Anthill Pub",
+    "calories": 293.46,
+    "fats": 14.49,
+    "carbs": 24.01,
+    "protein": 16.83
+  },
+  "Vegetarian Chili": {
+    "restaurant": "Anthill Pub",
+    "calories": 459.93,
+    "fats": 13.21,
+    "carbs": 70.25,
+    "protein": 21.61
+  },
+  "Chili Dog": {
+    "restaurant": "Anthill Pub",
+    "calories": 296.4,
+    "fats": 13.44,
+    "carbs": 31.29,
+    "protein": 13.51
+  },
+  "Salmon BLT": {
+    "restaurant": "Anthill Pub",
+    "calories": 655.46,
+    "fats": 39.83,
+    "carbs": 32.05,
+    "protein": 40.38
+  },
+  "Spicy Barbecue Chicken Sandwich": {
+    "restaurant": "Anthill Pub",
+    "calories": 367.99,
+    "fats": 7.22,
+    "carbs": 50.59,
+    "protein": 25.04
+  },
+  "BLT": {
+    "restaurant": "Anthill Pub",
+    "calories": 447.18,
+    "fats": 28.16,
+    "carbs": 26.74,
+    "protein": 20.42
+  },
+  "Rare Roast Beef": {
+    "restaurant": "Anthill Pub",
+    "calories": 10.7,
+    "fats": 0.34,
+    "carbs": 0.06,
+    "protein": 1.73
+  },
+  "Tavern Ham & Cheese": {
+    "restaurant": "Anthill Pub",
+    "calories": 516.9,
+    "fats": 32,
+    "carbs": 28.41,
+    "protein": 28.18
+  },
+  "Smoked Turkey Breast": {
+    "restaurant": "Anthill Pub",
+    "calories": 63.5,
+    "fats": 1.7,
+    "carbs": 4.37,
+    "protein": 7.65
+  },
+  "Chocolate Chip Cookie": {
+    "restaurant": "Anthill Pub",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Oatmeal Raisin Cookie": {
+    "restaurant": "Anthill Pub",
+    "calories": 137.61,
+    "fats": 5.03,
+    "carbs": 21.91,
+    "protein": 1.98
+  },
+  "Fudge Brownie": {
+    "restaurant": "Anthill Pub",
+    "calories": 233,
+    "fats": 14.55,
+    "carbs": 25.1,
+    "protein": 3.1
+  },
+  "Dole 100% Juice": {
+    "restaurant": "Anthill Pub",
+    "calories": 127.98,
+    "fats": 0,
+    "carbs": 31.19,
+    "protein": 0.31
+  },
+  "Lipton Iced Tea": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 128.45,
+    "fats": 0,
+    "carbs": 32.33,
+    "protein": 0
+  },
+  "Sobe Green Tea": {
+    "restaurant": "Anthill Pub",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Lee's Cafe Ca Phe Sua Da": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Iced Filtered French Coffee": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Iced Coffee Mocha": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Hot Filtered French Coffee w Condensed Milk": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Hot Filtered French Coffee": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Hot Coffee Mocha": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Hot Chocolate": {
+    "restaurant": "Dunkin",
+    "calories": 150.92,
+    "fats": 1.51,
+    "carbs": 31.67,
+    "protein": 2.52
+  },
+  "Lee's Cafe 64 oz.": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 18.96,
+    "fats": 0.38,
+    "carbs": 0,
+    "protein": 2.27
+  },
+  "Taro Drink": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 187.44,
+    "fats": 0.15,
+    "carbs": 45.67,
+    "protein": 0.69
+  },
+  "Honeydew Drink": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 460.8,
+    "fats": 1.79,
+    "carbs": 116.35,
+    "protein": 6.91
+  },
+  "Passion Fruit Drink": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Strawberry Fruit Drink": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 28.8,
+    "fats": 0.27,
+    "carbs": 6.91,
+    "protein": 0.6
+  },
+  "Thai Iced Tea": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 130.54,
+    "fats": 7.04,
+    "carbs": 15.69,
+    "protein": 1.94
+  },
+  "Honey Chrysanthemum Tea (Hot)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Honey Chrysanthemum Tea (Cold)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Soy Bean Milk (Hot)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 295.84,
+    "fats": 15.43,
+    "carbs": 14.38,
+    "protein": 31.32
+  },
+  "Soy Bean Milk (Cold)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 295.84,
+    "fats": 15.43,
+    "carbs": 14.38,
+    "protein": 31.32
+  },
+  "Lipton Tea (Hot)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Iced Mint Milk": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 7.88,
+    "fats": 0,
+    "carbs": 1.96,
+    "protein": 0
+  },
+  "Iced Mint Milk Grass Jelly": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 7.88,
+    "fats": 0,
+    "carbs": 1.96,
+    "protein": 0
+  },
+  "Fresh Carrot Juice": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 94.4,
+    "fats": 0.35,
+    "carbs": 21.9,
+    "protein": 2.24
+  },
+  "Fresh Squeezed Orange Juice": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 111.6,
+    "fats": 0.5,
+    "carbs": 25.79,
+    "protein": 1.74
+  },
+  "Fresh Squeezed Lemonade": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 98.8,
+    "fats": 0.1,
+    "carbs": 25.74,
+    "protein": 0.17
+  },
+  "Sodas": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 155.4,
+    "fats": 0.93,
+    "carbs": 38.33,
+    "protein": 0
+  },
+  "Italian Sodas": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 155.4,
+    "fats": 0.93,
+    "carbs": 38.33,
+    "protein": 0
+  },
+  "Avocado": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 321.6,
+    "fats": 29.47,
+    "carbs": 17.15,
+    "protein": 4.02
+  },
+  "Strawberry": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 28.8,
+    "fats": 0.27,
+    "carbs": 6.91,
+    "protein": 0.6
+  },
+  "Durian": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 357.21,
+    "fats": 12.95,
+    "carbs": 65.83,
+    "protein": 3.57
+  },
+  "Soursop": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 148.5,
+    "fats": 0.68,
+    "carbs": 37.89,
+    "protein": 2.25
+  },
+  "Jackfruit": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 156.75,
+    "fats": 1.06,
+    "carbs": 38.36,
+    "protein": 2.84
+  },
+  "Taro": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 187.44,
+    "fats": 0.15,
+    "carbs": 45.67,
+    "protein": 0.69
+  },
+  "Papaya": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 62.35,
+    "fats": 0.38,
+    "carbs": 15.69,
+    "protein": 0.68
+  },
+  "Peach": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Pineapple": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 41.25,
+    "fats": 0.1,
+    "carbs": 10.82,
+    "protein": 0.45
+  },
+  "Sapodilla": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 141.1,
+    "fats": 1.87,
+    "carbs": 33.93,
+    "protein": 0.75
+  },
+  "Cantaloupe": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 187.68,
+    "fats": 1.05,
+    "carbs": 45.04,
+    "protein": 4.64
+  },
+  "Apple": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 94.64,
+    "fats": 0.31,
+    "carbs": 25.13,
+    "protein": 0.47
+  },
+  "Kiwi": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 42.09,
+    "fats": 0.36,
+    "carbs": 10.12,
+    "protein": 0.79
+  },
+  "Mint": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 7.88,
+    "fats": 0,
+    "carbs": 1.96,
+    "protein": 0
+  },
+  "Orange": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Banana": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 105.02,
+    "fats": 0.39,
+    "carbs": 26.95,
+    "protein": 1.29
+  },
+  "Coconut": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 387.6,
+    "fats": 23.79,
+    "carbs": 44.07,
+    "protein": 2.66
+  },
+  "Honeydew": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 460.8,
+    "fats": 1.79,
+    "carbs": 116.35,
+    "protein": 6.91
+  },
+  "Passion Fruit": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Green Bean": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 43.75,
+    "fats": 0.35,
+    "carbs": 9.85,
+    "protein": 2.36
+  },
+  "Red Bean": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 224.79,
+    "fats": 0.89,
+    "carbs": 40.36,
+    "protein": 15.35
+  },
+  "Mango": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Raspberry": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 1.04,
+    "fats": 0.01,
+    "carbs": 0.24,
+    "protein": 0.02
+  },
+  "Carrot": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 16.1,
+    "fats": 0.08,
+    "carbs": 3.78,
+    "protein": 0.35
+  },
+  "Cranberry": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 50.6,
+    "fats": 0.14,
+    "carbs": 13.17,
+    "protein": 0.51
+  },
+  "Lychee": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 125.4,
+    "fats": 0.84,
+    "carbs": 31.41,
+    "protein": 1.58
+  },
+  "Grape": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 33.81,
+    "fats": 0.08,
+    "carbs": 8.87,
+    "protein": 0.35
+  },
+  "Watermelon": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 85.8,
+    "fats": 0.43,
+    "carbs": 21.59,
+    "protein": 1.74
+  },
+  "Thai Tea": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 130.54,
+    "fats": 7.04,
+    "carbs": 15.69,
+    "protein": 1.94
+  },
+  "Orange Banana": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Pennyworth Green Bean": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 43.75,
+    "fats": 0.35,
+    "carbs": 9.85,
+    "protein": 2.36
+  },
+  "Mocha": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 359.44,
+    "fats": 13.2,
+    "carbs": 47.13,
+    "protein": 13.49
+  },
+  "Add Whipped Cream": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 15.42,
+    "fats": 1.33,
+    "carbs": 0.75,
+    "protein": 0.19
+  },
+  "Add Grass Jelly": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 8.21,
+    "fats": 0.02,
+    "carbs": 1.31,
+    "protein": 0.75
+  },
+  "Pork & Shrimp Egg Rolls (5 Pcs)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 202.3,
+    "fats": 11.81,
+    "carbs": 0,
+    "protein": 22.41
+  },
+  "Hot Wings (5 Pcs)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 87.74,
+    "fats": 6.51,
+    "carbs": 2.64,
+    "protein": 4.53
+  },
+  "Hot Wings (20 Pcs)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 87.74,
+    "fats": 6.51,
+    "carbs": 2.64,
+    "protein": 4.53
+  },
+  "Shrimp & Pork Spring Rolls (2)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 5.95,
+    "fats": 0.09,
+    "carbs": 0.08,
+    "protein": 1.14
+  },
+  "Vegetarian Rolls (2)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Pork & Egg Steamed Bun": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 202.3,
+    "fats": 11.81,
+    "carbs": 0,
+    "protein": 22.41
+  },
+  "Large Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 881.28,
+    "fats": 7.84,
+    "carbs": 168.09,
+    "protein": 34.83
+  },
+  "Mini Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 413.44,
+    "fats": 3.68,
+    "carbs": 78.86,
+    "protein": 16.34
+  },
+  "Baguette End in Bag": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 881.28,
+    "fats": 7.84,
+    "carbs": 168.09,
+    "protein": 34.83
+  },
+  "French Creamy Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 881.28,
+    "fats": 7.84,
+    "carbs": 168.09,
+    "protein": 34.83
+  },
+  "Butter Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 101.81,
+    "fats": 11.52,
+    "carbs": 0.01,
+    "protein": 0.12
+  },
+  "Garlic Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 881.28,
+    "fats": 7.84,
+    "carbs": 168.09,
+    "protein": 34.83
+  },
+  "Butter Croissant (Small)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 272.02,
+    "fats": 14.07,
+    "carbs": 30.69,
+    "protein": 5.49
+  },
+  "Butter Croissant (Large)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 272.02,
+    "fats": 14.07,
+    "carbs": 30.69,
+    "protein": 5.49
+  },
+  "Ham & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 398.07,
+    "fats": 23.46,
+    "carbs": 29.27,
+    "protein": 16.99
+  },
+  "Coconut Raisin Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 387.6,
+    "fats": 23.79,
+    "carbs": 44.07,
+    "protein": 2.66
+  },
+  "Almond Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 377.31,
+    "fats": 19.81,
+    "carbs": 43.16,
+    "protein": 7.93
+  },
+  "Danish": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 263.41,
+    "fats": 13.14,
+    "carbs": 33.94,
+    "protein": 3.83
+  },
+  "French Ham": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Chicken Pate Chaud (Small)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 26.13,
+    "fats": 1.7,
+    "carbs": 0.85,
+    "protein": 1.75
+  },
+  "Pork Pate Chaud (Large)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 202.3,
+    "fats": 11.81,
+    "carbs": 0,
+    "protein": 22.41
+  },
+  "Chicken Pate Chaud (Large)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 26.13,
+    "fats": 1.7,
+    "carbs": 0.85,
+    "protein": 1.75
+  },
+  "Muffin": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 423.75,
+    "fats": 18.16,
+    "carbs": 59.89,
+    "protein": 5.07
+  },
+  "Coconut Waffle": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 387.6,
+    "fats": 23.79,
+    "carbs": 44.07,
+    "protein": 2.66
+  },
+  "Cone": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 113.97,
+    "fats": 1.08,
+    "carbs": 23.84,
+    "protein": 2.24
+  },
+  "Waffle": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 218.25,
+    "fats": 10.58,
+    "carbs": 24.68,
+    "protein": 5.93
+  },
+  "Cheese (Extra)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 113.12,
+    "fats": 9.33,
+    "carbs": 0.87,
+    "protein": 6.4
+  },
+  "Bacon (Extra)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "Turkey & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 575.53,
+    "fats": 34.8,
+    "carbs": 40.71,
+    "protein": 25.27
+  },
+  "Ham Turkey & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Avocado (Extra)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 321.6,
+    "fats": 29.47,
+    "carbs": 17.15,
+    "protein": 4.02
+  },
+  "Pate (Extra)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 82.94,
+    "fats": 7.28,
+    "carbs": 0.39,
+    "protein": 3.69
+  },
+  "Roast Beef & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 10.7,
+    "fats": 0.34,
+    "carbs": 0.06,
+    "protein": 1.73
+  },
+  "Salami & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 37.04,
+    "fats": 3.1,
+    "carbs": 0.07,
+    "protein": 2.06
+  },
+  "Meat (Extra)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 255.82,
+    "fats": 13.52,
+    "carbs": 0.01,
+    "protein": 31.28
+  },
+  "Jambon & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 302.22,
+    "fats": 15.26,
+    "carbs": 34.31,
+    "protein": 6.72
+  },
+  "Lee's Club: Ham": {
+    "restaurant": "Turkey",
+    "calories": "Roast Beef & Cheese Croissant",
+    "fats": "Lee's Sandwich Shop",
+    "carbs": 186.26,
+    "protein": 6.83
+  },
+  "Ham-Turkey-Salami & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "BLT: Bacon-Lettuce-Tomato Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 447.18,
+    "fats": 28.16,
+    "carbs": 26.74,
+    "protein": 20.42
+  },
+  "Turkey-Roast Beef & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Tuna Almond Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 110.5,
+    "fats": 0.5,
+    "carbs": 0,
+    "protein": 24.78
+  },
+  "Jambon-Pate & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 82.94,
+    "fats": 7.28,
+    "carbs": 0.39,
+    "protein": 3.69
+  },
+  "Veggie Avocado Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Turkey Club Croissant (turkey plus bacon)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 816.94,
+    "fats": 46.16,
+    "carbs": 42.24,
+    "protein": 55.83
+  },
+  "Turkey-Salami & Cheese Croissant": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 48.16,
+    "fats": 2.58,
+    "carbs": 0.43,
+    "protein": 5.38
+  },
+  "Ham & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 517.26,
+    "fats": 21.37,
+    "carbs": 57.51,
+    "protein": 23.89
+  },
+  "Turkey & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Ham-Turkey & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Roast Beef & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 10.7,
+    "fats": 0.34,
+    "carbs": 0.06,
+    "protein": 1.73
+  },
+  "Veggie Avocado Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Turkey Club Baguette (turkey plus bacon)": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 816.94,
+    "fats": 46.16,
+    "carbs": 42.24,
+    "protein": 55.83
+  },
+  "Tuna Almond Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 110.5,
+    "fats": 0.5,
+    "carbs": 0,
+    "protein": 24.78
+  },
+  "Turkey-Salami & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 48.16,
+    "fats": 2.58,
+    "carbs": 0.43,
+    "protein": 5.38
+  },
+  "BLT: Bacon-Lettuce-Tomato Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 447.18,
+    "fats": 28.16,
+    "carbs": 26.74,
+    "protein": 20.42
+  },
+  "Jambon-Pate & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 82.94,
+    "fats": 7.28,
+    "carbs": 0.39,
+    "protein": 3.69
+  },
+  "Salami & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 37.04,
+    "fats": 3.1,
+    "carbs": 0.07,
+    "protein": 2.06
+  },
+  "Jambon & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 517.26,
+    "fats": 21.37,
+    "carbs": 57.51,
+    "protein": 23.89
+  },
+  "Ham-Turkey-Salami & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Turkey-Roast Beef & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Lee's Club: Ham-Turkey-Roast Beef & Cheese Baguette": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Lee's Combination Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 154.86,
+    "fats": 1.88,
+    "carbs": 28.23,
+    "protein": 6.22
+  },
+  "Special Combination Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 154.86,
+    "fats": 1.88,
+    "carbs": 28.23,
+    "protein": 6.22
+  },
+  "Pork Roll Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 184.84,
+    "fats": 16.16,
+    "carbs": 1.25,
+    "protein": 7.99
+  },
+  "Cured Pork Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 532.07,
+    "fats": 7.49,
+    "carbs": 80.9,
+    "protein": 34.21
+  },
+  "Grilled Pork Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 532.07,
+    "fats": 7.49,
+    "carbs": 80.9,
+    "protein": 34.21
+  },
+  "B.B.Q. Pork Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 532.07,
+    "fats": 7.49,
+    "carbs": 80.9,
+    "protein": 34.21
+  },
+  "Meatball Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 436.85,
+    "fats": 17.71,
+    "carbs": 41.37,
+    "protein": 26.97
+  },
+  "Shredded Pork Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 248.2,
+    "fats": 18.18,
+    "carbs": 0,
+    "protein": 19.79
+  },
+  "Sardine Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 24.96,
+    "fats": 1.37,
+    "carbs": 0,
+    "protein": 2.95
+  },
+  "Cured Pork & Pork Roll Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 202.3,
+    "fats": 11.81,
+    "carbs": 0,
+    "protein": 22.41
+  },
+  "Asian Veggie Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 560.4,
+    "fats": 39.88,
+    "carbs": 45.45,
+    "protein": 8.25
+  },
+  "Pork Roll & Pate Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 184.84,
+    "fats": 16.16,
+    "carbs": 1.25,
+    "protein": 7.99
+  },
+  "Pate Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 82.94,
+    "fats": 7.28,
+    "carbs": 0.39,
+    "protein": 3.69
+  },
+  "Jambon & Pork Roll Sandwich": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 184.84,
+    "fats": 16.16,
+    "carbs": 1.25,
+    "protein": 7.99
+  },
+  "Cured Pork & Pate": {
+    "restaurant": "Lee's Sandwich Shop",
+    "calories": 202.3,
+    "fats": 11.81,
+    "carbs": 0,
+    "protein": 22.41
+  },
+  "Bagel Thin Eggwhite Sandwiches": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 110.88,
+    "fats": 0.55,
+    "carbs": 22,
+    "protein": 4.44
+  },
+  "Chopped Salads": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 530.94,
+    "fats": 41.82,
+    "carbs": 25.13,
+    "protein": 17.89
+  },
+  "Low-Fat Smoothies": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 161.34,
+    "fats": 1.65,
+    "carbs": 33.72,
+    "protein": 5.48
+  },
+  "Soups": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 62,
+    "fats": 2.36,
+    "carbs": 7.32,
+    "protein": 3.15
+  },
+  "Bagel Thin Sandwiches": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 110.88,
+    "fats": 0.55,
+    "carbs": 22,
+    "protein": 4.44
+  },
+  "Bagel Thin Melts": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 110.88,
+    "fats": 0.55,
+    "carbs": 22,
+    "protein": 4.44
+  },
+  "Fruit": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 96.62,
+    "fats": 0.47,
+    "carbs": 24.48,
+    "protein": 1.36
+  },
+  "Deli Sandwiches": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 154.86,
+    "fats": 1.88,
+    "carbs": 28.23,
+    "protein": 6.22
+  },
+  "Signature Sandwiches": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 154.86,
+    "fats": 1.88,
+    "carbs": 28.23,
+    "protein": 6.22
+  },
+  "Signature Wraps": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Hot Paninis": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 622.64,
+    "fats": 31.43,
+    "carbs": 56.73,
+    "protein": 27.6
+  },
+  "Bagel Dogs": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 277.2,
+    "fats": 1.39,
+    "carbs": 55,
+    "protein": 11.09
+  },
+  "Pizza Bagels": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 50.1,
+    "fats": 1.52,
+    "carbs": 7.75,
+    "protein": 1.33
+  },
+  "Bagel Melts": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 277.2,
+    "fats": 1.39,
+    "carbs": 55,
+    "protein": 11.09
+  },
+  "Bagel Thin Varieties": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 110.88,
+    "fats": 0.55,
+    "carbs": 22,
+    "protein": 4.44
+  },
+  "Classic Bagels": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 277.2,
+    "fats": 1.39,
+    "carbs": 55,
+    "protein": 11.09
+  },
+  "Egg Sandwiches": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 366.51,
+    "fats": 19.12,
+    "carbs": 29.99,
+    "protein": 17.25
+  },
+  "Santa Fe Wrap": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Spicy Elmo Wrap": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Nova Lox & Bagel": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 99.45,
+    "fats": 3.67,
+    "carbs": 0,
+    "protein": 15.54
+  },
+  "Spinach & Bacon Panini": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 41.4,
+    "fats": 0.47,
+    "carbs": 6.75,
+    "protein": 5.35
+  },
+  "Green Chile & Turkey-Sausage Panini": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 18,
+    "fats": 0.2,
+    "carbs": 3.96,
+    "protein": 0.84
+  },
+  "Coffee Cake": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 263.34,
+    "fats": 14.68,
+    "carbs": 29.42,
+    "protein": 4.28
+  },
+  "Cookies": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Muffins": {
+    "restaurant": "Dunkin",
+    "calories": 423.75,
+    "fats": 18.16,
+    "carbs": 59.89,
+    "protein": 5.07
+  },
+  "Smoothies & Blenders": {
+    "restaurant": "Einstein Bros Bagels",
+    "calories": 161.34,
+    "fats": 1.65,
+    "carbs": 33.72,
+    "protein": 5.48
+  },
+  "Crispy Chicken Snack": {
+    "restaurant": "Cha for Tea",
+    "calories": 376.6,
+    "fats": 20.89,
+    "carbs": 4.41,
+    "protein": 39.98
+  },
+  "Dirty Cajun Dumplings": {
+    "restaurant": "Cha for Tea",
+    "calories": 73.65,
+    "fats": 1.72,
+    "carbs": 12.47,
+    "protein": 1.99
+  },
+  "Orange Tofu": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Dirty Cajun Sweet Potatoes Fries": {
+    "restaurant": "Cha for Tea",
+    "calories": 149.31,
+    "fats": 10.79,
+    "carbs": 12.4,
+    "protein": 0.83
+  },
+  "Crispy Dumplings": {
+    "restaurant": "Cha for Tea",
+    "calories": 73.65,
+    "fats": 1.72,
+    "carbs": 12.47,
+    "protein": 1.99
+  },
+  "Cha Tofu": {
+    "restaurant": "Cha for Tea",
+    "calories": 75.53,
+    "fats": 4.79,
+    "carbs": 1.07,
+    "protein": 9.08
+  },
+  "Pork Sausage": {
+    "restaurant": "Cha for Tea",
+    "calories": 149.5,
+    "fats": 12.54,
+    "carbs": 0.65,
+    "protein": 8.52
+  },
+  "Orange Chicken": {
+    "restaurant": "Cha for Tea",
+    "calories": 1697.76,
+    "fats": 82.17,
+    "carbs": 145.54,
+    "protein": 93.7
+  },
+  "Green Beans": {
+    "restaurant": "Cha for Tea",
+    "calories": 43.75,
+    "fats": 0.35,
+    "carbs": 9.85,
+    "protein": 2.36
+  },
+  "Cha Sweet Potato Fries": {
+    "restaurant": "Cha for Tea",
+    "calories": 149.31,
+    "fats": 10.79,
+    "carbs": 12.4,
+    "protein": 0.83
+  },
+  "Steamed Chicken Dumplings": {
+    "restaurant": "Cha for Tea",
+    "calories": 48.93,
+    "fats": 1.32,
+    "carbs": 5.73,
+    "protein": 3.49
+  },
+  "Orange Chicken Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 1697.76,
+    "fats": 82.17,
+    "carbs": 145.54,
+    "protein": 93.7
+  },
+  "Dumpling Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 73.65,
+    "fats": 1.72,
+    "carbs": 12.47,
+    "protein": 1.99
+  },
+  "Curry Chicken Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 243.26,
+    "fats": 10.86,
+    "carbs": 7.52,
+    "protein": 28.25
+  },
+  "Curry Tofu Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 172.89,
+    "fats": 12.41,
+    "carbs": 8.6,
+    "protein": 9.98
+  },
+  "Beef Stew Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 535.1,
+    "fats": 16.12,
+    "carbs": 41.28,
+    "protein": 57.91
+  },
+  "Grilled Chicken Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 284.16,
+    "fats": 6.51,
+    "carbs": 0,
+    "protein": 56.64
+  },
+  "Crispy Chicken Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 376.6,
+    "fats": 20.89,
+    "carbs": 4.41,
+    "protein": 39.98
+  },
+  "Tofu Spring Mix Salad": {
+    "restaurant": "Cha for Tea",
+    "calories": 75.53,
+    "fats": 4.79,
+    "carbs": 1.07,
+    "protein": 9.08
+  },
+  "Grill Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 284.16,
+    "fats": 6.51,
+    "carbs": 0,
+    "protein": 56.64
+  },
+  "Beef Stew Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 535.1,
+    "fats": 16.12,
+    "carbs": 41.28,
+    "protein": 57.91
+  },
+  "Pork Sausage Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 149.5,
+    "fats": 12.54,
+    "carbs": 0.65,
+    "protein": 8.52
+  },
+  "Basil Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 479.98,
+    "fats": 43.4,
+    "carbs": 0.54,
+    "protein": 22.26
+  },
+  "Orange Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 1697.76,
+    "fats": 82.17,
+    "carbs": 145.54,
+    "protein": 93.7
+  },
+  "Curry Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 243.26,
+    "fats": 10.86,
+    "carbs": 7.52,
+    "protein": 28.25
+  },
+  "Chicken Dumplings Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 48.93,
+    "fats": 1.32,
+    "carbs": 5.73,
+    "protein": 3.49
+  },
+  "Teriyaki Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 173.93,
+    "fats": 6.21,
+    "carbs": 3.08,
+    "protein": 24.58
+  },
+  "Crispy Chicken Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 376.6,
+    "fats": 20.89,
+    "carbs": 4.41,
+    "protein": 39.98
+  },
+  "Tofu Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 75.53,
+    "fats": 4.79,
+    "carbs": 1.07,
+    "protein": 9.08
+  },
+  "Green Beans Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 43.75,
+    "fats": 0.35,
+    "carbs": 9.85,
+    "protein": 2.36
+  },
+  "Orange Tofu Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Curry Tofu Entree": {
+    "restaurant": "Cha for Tea",
+    "calories": 172.89,
+    "fats": 12.41,
+    "carbs": 8.6,
+    "protein": 9.98
+  },
+  "Side Salad": {
+    "restaurant": "Chick-fil-A",
+    "calories": 147.98,
+    "fats": 12.52,
+    "carbs": 6.38,
+    "protein": 3.75
+  },
+  "Corn": {
+    "restaurant": "Cha for Tea",
+    "calories": 98.88,
+    "fats": 1.55,
+    "carbs": 21.61,
+    "protein": 3.51
+  },
+  "Sweet & Sour Sauce": {
+    "restaurant": "Cha for Tea",
+    "calories": 52.5,
+    "fats": 0.01,
+    "carbs": 13.38,
+    "protein": 0.09
+  },
+  "Salad Dressing": {
+    "restaurant": "Cha for Tea",
+    "calories": 129,
+    "fats": 13.36,
+    "carbs": 1.77,
+    "protein": 0.4
+  },
+  "Noodle": {
+    "restaurant": "Cha for Tea",
+    "calories": 195.92,
+    "fats": 1.15,
+    "carbs": 38.27,
+    "protein": 7.19
+  },
+  "Rice": {
+    "restaurant": "Cha for Tea",
+    "calories": 205.4,
+    "fats": 0.44,
+    "carbs": 44.51,
+    "protein": 4.25
+  },
+  "Black Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Honey Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Chai Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 4.87,
+    "fats": 0.06,
+    "carbs": 1.36,
+    "protein": 0.06
+  },
+  "Mango Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Fresh Handcrafted Coffee": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Almond Black Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 7.71,
+    "fats": 0.68,
+    "carbs": 0.27,
+    "protein": 0.27
+  },
+  "Royal (Earl Grey) Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Taro Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 187.44,
+    "fats": 0.15,
+    "carbs": 45.67,
+    "protein": 0.69
+  },
+  "Matcha Latte (Regular)": {
+    "restaurant": "Cha for Tea",
+    "calories": 0.02,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Peach Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Thai Milk Iced Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 124.95,
+    "fats": 4.7,
+    "carbs": 12.18,
+    "protein": 8.53
+  },
+  "Peach Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Earl Grey Iced Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 1.78,
+    "fats": 0,
+    "carbs": 0.53,
+    "protein": 0
+  },
+  "Lychee Black Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 125.4,
+    "fats": 0.84,
+    "carbs": 31.41,
+    "protein": 1.58
+  },
+  "Orange Green Iced Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Passion Fruit Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Mango Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Honey Green Tea": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "California Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Black Tea": {
+    "restaurant": "Snow Monster",
+    "calories": 1.78,
+    "fats": 0,
+    "carbs": 0.53,
+    "protein": 0
+  },
+  "Peach Black Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Green Apple Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 94.64,
+    "fats": 0.31,
+    "carbs": 25.13,
+    "protein": 0.47
+  },
+  "Jasmine Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Peach Passion Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Mint Green Tea Refresher": {
+    "restaurant": "Cha for Tea",
+    "calories": 7.88,
+    "fats": 0,
+    "carbs": 1.96,
+    "protein": 0
+  },
+  "Passion Fruit Mint Refresher": {
+    "restaurant": "Cha for Tea",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Peach Mint Refresher": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Peach Passion Mint Refresher": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Iced Honey Rosebud": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Hot Honey Rosebud": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Passion Fruit Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Peach Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Strawberry Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 28.8,
+    "fats": 0.27,
+    "carbs": 6.91,
+    "protein": 0.6
+  },
+  "Peach Passion Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Mango Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Green Tea Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Taro Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 187.44,
+    "fats": 0.15,
+    "carbs": 45.67,
+    "protein": 0.69
+  },
+  "Strawberry Colada Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 28.8,
+    "fats": 0.27,
+    "carbs": 6.91,
+    "protein": 0.6
+  },
+  "Thai Cooler": {
+    "restaurant": "Cha for Tea",
+    "calories": 227.8,
+    "fats": 0,
+    "carbs": 33.73,
+    "protein": 0
+  },
+  "Hot Almond Black Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 7.71,
+    "fats": 0.68,
+    "carbs": 0.27,
+    "protein": 0.27
+  },
+  "Hot Fresh Handcrafted Coffee": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Hot Chai Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 4.87,
+    "fats": 0.06,
+    "carbs": 1.36,
+    "protein": 0.06
+  },
+  "Hot Honey Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Hot Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Hot Honey Green Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Hot Jasmine Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Hot Royal Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Hot Classic Black Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Hot Mango Green Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Hot Honey Rosebud Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 63.84,
+    "fats": 0,
+    "carbs": 17.3,
+    "protein": 0.06
+  },
+  "Hot Taro Milk Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 187.44,
+    "fats": 0.15,
+    "carbs": 45.67,
+    "protein": 0.69
+  },
+  "Hot Thai Milk Hot Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 124.95,
+    "fats": 4.7,
+    "carbs": 12.18,
+    "protein": 8.53
+  },
+  "Hot Black Tea": {
+    "restaurant": "Cha for Tea",
+    "calories": 1.78,
+    "fats": 0,
+    "carbs": 0.53,
+    "protein": 0
+  },
+  "30 ct Chick-fil-A� Nuggets": {
+    "restaurant": "Chick-fil-A",
+    "calories": 1473.6,
+    "fats": 97.73,
+    "carbs": 71.66,
+    "protein": 76.42
+  },
+  "4 ct Chick-fil-A� Chicken Sandwich": {
+    "restaurant": "Chick-fil-A",
+    "calories": 9.62,
+    "fats": 0.37,
+    "carbs": 0.9,
+    "protein": 0.63
+  },
+  "4 ct Spicy Chicken Sandwich": {
+    "restaurant": "Chick-fil-A",
+    "calories": 1678.08,
+    "fats": 82.63,
+    "carbs": 166.59,
+    "protein": 66.52
+  },
+  "4 ct Medium Chick-fil-A Waffle Potato Fries�": {
+    "restaurant": "Chick-fil-A",
+    "calories": 218.25,
+    "fats": 10.58,
+    "carbs": 24.68,
+    "protein": 5.93
+  },
+  "4 ct Chocolate Chunk Cookie": {
+    "restaurant": "Chick-fil-A",
+    "calories": 590.4,
+    "fats": 29.66,
+    "carbs": 78.43,
+    "protein": 6.12
+  },
+  "Gallon Freshly-Brewed Iced Tea Sweetened": {
+    "restaurant": "Chick-fil-A",
+    "calories": 2.37,
+    "fats": 0,
+    "carbs": 0.71,
+    "protein": 0
+  },
+  "Gallon Freshly-Brewed Iced Tea Unsweetened": {
+    "restaurant": "Chick-fil-A",
+    "calories": 2.37,
+    "fats": 0,
+    "carbs": 0.71,
+    "protein": 0
+  },
+  "Chick-fil-A Waffle Potato Fries�": {
+    "restaurant": "Chick-fil-A",
+    "calories": 218.25,
+    "fats": 10.58,
+    "carbs": 24.68,
+    "protein": 5.93
+  },
+  "Fruit Cup": {
+    "restaurant": "Chick-fil-A",
+    "calories": 75.84,
+    "fats": 0.12,
+    "carbs": 20.17,
+    "protein": 1
+  },
+  "Kale Crunch Side": {
+    "restaurant": "Chick-fil-A",
+    "calories": 36.4,
+    "fats": 0.52,
+    "carbs": 7.32,
+    "protein": 2.47
+  },
+  "Greek Yogurt Parfait": {
+    "restaurant": "Chick-fil-A",
+    "calories": 125.16,
+    "fats": 1.5,
+    "carbs": 23.63,
+    "protein": 5.01
+  },
+  "Waffle Potato Chips": {
+    "restaurant": "Chick-fil-A",
+    "calories": 218.25,
+    "fats": 10.58,
+    "carbs": 24.68,
+    "protein": 5.93
+  },
+  "Frosted Lemonade": {
+    "restaurant": "Chick-fil-A",
+    "calories": 98.8,
+    "fats": 0.1,
+    "carbs": 25.74,
+    "protein": 0.17
+  },
+  "Frosted Coffee": {
+    "restaurant": "Chick-fil-A",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Chocolate Chunk Cookie": {
+    "restaurant": "Chick-fil-A",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Cookies & Cream Milkshake": {
+    "restaurant": "Chick-fil-A",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Chocolate Milkshake": {
+    "restaurant": "Chick-fil-A",
+    "calories": 540.74,
+    "fats": 12.27,
+    "carbs": 96.11,
+    "protein": 13.86
+  },
+  "Strawberry Milkshake": {
+    "restaurant": "Chick-fil-A",
+    "calories": 424.88,
+    "fats": 10.53,
+    "carbs": 71.06,
+    "protein": 12.78
+  },
+  "Vanilla Milkshake": {
+    "restaurant": "Chick-fil-A",
+    "calories": 350.56,
+    "fats": 9.48,
+    "carbs": 55.56,
+    "protein": 12.08
+  },
+  "8oz Chick-fil-A� Sauce": {
+    "restaurant": "Chick-fil-A",
+    "calories": 132,
+    "fats": 4.25,
+    "carbs": 19.62,
+    "protein": 3.67
+  },
+  "8oz Honey Mustard Sauce": {
+    "restaurant": "Chick-fil-A",
+    "calories": 1052.35,
+    "fats": 92.6,
+    "carbs": 52.91,
+    "protein": 1.97
+  },
+  "8oz Barbeque Sauce": {
+    "restaurant": "Chick-fil-A",
+    "calories": 390.1,
+    "fats": 1.43,
+    "carbs": 92.47,
+    "protein": 1.86
+  },
+  "4 ct Medium Mac & Cheese": {
+    "restaurant": "Chick-fil-A",
+    "calories": 1504.8,
+    "fats": 65.58,
+    "carbs": 189.53,
+    "protein": 38.73
+  },
+  "Mac & Cheese": {
+    "restaurant": "Chick-fil-A",
+    "calories": 376.2,
+    "fats": 16.39,
+    "carbs": 47.38,
+    "protein": 9.68
+  },
+  "Chicken Noodle Soup": {
+    "restaurant": "Chick-fil-A",
+    "calories": 124,
+    "fats": 4.71,
+    "carbs": 14.63,
+    "protein": 6.3
+  },
+  "Monster Cloud": {
+    "restaurant": "Snow Monster",
+    "calories": 225.6,
+    "fats": 0,
+    "carbs": 54.14,
+    "protein": 2.26
+  },
+  "Refreshing Fruit Teas": {
+    "restaurant": "Snow Monster",
+    "calories": 2.38,
+    "fats": 0,
+    "carbs": 0.4,
+    "protein": 0.14
+  },
+  "Thai Street Coffee": {
+    "restaurant": "Snow Monster",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Strawberry Lemonade": {
+    "restaurant": "Snow Monster",
+    "calories": 106.21,
+    "fats": 0.37,
+    "carbs": 26.7,
+    "protein": 0.12
+  },
+  "Housemade Horchata": {
+    "restaurant": "Snow Monster",
+    "calories": 123.12,
+    "fats": 1.62,
+    "carbs": 26.27,
+    "protein": 1.09
+  },
+  "Sunset Strawberry Lemonade": {
+    "restaurant": "Snow Monster",
+    "calories": 106.21,
+    "fats": 0.37,
+    "carbs": 26.7,
+    "protein": 0.12
+  },
+  "Jasmine Milk Tea": {
+    "restaurant": "Snow Monster",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Housemade Horchata & Coffee": {
+    "restaurant": "Snow Monster",
+    "calories": 123.12,
+    "fats": 1.62,
+    "carbs": 26.27,
+    "protein": 1.09
+  },
+  "Signature Thai Tea": {
+    "restaurant": "Snow Monster",
+    "calories": 130.54,
+    "fats": 7.04,
+    "carbs": 15.69,
+    "protein": 1.94
+  },
+  "Giant Macaron Ice Cream Sandwich": {
+    "restaurant": "Snow Monster",
+    "calories": 43.38,
+    "fats": 1.9,
+    "carbs": 6,
+    "protein": 0.85
+  },
+  "Seasonal Hot Milk Tea": {
+    "restaurant": "Snow Monster",
+    "calories": 92.27,
+    "fats": 3.96,
+    "carbs": 10.55,
+    "protein": 3.84
+  },
+  "Cheeseburger": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 535.31,
+    "fats": 28.66,
+    "carbs": 39.24,
+    "protein": 30.27
+  },
+  "Hamburger": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 540.14,
+    "fats": 26.56,
+    "carbs": 40.27,
+    "protein": 34.28
+  },
+  "Double Meat": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 255.82,
+    "fats": 13.52,
+    "carbs": 0.01,
+    "protein": 31.28
+  },
+  "Protein Style": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 112.64,
+    "fats": 0.5,
+    "carbs": 2,
+    "protein": 25
+  },
+  "100% Pure Ice Cream": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 273.24,
+    "fats": 14.52,
+    "carbs": 31.15,
+    "protein": 4.62
+  },
+  "Coca-Cola Classic": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 140,
+    "fats": 0,
+    "carbs": 39,
+    "protein": 0
+  },
+  "Diet Coke": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0.36,
+    "protein": 0
+  },
+  "7 Up": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 150.88,
+    "fats": 0,
+    "carbs": 38.35,
+    "protein": 0.33
+  },
+  "Dr Pepper": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 150,
+    "fats": 0,
+    "carbs": 40,
+    "protein": 0
+  },
+  "Lemonade": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 98.8,
+    "fats": 0.1,
+    "carbs": 25.74,
+    "protein": 0.17
+  },
+  "Iced Tea": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0,
+    "carbs": 0.71,
+    "protein": 0
+  },
+  "Coffee": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Chocolate Shake": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 540.74,
+    "fats": 12.27,
+    "carbs": 96.11,
+    "protein": 13.86
+  },
+  "Vanilla Shake": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 350.56,
+    "fats": 9.48,
+    "carbs": 55.56,
+    "protein": 12.08
+  },
+  "Strawberry Shake": {
+    "restaurant": "In-N-Out Burger",
+    "calories": 424.88,
+    "fats": 10.53,
+    "carbs": 71.06,
+    "protein": 12.78
+  },
+  "Edamame - Steamed Soy Bean Pods": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 93.78,
+    "fats": 4.03,
+    "carbs": 6.91,
+    "protein": 9.23
+  },
+  "Won Tons with Sweet and Sour Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 40.38,
+    "fats": 0.95,
+    "carbs": 5.35,
+    "protein": 2.22
+  },
+  "Lumpia - Filipino Egg Roll with Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 150.44,
+    "fats": 7.95,
+    "carbs": 9.54,
+    "protein": 9.63
+  },
+  "Curry Beef Rolls (3)": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 265.78,
+    "fats": 12.73,
+    "carbs": 10.93,
+    "protein": 28.94
+  },
+  "Steamed Dumplings (5) with Ginger Soy": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 67.31,
+    "fats": 2.32,
+    "carbs": 7.71,
+    "protein": 3.64
+  },
+  "Steamed Rice": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 205.4,
+    "fats": 0.44,
+    "carbs": 44.51,
+    "protein": 4.25
+  },
+  "Empress Noodle Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 385.52,
+    "fats": 2.27,
+    "carbs": 75.3,
+    "protein": 14.15
+  },
+  "Mandarin Chicken Salad": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 499.66,
+    "fats": 15.28,
+    "carbs": 47.17,
+    "protein": 42.35
+  },
+  "Peanut Noodle Salad": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 5.87,
+    "fats": 0.5,
+    "carbs": 0.21,
+    "protein": 0.24
+  },
+  "Saigon Noodle Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 385.52,
+    "fats": 2.27,
+    "carbs": 75.3,
+    "protein": 14.15
+  },
+  "Sesame Chicken Salad": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 581.47,
+    "fats": 29.87,
+    "carbs": 56.63,
+    "protein": 23.87
+  },
+  "Tankatsu Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 954.18,
+    "fats": 35.03,
+    "carbs": 110.71,
+    "protein": 47.7
+  },
+  "Teriyaki Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 16.02,
+    "fats": 0,
+    "carbs": 2.8,
+    "protein": 1.07
+  },
+  "Miso Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 198.68,
+    "fats": 5.25,
+    "carbs": 23.09,
+    "protein": 14.44
+  },
+  "Vegetable Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Won Ton Mein": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 40.38,
+    "fats": 0.95,
+    "carbs": 5.35,
+    "protein": 2.22
+  },
+  "Land and Sea Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 954.18,
+    "fats": 35.03,
+    "carbs": 110.71,
+    "protein": 47.7
+  },
+  "Mako Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 954.18,
+    "fats": 35.03,
+    "carbs": 110.71,
+    "protein": 47.7
+  },
+  "Seafood Curry Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 154.57,
+    "fats": 3.94,
+    "carbs": 3.04,
+    "protein": 25.12
+  },
+  "Vietnam Beef Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 975.52,
+    "fats": 38.17,
+    "carbs": 108.16,
+    "protein": 49
+  },
+  "Taipei Ramen": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 954.18,
+    "fats": 35.03,
+    "carbs": 110.71,
+    "protein": 47.7
+  },
+  "Singapore Noodles": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 590.18,
+    "fats": 16.87,
+    "carbs": 65.18,
+    "protein": 42.61
+  },
+  "Shanghai Chow Mein": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 294.94,
+    "fats": 14.88,
+    "carbs": 21.85,
+    "protein": 18.46
+  },
+  "Vegetable Mein": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Cafe Pancit": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Chicken or Beef Chow Fun": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Hong Kong Chow Fun": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 208.99,
+    "fats": 7.4,
+    "carbs": 25.39,
+    "protein": 8.75
+  },
+  "Teriyaki Lo Mein": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 16.02,
+    "fats": 0,
+    "carbs": 2.8,
+    "protein": 1.07
+  },
+  "Stir-Fried Noodle Noodle": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 195.92,
+    "fats": 1.15,
+    "carbs": 38.27,
+    "protein": 7.19
+  },
+  "Tai Pan Chow Mein": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 294.94,
+    "fats": 14.88,
+    "carbs": 21.85,
+    "protein": 18.46
+  },
+  "Chicken Fried Rice": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 288.25,
+    "fats": 12.12,
+    "carbs": 24.99,
+    "protein": 18.56
+  },
+  "Teriyaki Chicken or Beef on Steamed Rice": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 173.93,
+    "fats": 6.21,
+    "carbs": 3.08,
+    "protein": 24.58
+  },
+  "Sweet and Sour Chicken on Steamed Rice": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 1765,
+    "fats": 89.31,
+    "carbs": 168.45,
+    "protein": 71.31
+  },
+  "Sweet and Sour Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 840,
+    "fats": 0.11,
+    "carbs": 214.03,
+    "protein": 1.51
+  },
+  "Canton Tomato Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 59.22,
+    "fats": 0.66,
+    "carbs": 12.8,
+    "protein": 2.9
+  },
+  "Tonkatsu Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 1133.22,
+    "fats": 52.65,
+    "carbs": 72.21,
+    "protein": 87.07
+  },
+  "Vegetable Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 90.6,
+    "fats": 0.91,
+    "carbs": 19.45,
+    "protein": 4.77
+  },
+  "Buddha Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 682.9,
+    "fats": 31.19,
+    "carbs": 68.16,
+    "protein": 34.3
+  },
+  "Spicy Orange Chicken Bowl": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 1320.48,
+    "fats": 63.91,
+    "carbs": 113.2,
+    "protein": 72.88
+  },
+  "Cape Fried Rice": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 238.38,
+    "fats": 4.06,
+    "carbs": 44.92,
+    "protein": 5.55
+  },
+  "Crispy Lemon Glazed Chicken": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 24.36,
+    "fats": 0.25,
+    "carbs": 7.83,
+    "protein": 0.92
+  },
+  "Broccoli with Beef or Chicken": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 12.95,
+    "fats": 0.15,
+    "carbs": 2.66,
+    "protein": 0.88
+  },
+  "Cashew Chicken": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 179.21,
+    "fats": 8.03,
+    "carbs": 10.23,
+    "protein": 17.71
+  },
+  "Garlic Shrimp with Vegetables": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 224.27,
+    "fats": 10.42,
+    "carbs": 1.31,
+    "protein": 32.01
+  },
+  "Fish Filet with Sweet and Sour Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 173.31,
+    "fats": 1.43,
+    "carbs": 0,
+    "protein": 37.71
+  },
+  "Fish Filet with Ginger Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 173.31,
+    "fats": 1.43,
+    "carbs": 0,
+    "protein": 37.71
+  },
+  "Stir-Fried Tofu and Vegetables": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 161.78,
+    "fats": 9.51,
+    "carbs": 11.44,
+    "protein": 11.93
+  },
+  "Mongolian Beef or Chicken": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 399.9,
+    "fats": 17.05,
+    "carbs": 13.57,
+    "protein": 46.49
+  },
+  "Garlic Green Bean Beef or Chicken": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 4.47,
+    "fats": 0.02,
+    "carbs": 0.99,
+    "protein": 0.19
+  },
+  "Sauteed Garlic Shrimp": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 224.27,
+    "fats": 10.42,
+    "carbs": 1.31,
+    "protein": 32.01
+  },
+  "Salt and Pepper Fish Filet Mako Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 0.72,
+    "fats": 0.01,
+    "carbs": 0.18,
+    "protein": 0.03
+  },
+  "Fish Filet with Black Bean Sauce": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 173.31,
+    "fats": 1.43,
+    "carbs": 0,
+    "protein": 37.71
+  },
+  "Korean Jjam Bbong Soup Noodle": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 194.14,
+    "fats": 5.56,
+    "carbs": 24.09,
+    "protein": 11.7
+  },
+  "War Won Ton Soup": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 71.36,
+    "fats": 0.58,
+    "carbs": 11.71,
+    "protein": 4.64
+  },
+  "Thai Iced Coffee or Thai Iced Tea": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Iced Tea or Hot Tea": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 2.37,
+    "fats": 0,
+    "carbs": 0.71,
+    "protein": 0
+  },
+  "Soft Drinks or Milk": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 155.4,
+    "fats": 0.93,
+    "carbs": 38.33,
+    "protein": 0
+  },
+  "Mineral Water and Fruit Juices": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Asian Beer": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 153.08,
+    "fats": 0,
+    "carbs": 12.64,
+    "protein": 1.64
+  },
+  "Domestic Wine - By The Glass": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 122.01,
+    "fats": 0,
+    "carbs": 3.82,
+    "protein": 0.1
+  },
+  "Sake": {
+    "restaurant": "Asia Noodle Cafe",
+    "calories": 233.96,
+    "fats": 0,
+    "carbs": 8.73,
+    "protein": 0.87
+  },
+  "Beyond Sausage Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 751.38,
+    "fats": 43.78,
+    "carbs": 56.41,
+    "protein": 32.36
+  },
+  "Girl Scout Espresso & Coffee Drinks": {
+    "restaurant": "Dunkin",
+    "calories": 2.66,
+    "fats": 0.05,
+    "carbs": 0.49,
+    "protein": 0.04
+  },
+  "Signature Pumpkin Spice Latte": {
+    "restaurant": "Dunkin",
+    "calories": 376.87,
+    "fats": 11.91,
+    "carbs": 53.49,
+    "protein": 14.49
+  },
+  "Chai Latte": {
+    "restaurant": "Dunkin",
+    "calories": 237.13,
+    "fats": 4.27,
+    "carbs": 43.87,
+    "protein": 7.4
+  },
+  "Iced Oatmilk Latte": {
+    "restaurant": "Dunkin",
+    "calories": 130.38,
+    "fats": 0.98,
+    "carbs": 29.15,
+    "protein": 1.97
+  },
+  "Pumpkin Iced Coffee": {
+    "restaurant": "Dunkin",
+    "calories": 49,
+    "fats": 0.17,
+    "carbs": 12.01,
+    "protein": 1.76
+  },
+  "Steak and Cheese Rollup": {
+    "restaurant": "Dunkin",
+    "calories": 1146.21,
+    "fats": 61.28,
+    "carbs": 83.62,
+    "protein": 64.98
+  },
+  "Everything Stuffed Bagel Minis": {
+    "restaurant": "Dunkin",
+    "calories": 118.8,
+    "fats": 0.59,
+    "carbs": 23.57,
+    "protein": 4.75
+  },
+  "Plain Stuffed Bagel Minis": {
+    "restaurant": "Dunkin",
+    "calories": 118.8,
+    "fats": 0.59,
+    "carbs": 23.57,
+    "protein": 4.75
+  },
+  "Maple Sugar Bacon Breakfast Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 10.62,
+    "fats": 0.01,
+    "carbs": 2.73,
+    "protein": 0
+  },
+  "Maple Sugar Snackin' Bacon": {
+    "restaurant": "Dunkin",
+    "calories": 10.62,
+    "fats": 0.01,
+    "carbs": 2.73,
+    "protein": 0
+  },
+  "Pumpkin K-Cup Pods": {
+    "restaurant": "Dunkin",
+    "calories": 49,
+    "fats": 0.17,
+    "carbs": 12.01,
+    "protein": 1.76
+  },
+  "Pumpkin Donut": {
+    "restaurant": "Dunkin",
+    "calories": 361.83,
+    "fats": 19.59,
+    "carbs": 43.78,
+    "protein": 4.07
+  },
+  "Pumpkin Munchkin Donut Hole Treats": {
+    "restaurant": "Dunkin",
+    "calories": 49,
+    "fats": 0.17,
+    "carbs": 12.01,
+    "protein": 1.76
+  },
+  "Pumpkin Muffin": {
+    "restaurant": "Dunkin",
+    "calories": 396.88,
+    "fats": 15.54,
+    "carbs": 61.72,
+    "protein": 5.79
+  },
+  "Apple Cider Donut": {
+    "restaurant": "Dunkin",
+    "calories": 269.44,
+    "fats": 14.53,
+    "carbs": 30.68,
+    "protein": 3.93
+  },
+  "Apple Cider Munckins Donut Hole Treats": {
+    "restaurant": "Dunkin",
+    "calories": 114.08,
+    "fats": 0.32,
+    "carbs": 28.02,
+    "protein": 0.25
+  },
+  "Signature Latte": {
+    "restaurant": "Dunkin",
+    "calories": 188.51,
+    "fats": 7.36,
+    "carbs": 18.57,
+    "protein": 12.16
+  },
+  "Iced Signature Latte": {
+    "restaurant": "Dunkin",
+    "calories": 188.51,
+    "fats": 7.36,
+    "carbs": 18.57,
+    "protein": 12.16
+  },
+  "Latte": {
+    "restaurant": "Dunkin",
+    "calories": 188.51,
+    "fats": 7.36,
+    "carbs": 18.57,
+    "protein": 12.16
+  },
+  "Iced Latte": {
+    "restaurant": "Dunkin",
+    "calories": 130.17,
+    "fats": 5.05,
+    "carbs": 12.97,
+    "protein": 8.31
+  },
+  "Cappuccino": {
+    "restaurant": "Dunkin",
+    "calories": 119.72,
+    "fats": 4.64,
+    "carbs": 11.97,
+    "protein": 7.62
+  },
+  "Iced Cappuccino": {
+    "restaurant": "Dunkin",
+    "calories": 119.72,
+    "fats": 4.64,
+    "carbs": 11.97,
+    "protein": 7.62
+  },
+  "Macchiato": {
+    "restaurant": "Dunkin",
+    "calories": 7.87,
+    "fats": 0.25,
+    "carbs": 1,
+    "protein": 0.39
+  },
+  "Iced Macchiato": {
+    "restaurant": "Dunkin",
+    "calories": 7.87,
+    "fats": 0.25,
+    "carbs": 1,
+    "protein": 0.39
+  },
+  "Americano": {
+    "restaurant": "Dunkin",
+    "calories": 8.88,
+    "fats": 0.18,
+    "carbs": 1.65,
+    "protein": 0.12
+  },
+  "Iced Americano": {
+    "restaurant": "Dunkin",
+    "calories": 8.88,
+    "fats": 0.18,
+    "carbs": 1.65,
+    "protein": 0.12
+  },
+  "Espresso": {
+    "restaurant": "Dunkin",
+    "calories": 2.66,
+    "fats": 0.05,
+    "carbs": 0.49,
+    "protein": 0.04
+  },
+  "Iced Coffee": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Cold Brew": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Energy Cold Brew": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Strawberry Dragonfruit Dunkin' Refresher": {
+    "restaurant": "Dunkin",
+    "calories": 28.8,
+    "fats": 0.27,
+    "carbs": 6.91,
+    "protein": 0.6
+  },
+  "Peace Passion Fruit Dunkin' Refresher": {
+    "restaurant": "Dunkin",
+    "calories": 228.92,
+    "fats": 1.65,
+    "carbs": 55.18,
+    "protein": 5.19
+  },
+  "Iced Matcha Latte": {
+    "restaurant": "Dunkin",
+    "calories": 0.02,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Hot Coffee": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Tea": {
+    "restaurant": "Dunkin",
+    "calories": 1.78,
+    "fats": 0,
+    "carbs": 0.53,
+    "protein": 0
+  },
+  "Matcha Latte": {
+    "restaurant": "Dunkin",
+    "calories": 0.02,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Vanilla Spice": {
+    "restaurant": "Dunkin",
+    "calories": 12.1,
+    "fats": 0,
+    "carbs": 0.53,
+    "protein": 0
+  },
+  "Box O' Joe Hot Chocolate": {
+    "restaurant": "Dunkin",
+    "calories": 150.92,
+    "fats": 1.51,
+    "carbs": 31.67,
+    "protein": 2.52
+  },
+  "Frozen Coffee": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Frozen Matcha Latte": {
+    "restaurant": "Dunkin",
+    "calories": 188.51,
+    "fats": 7.36,
+    "carbs": 18.57,
+    "protein": 12.16
+  },
+  "Frozen Chocolate": {
+    "restaurant": "Dunkin",
+    "calories": 37.45,
+    "fats": 2.08,
+    "carbs": 4.16,
+    "protein": 0.54
+  },
+  "Sweet Black Pepper Snackin' Bacon": {
+    "restaurant": "Dunkin",
+    "calories": 5.77,
+    "fats": 0.07,
+    "carbs": 1.47,
+    "protein": 0.24
+  },
+  "Power Breakfast Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 505.44,
+    "fats": 33.65,
+    "carbs": 34.1,
+    "protein": 18.03
+  },
+  "Beyond Sausage Breakfast Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 210.12,
+    "fats": 19.2,
+    "carbs": 0.64,
+    "protein": 8.15
+  },
+  "Sweet Pepper Bacon Breakfast Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 31.92,
+    "fats": 0.23,
+    "carbs": 7.64,
+    "protein": 1.05
+  },
+  "Beyond Sausage&reg": {
+    "restaurant": "Dunkin",
+    "calories": 210.12,
+    "fats": 19.2,
+    "carbs": 40.03,
+    "protein": 8.15
+  },
+  "Sweet Black Pepper Bacon": {
+    "restaurant": "Dunkin",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 1.47,
+    "protein": 6.26
+  },
+  "Bacon Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Sausage Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Turkey Sausage - Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 147,
+    "fats": 7.83,
+    "carbs": 0,
+    "protein": 17.92
+  },
+  "Ham Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Veggie Egg White Omelet": {
+    "restaurant": "Dunkin",
+    "calories": 136.87,
+    "fats": 6.36,
+    "carbs": 7.72,
+    "protein": 12.32
+  },
+  "Double Sausage Breakfast Sandwich": {
+    "restaurant": "Dunkin",
+    "calories": 210.12,
+    "fats": 19.2,
+    "carbs": 0.64,
+    "protein": 8.15
+  },
+  "Turkey Sausage Egg and Cheese": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Veggie Egg White": {
+    "restaurant": "Dunkin",
+    "calories": 234,
+    "fats": 5.11,
+    "carbs": 40.03,
+    "protein": 6.26
+  },
+  "Hashbrowns": {
+    "restaurant": "Dunkin",
+    "calories": 144.16,
+    "fats": 9.03,
+    "carbs": 15.31,
+    "protein": 1.37
+  },
+  "Ham and Cheese Rollups": {
+    "restaurant": "Dunkin",
+    "calories": 516.9,
+    "fats": 32,
+    "carbs": 28.41,
+    "protein": 28.18
+  },
+  "Bacon and Cheese Rollup": {
+    "restaurant": "Dunkin",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "Sausage Scramble Bowl": {
+    "restaurant": "Dunkin",
+    "calories": 1401.62,
+    "fats": 128.05,
+    "carbs": 4.26,
+    "protein": 54.34
+  },
+  "Egg White Bowl": {
+    "restaurant": "Dunkin",
+    "calories": 253.93,
+    "fats": 0.83,
+    "carbs": 3.56,
+    "protein": 53.23
+  },
+  "Donuts": {
+    "restaurant": "Dunkin",
+    "calories": 252.6,
+    "fats": 13.62,
+    "carbs": 28.76,
+    "protein": 3.68
+  },
+  "Donut Hole Treats": {
+    "restaurant": "Dunkin",
+    "calories": 54.73,
+    "fats": 2.95,
+    "carbs": 6.23,
+    "protein": 0.8
+  },
+  "Assorted 6 Donuts": {
+    "restaurant": "Dunkin",
+    "calories": 126.3,
+    "fats": 6.81,
+    "carbs": 14.38,
+    "protein": 1.84
+  },
+  "Bagels": {
+    "restaurant": "Dunkin",
+    "calories": 277.2,
+    "fats": 1.39,
+    "carbs": 55,
+    "protein": 11.09
+  },
+  "Coffee Roll": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Apple Fritter": {
+    "restaurant": "Dunkin",
+    "calories": 169.53,
+    "fats": 9.79,
+    "carbs": 19.3,
+    "protein": 2.73
+  },
+  "Croissant": {
+    "restaurant": "Dunkin",
+    "calories": 272.02,
+    "fats": 14.07,
+    "carbs": 30.69,
+    "protein": 5.49
+  },
+  "Multigrain Thin with Cream Cheese Spread": {
+    "restaurant": "Dunkin",
+    "calories": 109.62,
+    "fats": 8.37,
+    "carbs": 4.3,
+    "protein": 4.23
+  },
+  "Hash Browns": {
+    "restaurant": "Dunkin",
+    "calories": 144.16,
+    "fats": 9.03,
+    "carbs": 15.31,
+    "protein": 1.37
+  },
+  "Packaged Coffee": {
+    "restaurant": "Dunkin",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Mixed Greens": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 19.99,
+    "fats": 0.2,
+    "carbs": 4.21,
+    "protein": 1.23
+  },
+  "Chicken Cobb": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Caesar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 162.6,
+    "fats": 17.36,
+    "carbs": 0.99,
+    "protein": 0.65
+  },
+  "Chinese Chicken": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 1578.25,
+    "fats": 87.53,
+    "carbs": 128.35,
+    "protein": 69.02
+  },
+  "Spicy Thai Peanut": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 5.87,
+    "fats": 0.5,
+    "carbs": 0.21,
+    "protein": 0.24
+  },
+  "Southwestern Salad": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 314.88,
+    "fats": 16.06,
+    "carbs": 35.22,
+    "protein": 10.3
+  },
+  "Spinach & Bacon": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 41.4,
+    "fats": 0.47,
+    "carbs": 6.75,
+    "protein": 5.35
+  },
+  "Spinach Berry & Goat Cheese": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 41.4,
+    "fats": 0.47,
+    "carbs": 6.75,
+    "protein": 5.35
+  },
+  "Cream of Potato & Leek": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 91.76,
+    "fats": 2.33,
+    "carbs": 15.86,
+    "protein": 1.87
+  },
+  "Cream of Spinach": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 101.32,
+    "fats": 10.75,
+    "carbs": 0.82,
+    "protein": 0.85
+  },
+  "Southwestern Chicken & Wild Rice": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Tuscan White Bean": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 248.81,
+    "fats": 0.63,
+    "carbs": 44.91,
+    "protein": 17.42
+  },
+  "Roast Beef": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 10.7,
+    "fats": 0.34,
+    "carbs": 0.06,
+    "protein": 1.73
+  },
+  "Roasted Turkey": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Big BLT": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 447.18,
+    "fats": 28.16,
+    "carbs": 26.74,
+    "protein": 20.42
+  },
+  "Smoked Ham": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 67.1,
+    "fats": 1.3,
+    "carbs": 4,
+    "protein": 9.86
+  },
+  "Napa Waldorf Chicken Salad Sandwich": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 534.87,
+    "fats": 28.77,
+    "carbs": 33.01,
+    "protein": 34.01
+  },
+  "Tuna Salad Sandwich": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 438.33,
+    "fats": 16.13,
+    "carbs": 42.49,
+    "protein": 29.68
+  },
+  "Four Cheese": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 452.48,
+    "fats": 37.31,
+    "carbs": 3.46,
+    "protein": 25.61
+  },
+  "Peanut Butter & Stuff": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 188.16,
+    "fats": 15.85,
+    "carbs": 7.67,
+    "protein": 7.02
+  },
+  "Turkey & Cranberry": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Hot Pastrami": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 104.37,
+    "fats": 4.13,
+    "carbs": 0.26,
+    "protein": 15.48
+  },
+  "Beef & Blue": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 247.35,
+    "fats": 16.75,
+    "carbs": 0,
+    "protein": 22.46
+  },
+  "BBQ Chicken": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 144.88,
+    "fats": 4.2,
+    "carbs": 10.2,
+    "protein": 15.46
+  },
+  "BBQ Beef": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 517.18,
+    "fats": 24.44,
+    "carbs": 36.35,
+    "protein": 39.5
+  },
+  "Caprese": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 219.69,
+    "fats": 16.74,
+    "carbs": 4.69,
+    "protein": 13.2
+  },
+  "Hot Cheesy Steak": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 614.38,
+    "fats": 40.77,
+    "carbs": 0,
+    "protein": 57.81
+  },
+  "Turkey Apple Brie & Bacon": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Hot Roasted Veggie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Turkey Pesto": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 214.33,
+    "fats": 8.38,
+    "carbs": 0.07,
+    "protein": 32.38
+  },
+  "Classic Egg Sandwich": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 366.51,
+    "fats": 19.12,
+    "carbs": 29.99,
+    "protein": 17.25
+  },
+  "Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 71.5,
+    "fats": 4.76,
+    "carbs": 0.36,
+    "protein": 6.28
+  },
+  "Roasted Veggie Egg": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Sausage Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 210.12,
+    "fats": 19.2,
+    "carbs": 0.64,
+    "protein": 8.15
+  },
+  "Diced Ham - Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Crispy Bacon - Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "Baked Lay's": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 132.96,
+    "fats": 5.16,
+    "carbs": 20.24,
+    "protein": 1.42
+  },
+  "Lay's Kettle Cooked Maui Onion": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Miss Vickie's Simply Sea Salt": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Miss Vickie's BBQ": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Miss Vickie's Jalapeno": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Miss Vickie's Sea Salt & Vinegar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Sun Chips - French Onion": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 139.2,
+    "fats": 5.98,
+    "carbs": 19.07,
+    "protein": 2.25
+  },
+  "Sun Chips - Harvest Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 139.2,
+    "fats": 5.98,
+    "carbs": 19.07,
+    "protein": 2.25
+  },
+  "Assorted Chips": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 148.96,
+    "fats": 9.51,
+    "carbs": 15.07,
+    "protein": 1.79
+  },
+  "Fresh Seasonal Fruit Salad": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 96.62,
+    "fats": 0.47,
+    "carbs": 24.48,
+    "protein": 1.36
+  },
+  "Yogurt - Fruit & House-made Granola": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 107.1,
+    "fats": 2.64,
+    "carbs": 11.97,
+    "protein": 8.93
+  },
+  "Spicy Cole Slaw Side": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 174.11,
+    "fats": 12.9,
+    "carbs": 13.52,
+    "protein": 0.96
+  },
+  "Tuna Salad Side": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 383.35,
+    "fats": 18.98,
+    "carbs": 19.29,
+    "protein": 32.88
+  },
+  "Chicken Waldorf Salad Side": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "BBQ Chicken Side": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 144.88,
+    "fats": 4.2,
+    "carbs": 10.2,
+    "protein": 15.46
+  },
+  "Roasted Chicken Breast Side": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 141.9,
+    "fats": 3.07,
+    "carbs": 0,
+    "protein": 26.68
+  },
+  "Assorted Fresh Baked Breads": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 1465.77,
+    "fats": 31.23,
+    "carbs": 255.91,
+    "protein": 37.13
+  },
+  "Semi Sweet Chocolate Chunk": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 201.6,
+    "fats": 12.6,
+    "carbs": 26.84,
+    "protein": 1.76
+  },
+  "Milk Chocolate Chip": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 235.4,
+    "fats": 13.05,
+    "carbs": 26.14,
+    "protein": 3.37
+  },
+  "Oatmeal Wheatgerm Chocolate Chip": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 166.14,
+    "fats": 3.56,
+    "carbs": 28.08,
+    "protein": 5.94
+  },
+  "Oatmeal Raisin": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 166.14,
+    "fats": 3.56,
+    "carbs": 28.08,
+    "protein": 5.94
+  },
+  "Peanut Butter": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 188.16,
+    "fats": 15.85,
+    "carbs": 7.67,
+    "protein": 7.02
+  },
+  "Peanut Butter Chocolate Chunk": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 87.55,
+    "fats": 5.19,
+    "carbs": 9.41,
+    "protein": 1.74
+  },
+  "Snickerdoodle": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 92.55,
+    "fats": 4.32,
+    "carbs": 12.44,
+    "protein": 1.03
+  },
+  "White Chocolate Macadamia": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 458.15,
+    "fats": 27.28,
+    "carbs": 50.35,
+    "protein": 4.99
+  },
+  "Assorted Cookies": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Specialty's Cookie Platter": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Double Fudge Brownie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 233,
+    "fats": 14.55,
+    "carbs": 25.1,
+    "protein": 3.1
+  },
+  "Lover's Lane Brownie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 233,
+    "fats": 14.55,
+    "carbs": 25.1,
+    "protein": 3.1
+  },
+  "Peanut Butter Cup Brownie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 87.55,
+    "fats": 5.19,
+    "carbs": 9.41,
+    "protein": 1.74
+  },
+  "Triple Chocolate Mini Bundt Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 37.45,
+    "fats": 2.08,
+    "carbs": 4.16,
+    "protein": 0.54
+  },
+  "Orange Poppy Seed Mini Bundt Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Butter Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 272.02,
+    "fats": 14.07,
+    "carbs": 30.69,
+    "protein": 5.49
+  },
+  "Meat & Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 255.82,
+    "fats": 13.52,
+    "carbs": 0.01,
+    "protein": 31.28
+  },
+  "Fuji Apple Cream Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 120.96,
+    "fats": 0.35,
+    "carbs": 29.22,
+    "protein": 0.38
+  },
+  "Chocolate Chip Cream Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 852.27,
+    "fats": 72.17,
+    "carbs": 43,
+    "protein": 12.98
+  },
+  "Wild Blueberry Cream Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 90.22,
+    "fats": 6.27,
+    "carbs": 7.84,
+    "protein": 1.14
+  },
+  "Cranberry Cream Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 50.6,
+    "fats": 0.14,
+    "carbs": 13.17,
+    "protein": 0.51
+  },
+  "Peach Cream Cheese Croissant": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Assorted Cream Cheese Croissants": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 101.5,
+    "fats": 9.99,
+    "carbs": 1.6,
+    "protein": 1.78
+  },
+  "Country Ciabatta": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 82.46,
+    "fats": 1.03,
+    "carbs": 15.32,
+    "protein": 2.74
+  },
+  "Poppy Seed Ciabatta": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 14.7,
+    "fats": 1.16,
+    "carbs": 0.79,
+    "protein": 0.5
+  },
+  "Sesame Ciabatta": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 82.46,
+    "fats": 1.03,
+    "carbs": 15.32,
+    "protein": 2.74
+  },
+  "Whipped Cream Cheese": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 70,
+    "fats": 6.89,
+    "carbs": 1.1,
+    "protein": 1.23
+  },
+  "Cinnamon Roll": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 290.4,
+    "fats": 9.92,
+    "carbs": 47.01,
+    "protein": 3.82
+  },
+  "Sticky Bun": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 122.76,
+    "fats": 1.72,
+    "carbs": 22.05,
+    "protein": 4.3
+  },
+  "Cinnamon Sugar Morning Bun": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 657.56,
+    "fats": 0.39,
+    "carbs": 175.11,
+    "protein": 1.24
+  },
+  "Chocolate Almond Morning Bun": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 17.82,
+    "fats": 1.44,
+    "carbs": 0.85,
+    "protein": 0.53
+  },
+  "Orange Almond Breakfast Bread": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Orange Cranberry Breakfast Bread": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.6,
+    "fats": 0.21,
+    "carbs": 17.56,
+    "protein": 1.27
+  },
+  "Almond Scone": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 407.3,
+    "fats": 20.44,
+    "carbs": 48.21,
+    "protein": 9.03
+  },
+  "Wild Blueberry Scone": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 466.73,
+    "fats": 14.97,
+    "carbs": 77.6,
+    "protein": 6.54
+  },
+  "Cranberry Scone": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 463.15,
+    "fats": 20.29,
+    "carbs": 63.6,
+    "protein": 8.77
+  },
+  "Assorted Scones": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 397.9,
+    "fats": 16.33,
+    "carbs": 55.78,
+    "protein": 7.02
+  },
+  "3 Cheese Mini-Quiche": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 339.36,
+    "fats": 27.98,
+    "carbs": 2.6,
+    "protein": 19.21
+  },
+  "Diced Ham Mini-Quiche": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Roasted Veggie Mini-Quiche": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 45.3,
+    "fats": 0.46,
+    "carbs": 9.73,
+    "protein": 2.38
+  },
+  "Fuji Apple Coffee Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 120.96,
+    "fats": 0.35,
+    "carbs": 29.22,
+    "protein": 0.38
+  },
+  "Wild Blueberry Coffee Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 199.51,
+    "fats": 8.56,
+    "carbs": 28.97,
+    "protein": 2.55
+  },
+  "Cranberry Coffee Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 50.6,
+    "fats": 0.14,
+    "carbs": 13.17,
+    "protein": 0.51
+  },
+  "Peach Coffee Cake": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Assorted Coffee Cakes": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 263.34,
+    "fats": 14.68,
+    "carbs": 29.42,
+    "protein": 4.28
+  },
+  "Yogurt Blueberry Muffin": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 168.3,
+    "fats": 1.96,
+    "carbs": 31.69,
+    "protein": 6.77
+  },
+  "Carrot Raisin Bran Muffin": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 16.1,
+    "fats": 0.08,
+    "carbs": 3.78,
+    "protein": 0.35
+  },
+  "Oatmeal Banana Muffin": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 399.22,
+    "fats": 14.8,
+    "carbs": 60.27,
+    "protein": 7.52
+  },
+  "Assorted Muffins": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 423.75,
+    "fats": 18.16,
+    "carbs": 59.89,
+    "protein": 5.07
+  },
+  "Barq's Root Beer Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 160,
+    "fats": 0,
+    "carbs": 44,
+    "protein": 0
+  },
+  "Coke Classic Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 140,
+    "fats": 0,
+    "carbs": 39,
+    "protein": 0
+  },
+  "Diet Coke Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0.36,
+    "protein": 0
+  },
+  "Coke Zero Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 7.1,
+    "fats": 0.11,
+    "carbs": 1.03,
+    "protein": 0.39
+  },
+  "Sprite Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 140,
+    "fats": 0,
+    "carbs": 38,
+    "protein": 0
+  },
+  "Sprite Zero Can": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.36
+  },
+  "Assorted Sodas": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 155.4,
+    "fats": 0.93,
+    "carbs": 38.33,
+    "protein": 0
+  },
+  "VW XXX Blueberry Pomegranate": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 0.78,
+    "fats": 0,
+    "carbs": 0.2,
+    "protein": 0.01
+  },
+  "MM Apple Juice": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 114.08,
+    "fats": 0.32,
+    "carbs": 28.02,
+    "protein": 0.25
+  },
+  "MM Lemonade": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 98.8,
+    "fats": 0.1,
+    "carbs": 25.74,
+    "protein": 0.17
+  },
+  "MM Cranberry Apple Raspberry": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 50.6,
+    "fats": 0.14,
+    "carbs": 13.17,
+    "protein": 0.51
+  },
+  "MM Cranberry Grape": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 50.6,
+    "fats": 0.14,
+    "carbs": 13.17,
+    "protein": 0.51
+  },
+  "Orange Juice - 12oz": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 167.4,
+    "fats": 0.74,
+    "carbs": 38.69,
+    "protein": 2.6
+  },
+  "C Monster": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 112.8,
+    "fats": 0,
+    "carbs": 27.07,
+    "protein": 1.13
+  },
+  "Strawberry Banana Smoothie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 161.34,
+    "fats": 1.65,
+    "carbs": 33.72,
+    "protein": 5.48
+  },
+  "Mango Tango Smoothie": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 201.6,
+    "fats": 1.28,
+    "carbs": 50.33,
+    "protein": 2.76
+  },
+  "Honest Half & Half": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 18.45,
+    "fats": 1.56,
+    "carbs": 0.71,
+    "protein": 0.47
+  },
+  "Peach White Tea": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 68.25,
+    "fats": 0.44,
+    "carbs": 16.7,
+    "protein": 1.59
+  },
+  "Honest (Not Too) Sweet Tea": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 79.76,
+    "fats": 0,
+    "carbs": 20.71,
+    "protein": 0
+  },
+  "Clementine": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 34.78,
+    "fats": 0.11,
+    "carbs": 8.89,
+    "protein": 0.63
+  },
+  "Grapefruit": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 51.66,
+    "fats": 0.17,
+    "carbs": 13.11,
+    "protein": 0.95
+  },
+  "Low Fat Milk - 1.5 Pint": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 102.48,
+    "fats": 2.37,
+    "carbs": 12.18,
+    "protein": 8.22
+  },
+  "Diced Ham Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 186.26,
+    "fats": 6.83,
+    "carbs": 1.42,
+    "protein": 29.72
+  },
+  "Crispy Bacon Egg & Cheddar": {
+    "restaurant": "Specialty's Cafe & Bakery",
+    "calories": 161.46,
+    "fats": 12.11,
+    "carbs": 0.59,
+    "protein": 11.7
+  },
+  "Philadelphia Roll": {
+    "restaurant": "Delsushi",
+    "calories": 390.88,
+    "fats": 13.53,
+    "carbs": 54.89,
+    "protein": 11
+  },
+  "Normandie Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Fire Cracker Roll": {
+    "restaurant": "Delsushi",
+    "calories": 20.4,
+    "fats": 1.06,
+    "carbs": 2.45,
+    "protein": 0.27
+  },
+  "Love Love Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Pink Lady Roll": {
+    "restaurant": "Delsushi",
+    "calories": 94.64,
+    "fats": 0.31,
+    "carbs": 25.13,
+    "protein": 0.47
+  },
+  "Futo Maki Roll": {
+    "restaurant": "Delsushi",
+    "calories": 278.05,
+    "fats": 11.76,
+    "carbs": 21.27,
+    "protein": 20.63
+  },
+  "Ai Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Hot Night Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Jessica Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Tiger Roll": {
+    "restaurant": "Delsushi",
+    "calories": 366.78,
+    "fats": 21.16,
+    "carbs": 29.26,
+    "protein": 16.67
+  },
+  "Aloha Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Dragon Roll": {
+    "restaurant": "Delsushi",
+    "calories": 568.51,
+    "fats": 25.83,
+    "carbs": 46.21,
+    "protein": 36.96
+  },
+  "Hawaiian Roll": {
+    "restaurant": "Delsushi",
+    "calories": 96.3,
+    "fats": 2.21,
+    "carbs": 16.07,
+    "protein": 3.01
+  },
+  "Alaska Roll": {
+    "restaurant": "Delsushi",
+    "calories": 426.66,
+    "fats": 10.89,
+    "carbs": 50.94,
+    "protein": 28.9
+  },
+  "Rainbow Roll": {
+    "restaurant": "Delsushi",
+    "calories": 503.83,
+    "fats": 27.13,
+    "carbs": 40.57,
+    "protein": 24.93
+  },
+  "Spicy Scallop Roll": {
+    "restaurant": "Delsushi",
+    "calories": 380.73,
+    "fats": 6.15,
+    "carbs": 63.64,
+    "protein": 15.88
+  },
+  "Western Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Double Double Roll": {
+    "restaurant": "Delsushi",
+    "calories": 670,
+    "fats": 41,
+    "carbs": 39,
+    "protein": 37
+  },
+  "Super Delsushi Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Veggie Roll": {
+    "restaurant": "Delsushi",
+    "calories": 206.31,
+    "fats": 8.22,
+    "carbs": 30.06,
+    "protein": 6.61
+  },
+  "California Crunch Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Spicy Tuna Crunch Roll": {
+    "restaurant": "Delsushi",
+    "calories": 110.5,
+    "fats": 0.5,
+    "carbs": 0,
+    "protein": 24.78
+  },
+  "Candy Cane Roll": {
+    "restaurant": "Delsushi",
+    "calories": 55.16,
+    "fats": 0.03,
+    "carbs": 13.72,
+    "protein": 0
+  },
+  "Shrimp Crunch & California Combo Roll": {
+    "restaurant": "Delsushi",
+    "calories": 5.95,
+    "fats": 0.09,
+    "carbs": 0.08,
+    "protein": 1.14
+  },
+  "Vermont Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Double Tuna Roll": {
+    "restaurant": "Delsushi",
+    "calories": 193.9,
+    "fats": 0.77,
+    "carbs": 21.27,
+    "protein": 24.01
+  },
+  "Rich Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Red Dragon Roll": {
+    "restaurant": "Delsushi",
+    "calories": 568.51,
+    "fats": 25.83,
+    "carbs": 46.21,
+    "protein": 36.96
+  },
+  "Energy Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Double Dragon Roll": {
+    "restaurant": "Delsushi",
+    "calories": 568.51,
+    "fats": 25.83,
+    "carbs": 46.21,
+    "protein": 36.96
+  },
+  "Avocado Roll": {
+    "restaurant": "Delsushi",
+    "calories": 321.41,
+    "fats": 10.98,
+    "carbs": 50.7,
+    "protein": 6.54
+  },
+  "Caterpillar Roll": {
+    "restaurant": "Delsushi",
+    "calories": 472.15,
+    "fats": 21.51,
+    "carbs": 48.92,
+    "protein": 20.85
+  },
+  "Shrimp Crunch Roll": {
+    "restaurant": "Delsushi",
+    "calories": 5.95,
+    "fats": 0.09,
+    "carbs": 0.08,
+    "protein": 1.14
+  },
+  "Baked Jalapeno Bomb Roll": {
+    "restaurant": "Delsushi",
+    "calories": 4.06,
+    "fats": 0.05,
+    "carbs": 0.91,
+    "protein": 0.13
+  },
+  "Baked Scallop Roll": {
+    "restaurant": "Delsushi",
+    "calories": 139.22,
+    "fats": 1.24,
+    "carbs": 19.55,
+    "protein": 11.88
+  },
+  "Delsushi Special Roll": {
+    "restaurant": "Delsushi",
+    "calories": 76.44,
+    "fats": 1.76,
+    "carbs": 12.88,
+    "protein": 2.41
+  },
+  "Volcano Roll": {
+    "restaurant": "Delsushi",
+    "calories": 480.37,
+    "fats": 26.71,
+    "carbs": 39.34,
+    "protein": 21.31
+  },
+  "Dynamite Roll": {
+    "restaurant": "Delsushi",
+    "calories": 450.11,
+    "fats": 19.72,
+    "carbs": 33.51,
+    "protein": 33.02
+  },
+  "Baked Lobster Roll": {
+    "restaurant": "Delsushi",
+    "calories": 506.59,
+    "fats": 21.57,
+    "carbs": 33.05,
+    "protein": 42.14
+  },
+  "Skittles Original Share Size 4.0 OZ": {
+    "restaurant": "Delsushi",
+    "calories": 459.27,
+    "fats": 4.96,
+    "carbs": 102.94,
+    "protein": 0.22
+  },
+  "KitKat Kingsize": {
+    "restaurant": "Delsushi",
+    "calories": 210,
+    "fats": 11,
+    "carbs": 27,
+    "protein": 3
+  },
+  "Reese's Kingsize": {
+    "restaurant": "Delsushi",
+    "calories": 210,
+    "fats": 13,
+    "carbs": 24,
+    "protein": 5
+  },
+  "Sushi Rice": {
+    "restaurant": "Delsushi",
+    "calories": 118.62,
+    "fats": 0.98,
+    "carbs": 24.74,
+    "protein": 1.78
+  },
+  "Seaweed Salad": {
+    "restaurant": "Delsushi",
+    "calories": 106.37,
+    "fats": 7.26,
+    "carbs": 7.98,
+    "protein": 2.9
+  },
+  "Snapple": {
+    "restaurant": "Delsushi",
+    "calories": 151.81,
+    "fats": 0,
+    "carbs": 39.42,
+    "protein": 0
+  },
+  "Red Bull": {
+    "restaurant": "Delsushi",
+    "calories": 110.94,
+    "fats": 0,
+    "carbs": 26.39,
+    "protein": 1.19
+  },
+  "Starbucks Mocha Frappuccino - Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 406.95,
+    "fats": 13.55,
+    "carbs": 66.9,
+    "protein": 6.1
+  },
+  "Monster Green": {
+    "restaurant": "Delsushi",
+    "calories": 225.6,
+    "fats": 0,
+    "carbs": 54.14,
+    "protein": 2.26
+  },
+  "Fanta Orange Mexico Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 208.32,
+    "fats": 0,
+    "carbs": 53.38,
+    "protein": 0
+  },
+  "Sprite Mexico Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 201.72,
+    "fats": 0,
+    "carbs": 51.27,
+    "protein": 0.44
+  },
+  "Coca Cola Mexico Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 181.02,
+    "fats": 1.08,
+    "carbs": 44.65,
+    "protein": 0
+  },
+  "Tazo Iced Green Tea": {
+    "restaurant": "Delsushi",
+    "calories": 2.45,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0.54
+  },
+  "Martinelli's Apple Juice": {
+    "restaurant": "Delsushi",
+    "calories": 114.08,
+    "fats": 0.32,
+    "carbs": 28.02,
+    "protein": 0.25
+  },
+  "Monster Zero - White": {
+    "restaurant": "Delsushi",
+    "calories": 225.6,
+    "fats": 0,
+    "carbs": 54.14,
+    "protein": 2.26
+  },
+  "Starbucks Coffee Frappuccino - Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 2,
+    "fats": 0,
+    "carbs": 0,
+    "protein": 0
+  },
+  "Diet Coke 20 Oz. Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 0,
+    "fats": 0,
+    "carbs": 0.59,
+    "protein": 0
+  },
+  "Coca Cola 20 Oz Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 257.88,
+    "fats": 1.54,
+    "carbs": 63.61,
+    "protein": 0
+  },
+  "UCC Coffee": {
+    "restaurant": "Delsushi",
+    "calories": 2.37,
+    "fats": 0.05,
+    "carbs": 0,
+    "protein": 0.28
+  },
+  "Sprite 20 Oz. Bottle": {
+    "restaurant": "Delsushi",
+    "calories": 252.56,
+    "fats": 0,
+    "carbs": 64.19,
+    "protein": 0.55
+  },
+  "Original Recipe Chicken": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Extra Crispy Chicken": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 376.6,
+    "fats": 20.89,
+    "carbs": 4.41,
+    "protein": 39.98
+  },
+  "Spicy Crispy Chicken": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 376.6,
+    "fats": 20.89,
+    "carbs": 4.41,
+    "protein": 39.98
+  },
+  "Extra Crispy Tenders": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 111.74,
+    "fats": 6.15,
+    "carbs": 7.14,
+    "protein": 6.99
+  },
+  "Popcorn Nuggets": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 44,
+    "fats": 2.69,
+    "carbs": 4.36,
+    "protein": 0.59
+  },
+  "Chunky Chicken Pot Pie": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 850.68,
+    "fats": 49.41,
+    "carbs": 80.11,
+    "protein": 21.31
+  },
+  "KFC Famous Bowl": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 740,
+    "fats": 35,
+    "carbs": 81,
+    "protein": 26
+  },
+  "Chicken Littles": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 187,
+    "fats": 11.11,
+    "carbs": 0.04,
+    "protein": 20.37
+  },
+  "Biscuits": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 211.8,
+    "fats": 9.78,
+    "carbs": 26.76,
+    "protein": 4.2
+  },
+  "FLG Sauces": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 66,
+    "fats": 2.13,
+    "carbs": 9.81,
+    "protein": 1.83
+  },
+  "Mashed Potatoes": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 237.3,
+    "fats": 8.82,
+    "carbs": 35.57,
+    "protein": 4.12
+  },
+  "Gravy": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 27.36,
+    "fats": 1.49,
+    "carbs": 3.02,
+    "protein": 0.4
+  },
+  "Coleslaw": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 174.11,
+    "fats": 12.9,
+    "carbs": 13.52,
+    "protein": 0.96
+  },
+  "Macaroni & Cheese": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 376.2,
+    "fats": 16.39,
+    "carbs": 47.38,
+    "protein": 9.68
+  },
+  "Seasoned Potato Wedges": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 208.65,
+    "fats": 7.07,
+    "carbs": 34,
+    "protein": 4.12
+  },
+  "Cut Corn": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 98.88,
+    "fats": 1.55,
+    "carbs": 21.61,
+    "protein": 3.51
+  },
+  "Chocolate Chip Cookies": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 147.6,
+    "fats": 7.42,
+    "carbs": 19.61,
+    "protein": 1.53
+  },
+  "Soft Drinks": {
+    "restaurant": "KFC - Kentucky Fried Chicken",
+    "calories": 155.4,
+    "fats": 0.93,
+    "carbs": 38.33,
+    "protein": 0
+  }
+}
